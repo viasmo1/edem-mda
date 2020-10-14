@@ -16,17 +16,20 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Get working directory
-print(os.getcwd())
+print("Current Working directory: ", os.getcwd())
 # Change working directory
 os.chdir("/Users/vicent/repos-github/mda/statistics_python/data/data_1to3")
-print(os.getcwd())
+print("Data directory: ", os.getcwd())
+print("\n")
 
 # %%
 # Read csv file and stores it in a dataframe called rentals_2011
 rentals_2011 = pd.read_csv("washington_bike_rentals_2011.csv", sep=";", decimal=",")
-print(rentals_2011.shape)
-print(rentals_2011.tail())
+print("Rentals 2011 Dataframe info:")
+print("Shape: ", rentals_2011.shape)
 print(rentals_2011.head())
+print(rentals_2011.tail())
+print("\n")
 # QC OK
 
 
@@ -45,16 +48,19 @@ plt.show()
 # %%
 # Read weather info from weather_washington_2011.csv
 weather_2011 = pd.read_csv("weather_washington_2011.csv", sep=";", decimal=",")
-print(weather_2011.shape)
+print("Weather 2011 Dataframe info:")
+print("Shape: ", weather_2011.shape)
 print(weather_2011.head())
 print(weather_2011.tail())
+print("\n")
 # QC OK
 
 
 # %%
 # Merge rentals_2011 & weather_2011
 rentals_weather_2011 = pd.merge(weather_2011, rentals_2011, on="day")
-rentals_weather_2011.shape
+print("rentals_weather_2011 df info:")
+print("Shape: ", rentals_weather_2011.shape)
 rentals_weather_2011.head()
 
 # Date is duplicated! Remove second version and rename the other one
@@ -62,11 +68,31 @@ rentals_weather_2011 = rentals_weather_2011.drop(columns=["dteday_y"])
 rentals_weather_2011 = rentals_weather_2011.rename(columns={"dteday_x": "dteday"})
 rentals_weather_2011.shape
 rentals_weather_2011.head()
+print("\n")
 
+
+#%%
+# Create new dataframe with info about 2012 weather
+rentals_weather_2012 = pd.read_csv("rentals_weather_2012.csv", sep=";", decimal=",")
+print("rentals_weather_2012 df info:")
+print("Shape: ", rentals_weather_2012.shape)
+rentals_weather_2012.head()
+print("\n")
+# QC OK
 
 # %%
-# Scatter plot to analyse relationship between temp and rentals
-scatter = plt.scatter(x=rentals_weather_2011.temp_celsius, y=rentals_weather_2011.cnt)
-scatter.xlabel("Temperature")
-scatter.ylabel("# rentals")
-scatter.show()
+# Check dimensionality of both dataframes
+print("Shape 2011: ", rentals_weather_2011.shape)
+print("Shape 2012: ", rentals_weather_2012.shape)
+print("\n")
+# QC OK
+
+
+#%% 
+# Merge 2011 & 2012 dataframes
+rentals_weather_11_12 = rentals_weather_2011.append(rentals_weather_2012, ignore_index=True)
+print("rentals_weather_11_12 df info:")
+print("Shape: ", rentals_weather_11_12.shape)
+print(rentals_weather_11_12.head())
+print(rentals_weather_11_12.tail())
+print("\n")
