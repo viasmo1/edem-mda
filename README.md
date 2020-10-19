@@ -5,7 +5,7 @@ This is the repo I will use during my master's course in Data Analytics at EDEM.
 The following link shows the course info:
 https://edem.eu/master-data-analytics/
 
-## Master's goal
+## Master's Goal
 Learn how to process and extract useful insights from data to adopt key strategic decisions in a company
 
 
