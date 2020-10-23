@@ -91,4 +91,4 @@ Learn how to process and extract useful insights from data to adopt key strategi
 - Creativity
 - Communication
 
-![Logo](https://lh3.googleusercontent.com/proxy/zAI74hD-4p4Dd6ojX-MPEVzqUeL8PBRoDNVMoy_v5c3teHljIdVGdQ0qO_X45olMgeCn-1IcCdUL-wwRF7qZvuxie-9iLqRrO-5o-H8WbVaWF13DNnFK)
+![Logo](https://lh3.googleusercontent.com/proxy/Y66ZCpzOyzMHIMY7kVs4u0gWdpi-vaCw9lFpspzeBf-Xz-INjRgJAsM99wiVmQXmacrU3iXE4ZcyiNnktZ1XbyYnxaTbKl-XaBJh7vUynXN_HGk_lx3l)
