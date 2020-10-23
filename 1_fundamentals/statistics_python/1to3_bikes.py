@@ -18,7 +18,7 @@ import matplotlib.pyplot as plt
 # Get working directory
 print("Current Working directory: ", os.getcwd())
 # Change working directory
-os.chdir("/Users/vicent/repos-github/mda/statistics_python/data/lessons")
+os.chdir("/Users/vicent/repos-github/mda/1_fundamentals/statistics_python/data/lessons")
 print("Data directory: ", os.getcwd())
 print("\n")
 
@@ -88,9 +88,11 @@ print("\n")
 # QC OK
 
 
-#%% 
+#%%
 # Merge 2011 & 2012 dataframes
-rentals_weather_11_12 = rentals_weather_2011.append(rentals_weather_2012, ignore_index=True)
+rentals_weather_11_12 = rentals_weather_2011.append(
+    rentals_weather_2012, ignore_index=True
+)
 print("rentals_weather_11_12 df info:")
 print("Shape: ", rentals_weather_11_12.shape)
 print(rentals_weather_11_12.head())
