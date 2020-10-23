@@ -279,8 +279,8 @@ wbr_cnt_cat_grouped = wbr.groupby("cnt_cat").size()
 # show datatype
 wbr.info()
 # change cnt_cat datatype by coercion & order the variable categories
-order = ["low rentals", "average rentals", "high rentals"]
-wbr["cnt_cat"] = pd.Categorical(wbr["cnt_cat"], ordered=True, categories=order)
+categories = ["low rentals", "average rentals", "high rentals"]
+wbr["cnt_cat"] = pd.Categorical(wbr["cnt_cat"], ordered=True, categories=categories)
 # show datatype
 wbr.info()
 # show grouped cnt by new variable cnt_cat
