@@ -94,14 +94,7 @@ Learn how to process and extract useful insights from data to adopt key strategi
 
 ## Professors
 
-#### [Code2Bits](https://www.linkedin.com/in/pedronietopelaez/ "Pedro Nieto")
+Click on this [link](https://github.com/viasmo1/mda/blob/master/Reseñas%20Profesores%20MDA%2020_21.pdf)
 
-Miguel Angel Sotomayor
-
-Esteban Chiner
-
-Roberto López
-
-Ruben Sanchís
 
 ![Logo](https://lh3.googleusercontent.com/proxy/Y66ZCpzOyzMHIMY7kVs4u0gWdpi-vaCw9lFpspzeBf-Xz-INjRgJAsM99wiVmQXmacrU3iXE4ZcyiNnktZ1XbyYnxaTbKl-XaBJh7vUynXN_HGk_lx3l)
