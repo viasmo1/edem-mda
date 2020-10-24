@@ -58,7 +58,7 @@ mysql> show tables;
 Just as an example, let's create a sample table:
 
 ```shell
-# Create the new database
+# Create the new table
 mysql> CREATE TABLE PEN (
 	NAME VARCHAR (15) PRIMARY KEY, 
 	TYPE VARCHAR (10), 
@@ -80,6 +80,80 @@ mysql> select * from PEN;
 ```
 
 Now, **create the tables in your Data Model**.
+
+## Solution
+
+```shell
+# Create table COMPANY
+create table COMPANY (
+	id int unique not null, 
+	name varchar (20),
+	primary key (id)
+);
+
+# Create table SERIES
+create table SERIES (
+	id int unique not null,
+	name varchar (20),
+	company_id int,
+	primary key (id),
+	FOREIGN KEY (company_id) REFERENCES COMPANY(id)
+);
+
+# Create table EPISODE
+create table EPISODE (
+	id int unique not null,
+	name varchar (20),
+	season int,
+	number int,
+	release_date date,
+	series_id int,
+	PRIMARY KEY (id),
+	FOREIGN KEY (series_id) REFERENCES SERIES(id)
+);
+
+# Create table DIRECTOR
+create table DIRECTOR (
+	id int unique not null,
+	name varchar (20),
+	company_id int,
+	primary key (id),
+	FOREIGN KEY (company_id) REFERENCES COMPANY(id)
+);
+
+# Create table EPISODE_DIRECTOR
+create table EPISODE_DIRECTOR (
+	id int unique not null,
+	episode_id int,
+	director_id int,
+	primary key (id),
+	FOREIGN KEY (episode_id) REFERENCES EPISODE(id),
+	FOREIGN KEY (director_id) REFERENCES DIRECTOR(id)
+);
+
+# Create table ACTOR
+create table ACTOR (
+	id int unique not null,
+	name varchar (20),
+	company_id int,
+	primary key (id),
+	FOREIGN KEY (company_id) REFERENCES COMPANY(id)
+);
+
+# Create table EPISODE_ACTOR
+create table EPISODE_ACTOR (
+	id int unique not null,
+	episode_id int,
+	actor_id int,
+	primary key (id),
+	FOREIGN KEY (episode_id) REFERENCES EPISODE(id),
+	FOREIGN KEY (actor_id) REFERENCES ACTOR(id)
+);
+
+# Show all tables created
+show tables;
+
+```
 
 ### Tips
 
