@@ -94,7 +94,7 @@ Learn how to process and extract useful insights from data to adopt key strategi
 
 ## Professors
 
-#### (https://www.linkedin.com/in/pedronietopelaez/ "Pedro Nieto")
+#### [Code2Bits](https://www.linkedin.com/in/pedronietopelaez/ "Pedro Nieto")
 
 Miguel Angel Sotomayor
 
