@@ -97,5 +97,3 @@ Learn how to process and extract useful insights from data to adopt key strategi
 Click on this [link](https://github.com/viasmo1/mda/blob/master/Reseñas%20Profesores%20MDA%2020_21.pdf)
 
 <img width="500" src="https://www.emcasa.es/wp-content/uploads/Logo-Edem.jpg">
-
-![Logo](https://www.emcasa.es/wp-content/uploads/Logo-Edem.jpg)
