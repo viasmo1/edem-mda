@@ -1,5 +1,11 @@
 # Data types, sources and frequency
 
+## Author
+
+[Roberto López](https://github.com/rlopezherrero/)
+
+[Original Repo](https://github.com/rlopezherrero/GFT-EDEM-MasterData/tree/master/CapturaRecogida)
+
 ## Exercise 1
 In this exercise you will navigate over several example XMLs and you will create one as an example.
 
