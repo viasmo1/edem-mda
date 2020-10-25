@@ -86,66 +86,66 @@ Now, **create the tables in your Data Model**.
 ```shell
 # Create table COMPANY
 create table COMPANY (
-	id int unique not null, 
+	id int UNIQUE NOT NULL, 
 	name varchar (20),
-	primary key (id)
+	PRIMARY KEY (id)
 );
 
 # Create table SERIES
 create table SERIES (
-	id int unique not null,
+	id int UNIQUE NOT NULL,
 	name varchar (20),
-	company_id int,
-	primary key (id),
+	company_id int UNIQUE NOT NULL,
+	PRIMARY KEY (id),
 	FOREIGN KEY (company_id) REFERENCES COMPANY(id)
 );
 
 # Create table EPISODE
 create table EPISODE (
-	id int unique not null,
+	id int UNIQUE NOT NULL,
 	name varchar (20),
 	season int,
 	number int,
 	release_date date,
-	series_id int,
+	series_id int UNIQUE NOT NULL,
 	PRIMARY KEY (id),
 	FOREIGN KEY (series_id) REFERENCES SERIES(id)
 );
 
 # Create table DIRECTOR
 create table DIRECTOR (
-	id int unique not null,
+	id int UNIQUE NOT NULL,
 	name varchar (20),
-	company_id int,
-	primary key (id),
+	company_id int UNIQUE NOT NULL,
+	PRIMARY KEY (id),
 	FOREIGN KEY (company_id) REFERENCES COMPANY(id)
 );
 
 # Create table EPISODE_DIRECTOR
 create table EPISODE_DIRECTOR (
-	id int unique not null,
-	episode_id int,
-	director_id int,
-	primary key (id),
+	id int UNIQUE NOT NULL,
+	episode_id int UNIQUE NOT NULL,
+	director_id int UNIQUE NOT NULL,
+	PRIMARY KEY (id),
 	FOREIGN KEY (episode_id) REFERENCES EPISODE(id),
 	FOREIGN KEY (director_id) REFERENCES DIRECTOR(id)
 );
 
 # Create table ACTOR
 create table ACTOR (
-	id int unique not null,
+	id int UNIQUE NOT NULL,
 	name varchar (20),
-	company_id int,
-	primary key (id),
+	company_id int UNIQUE NOT NULL,
+	PRIMARY KEY (id),
 	FOREIGN KEY (company_id) REFERENCES COMPANY(id)
 );
 
 # Create table EPISODE_ACTOR
 create table EPISODE_ACTOR (
-	id int unique not null,
-	episode_id int,
-	actor_id int,
-	primary key (id),
+	id int UNIQUE NOT NULL,
+	episode_id int UNIQUE NOT NULL,
+	actor_id int UNIQUE NOT NULL,
+	PRIMARY KEY (id),
 	FOREIGN KEY (episode_id) REFERENCES EPISODE(id),
 	FOREIGN KEY (actor_id) REFERENCES ACTOR(id)
 );
