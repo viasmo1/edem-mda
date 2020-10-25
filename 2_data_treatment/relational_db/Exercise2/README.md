@@ -95,7 +95,7 @@ create table COMPANY (
 create table SERIES (
 	id int UNIQUE NOT NULL,
 	name varchar (20),
-	company_id int UNIQUE NOT NULL,
+	company_id int,
 	PRIMARY KEY (id),
 	FOREIGN KEY (company_id) REFERENCES COMPANY(id)
 );
@@ -107,7 +107,7 @@ create table EPISODE (
 	season int,
 	number int,
 	release_date date,
-	series_id int UNIQUE NOT NULL,
+	series_id int,
 	PRIMARY KEY (id),
 	FOREIGN KEY (series_id) REFERENCES SERIES(id)
 );
@@ -116,7 +116,7 @@ create table EPISODE (
 create table DIRECTOR (
 	id int UNIQUE NOT NULL,
 	name varchar (20),
-	company_id int UNIQUE NOT NULL,
+	company_id int,
 	PRIMARY KEY (id),
 	FOREIGN KEY (company_id) REFERENCES COMPANY(id)
 );
@@ -124,8 +124,8 @@ create table DIRECTOR (
 # Create table EPISODE_DIRECTOR
 create table EPISODE_DIRECTOR (
 	id int UNIQUE NOT NULL,
-	episode_id int UNIQUE NOT NULL,
-	director_id int UNIQUE NOT NULL,
+	episode_id int,
+	director_id int,
 	PRIMARY KEY (id),
 	FOREIGN KEY (episode_id) REFERENCES EPISODE(id),
 	FOREIGN KEY (director_id) REFERENCES DIRECTOR(id)
@@ -135,7 +135,7 @@ create table EPISODE_DIRECTOR (
 create table ACTOR (
 	id int UNIQUE NOT NULL,
 	name varchar (20),
-	company_id int UNIQUE NOT NULL,
+	company_id int,
 	PRIMARY KEY (id),
 	FOREIGN KEY (company_id) REFERENCES COMPANY(id)
 );
@@ -143,8 +143,8 @@ create table ACTOR (
 # Create table EPISODE_ACTOR
 create table EPISODE_ACTOR (
 	id int UNIQUE NOT NULL,
-	episode_id int UNIQUE NOT NULL,
-	actor_id int UNIQUE NOT NULL,
+	episode_id int,
+	actor_id int,
 	PRIMARY KEY (id),
 	FOREIGN KEY (episode_id) REFERENCES EPISODE(id),
 	FOREIGN KEY (actor_id) REFERENCES ACTOR(id)
