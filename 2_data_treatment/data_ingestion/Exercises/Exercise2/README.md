@@ -21,3 +21,7 @@ Some tips:
 * Apache NiFi (local): http://localhost:8080/nifi
 * Apache NiFi Documentation: https://nifi.apache.org/docs.html
 * Valencia Open Data: http://gobiernoabierto.valencia.es
+
+# Solution
+
+![Solution](Solution2.png)
