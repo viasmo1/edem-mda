@@ -24,4 +24,6 @@ Some tips:
 
 # Solution
 
+Scheduled to get the data each 90 seconds.
+
 ![Solution](Solution2.png)
