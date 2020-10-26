@@ -31,7 +31,7 @@ Now follow the steps as the teacher explains it.
 
 NiFi workflow:
 
-Move files from /tmp/in to /tmp/out
+Move files from **/tmp/in** to **/tmp/out**
 
 ![Solution](Solution1.png)
 
