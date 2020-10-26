@@ -6,6 +6,8 @@
 
 [Original Repo](https://github.com/rlopezherrero/GFT-EDEM-MasterData/tree/master/CapturaRecogida)
 
+Modified and solved by [me](https://github.com/viasmo1)
+
 ## Exercise 1
 In this exercise you will navigate over several example XMLs and you will create one as an example.
 
