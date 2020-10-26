@@ -23,7 +23,7 @@ In this exercise we will not only move data (from HTTP to /tmp/out), but also do
 
 # Solution
 
-Scheduled to get the data each 30 seconds.
-Line split count of SplitText: 1000 rows
+- Scheduled to get the data each 30 seconds.
+- Line split count of SplitText: 1000 rows
 
 ![Solution3](Solution3.png)
