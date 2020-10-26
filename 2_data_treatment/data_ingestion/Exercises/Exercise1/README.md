@@ -27,6 +27,14 @@ $> mkdir out
 
 Now follow the steps as the teacher explains it.
 
+## Solution
+
+NiFi workflow:
+
+Move files from /tmp/in to /tmp/out
+
+![Solution](Solution1.png)
+
 # Resources
 
 * Apache NiFi (local): http://localhost:8080/nifi
