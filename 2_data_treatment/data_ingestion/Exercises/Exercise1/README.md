@@ -27,15 +27,15 @@ $> mkdir out
 
 Now follow the steps as the teacher explains it.
 
-## Solution
+# Resources
+
+* Apache NiFi (local): http://localhost:8080/nifi
+* Apache NiFi Documentation: https://nifi.apache.org/docs.html
+
+# Solution
 
 NiFi workflow:
 
 Move files from **/tmp/in** to **/tmp/out**
 
 ![Solution](Solution1.png)
-
-# Resources
-
-* Apache NiFi (local): http://localhost:8080/nifi
-* Apache NiFi Documentation: https://nifi.apache.org/docs.html
