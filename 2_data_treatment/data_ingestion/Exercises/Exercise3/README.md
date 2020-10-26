@@ -26,4 +26,6 @@ In this exercise we will not only move data (from HTTP to /tmp/out), but also do
 - Scheduled to get the data each 30 seconds.
 - Line split count of SplitText: 1000 rows
 
-<img align="center" width="200" height="400" src="Solution3.png">
+<p align="center">
+  <img src="Solution3.png" />
+</p>
