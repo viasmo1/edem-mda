@@ -38,4 +38,6 @@ NiFi workflow:
 
 Move files from **/tmp/in** to **/tmp/out**
 
-![Solution](Solution1.png)
+<p align="center">
+  <img src="Solution1.png" />
+</p>
