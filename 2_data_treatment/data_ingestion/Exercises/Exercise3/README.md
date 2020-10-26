@@ -27,5 +27,5 @@ In this exercise we will not only move data (from HTTP to /tmp/out), but also do
 - Line split count of SplitText: 1000 rows
 
 <p align="center">
-  <img width="200" src="Solution3.png" />
+  <img width="400" src="Solution3.png" />
 </p>
