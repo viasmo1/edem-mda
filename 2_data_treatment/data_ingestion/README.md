@@ -1,5 +1,13 @@
 # EDEM - Master on Data Analytics - Data Ingestion
 
+## Author
+
+[Esteban Chiner](https://github.com/echiner)
+
+[Original Repo](https://github.com/echiner/edem-mda-data-ingestion)
+
+Modified and solved by [me](https://github.com/viasmo1)
+
 ## Introduction
 
 <img width="250" src="https://nifi.apache.org/assets/images/apache-nifi-logo.svg">
