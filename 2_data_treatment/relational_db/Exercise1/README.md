@@ -27,3 +27,7 @@ A TV company wishes to develop a database to store data about the TV series that
 ## Tips
 
 * Feel free to go for the conceptual model or the logical model, or even both! Although we recommend de logical model as it is closer to what we will implement in the exercise 2, and it can be simplified by "minimizing" the entities.
+
+## Solution
+
+[ER Diagram](Exercise1_ER_Diagram.png)
