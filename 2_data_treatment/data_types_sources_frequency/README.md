@@ -130,10 +130,10 @@ Let’s play downloading and uploading files using SFTP protocol.
     - Mac Os X → https://filezilla-project.org/download.php?platform=osx
 
 - On login screen login on remote server
-    - Host → 34.66.154.152
+    - Host → xx.xx.xxx.xxx
     - User → edemExercise3
     - Password → edemExercise3
-    - Port → 22 (Filezilla)
+    - Port → xx (Filezilla)
  
 - Now you have started a remote connection and can access to the file system of this machine.  You see home directory of edemExercise3 user.
 
@@ -172,7 +172,7 @@ On this exercise you will execute a python job to upload a file to  a remote ser
 - Download template available on GIT ---> https://github.com/rlopezherrero/GFT-EDEM-MasterData/blob/master/CapturaRecogida/EDEMCRExercise6.ipynb
 - Create a local text file with your name.
 - Following the template develop a file upload using following connection:
-    - Host → 34.66.154.152
+    - Host → xx.xx.xxx.xxx
     - User → edemExercise3
     - Password → edemExercise3
     - Folder → Upload/YourName (folder you created on exercise 3)
