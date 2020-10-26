@@ -30,4 +30,5 @@ A TV company wishes to develop a database to store data about the TV series that
 
 ## Solution
 
+[ER Diagram](Exercise1_ER_Diagram.png)
 ![ER Diagram](Exercise1_ER_Diagram.png)
