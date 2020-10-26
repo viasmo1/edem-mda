@@ -26,4 +26,6 @@ Some tips:
 
 Scheduled to get the data each 90 seconds.
 
-![Solution](Solution2.png)
+<p align="center">
+  <img width="200" src="Solution2.png" />
+</p>
