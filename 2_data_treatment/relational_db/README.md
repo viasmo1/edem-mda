@@ -6,6 +6,8 @@
 
 [Original repo](https://github.com/echiner/edem-mda-relational-databases)
 
+Modified and solved by [me](https://github.com/viasmo1)
+
 ## Introduction
 
 <img width="300" src="https://www.itvel.com/img/db_icon_sqlserver_oracle_mysql.jpg">
