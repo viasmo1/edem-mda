@@ -20,7 +20,9 @@ import matplotlib.pyplot as plt
 # Get working directory
 print("Current Working directory: ", os.getcwd())
 # Change working directory
-os.chdir("/Users/vicent/repos-github/mda/1_fundamentals/statistics_python/data/lessons")
+os.chdir(
+    "/Users/vicent/repos-github/edem-mda/1_fundamentals/statistics_python/data/lessons"
+)
 print("Data directory: ", os.getcwd())
 print("\n")
 

@@ -19,11 +19,11 @@ import matplotlib.pyplot as plt
 # Create a dataframe for the class
 # Lists are defined in Python with [], separated by commas
 
-name = ['Yaling', 'Sofia', 'María', 'Pablo', 'Inés']
+name = ["Yaling", "Sofia", "María", "Pablo", "Inés"]
 age = [28, 23, 25, 23, 25]
-gender = ['Female', 'Female', 'Female', 'Male', 'Female']
+gender = ["Female", "Female", "Female", "Male", "Female"]
 
-class2020 = pd.DataFrame({'name': name, 'age': age, 'gender': gender})
+class2020 = pd.DataFrame({"name": name, "age": age, "gender": gender})
 
 # Clean up
 del (name, age, gender)
@@ -36,7 +36,7 @@ class2020.tail(3)
 # Get working directory
 os.getcwd()
 # Change working directory
-os.chdir('/Users/vicent/repos-github/mda/statistics_python/data/data_1to3')
+os.chdir("/Users/vicent/repos-github/edem-mda/statistics_python/data/lessons")
 os.getcwd()
 
 # Save csv file
