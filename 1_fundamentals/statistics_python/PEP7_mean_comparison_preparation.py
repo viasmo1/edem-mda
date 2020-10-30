@@ -62,7 +62,6 @@ plt.title("Figure 5. Percentage of Working Days")
 # Perform numeric test t.test: working vs non-working days
 # Descriptive comparison
 wbr.groupby("wd_cat").cnt.mean()  # Working days have higher mean
-
 # Statistics comparison
 # H0: equal means | H1: different means
 # Extract the two sub samples and store in two objects
@@ -88,8 +87,7 @@ plt.show()
 
 # Perform numeric test t.test: year 2011 vs year 2012
 # Descriptive comparison
-wbr.groupby("yr").cnt.mean()  # Working days have higher mean
-
+wbr.groupby("yr").cnt.mean()
 # Statistics comparison
 # H0: equal means | H1: different means
 # Extract the two sub samples and store in two objects
@@ -111,3 +109,8 @@ plt.xlabel("Year")
 plt.title("Figure 6. Average rentals by Year.\n")
 plt.show()
 # CONCLUSION: p-value<0.05 -> H1: different means
+
+
+# Perform numeric test ANOVA: weather
+# Descriptive comparison
+
