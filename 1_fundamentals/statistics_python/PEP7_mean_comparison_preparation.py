@@ -58,3 +58,56 @@ plt.bar(mytable2.index, mytable2["count"])
 plt.xlabel("Working Day")
 plt.title("Figure 5. Percentage of Working Days")
 
+
+# Perform numeric test t.test: working vs non-working days
+# Descriptive comparison
+wbr.groupby("wd_cat").cnt.mean()  # Working days have higher mean
+
+# Statistics comparison
+# H0: equal means | H1: different means
+# Extract the two sub samples and store in two objects
+cnt_wd = wbr.loc[wbr.wd_cat == "Yes", "cnt"]
+cnt_nwd = wbr.loc[wbr.wd_cat == "No", "cnt"]
+# Perform t_test
+stats.ttest_ind(cnt_wd, cnt_nwd, equal_var=False)
+# Comparison in plot
+plt.figure(figsize=(5, 5))
+ax = sns.pointplot(x="wd_cat", y="cnt", data=wbr, ci=95, join=0)
+plt.yticks(np.arange(3000, 7000, step=500))
+plt.ylim(2800, 6200)
+plt.axhline(y=wbr.cnt.mean(), linewidth=1, linestyle="dashed", color="green")
+props = dict(boxstyle="round", facecolor="white", lw=0.5)
+plt.text(
+    0.85, 5400, "Mean: 4504.3\n" "n: 731\n" "t: 1.601\n" "Pval.: 0.110\n", bbox=props
+)
+plt.xlabel("Working Day")
+plt.title("Figure 6. Average rentals by Working Day.\n")
+plt.show()
+# CONCLUSION: p-value>0.05 -> H0: equal means
+
+
+# Perform numeric test t.test: year 2011 vs year 2012
+# Descriptive comparison
+wbr.groupby("yr").cnt.mean()  # Working days have higher mean
+
+# Statistics comparison
+# H0: equal means | H1: different means
+# Extract the two sub samples and store in two objects
+cnt_2011 = wbr.loc[wbr.yr == 0, "cnt"]
+cnt_2012 = wbr.loc[wbr.yr == 1, "cnt"]
+# Perform t_test
+stats.ttest_ind(cnt_2011, cnt_2012, equal_var=False)
+# Comparison in plot
+plt.figure(figsize=(5, 5))
+ax = sns.pointplot(x="yr", y="cnt", data=wbr, ci=95, join=0)
+plt.yticks(np.arange(3000, 7000, step=500))
+plt.ylim(2800, 6200)
+plt.axhline(y=wbr.cnt.mean(), linewidth=1, linestyle="dashed", color="green")
+props = dict(boxstyle="round", facecolor="white", lw=0.5)
+plt.text(
+    -0.4, 5400, "Mean: 4504.3\n" "n: 731\n" "t: 18.57\n" "Pval.: 1e-6\n", bbox=props
+)
+plt.xlabel("Year")
+plt.title("Figure 6. Average rentals by Year.\n")
+plt.show()
+# CONCLUSION: p-value<0.05 -> H1: different means
