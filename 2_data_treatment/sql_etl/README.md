@@ -22,12 +22,19 @@ Please follow this instructions to create your own database in local:
 
 ----                -------------         ------ ----
 `d-----       26/10/2020     17:22                dvdrental`
+
 `-a----       14/10/2019     18:26          10598 ALUMNOS.csv`
+
 `-a----       14/10/2019      9:48          23923 ALUMNOS.sql`
+
 `-a----       14/10/2019     18:28           3023 ALU_MASTER.csv`
+
 `-a----       14/10/2019      9:49          19197 ALU_MASTER.sql`
+
 `-a----       26/10/2020     16:54           1215 docker-compose.yml`
+
 `-a----       14/10/2019     18:29           1053 MASTERS.csv`
+
 `-a----       14/10/2019      9:32           5398 MASTERS.sql`
 
 3) Once in this folder run the following command:
