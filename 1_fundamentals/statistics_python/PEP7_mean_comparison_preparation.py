@@ -112,5 +112,35 @@ plt.show()
 
 
 # Perform numeric test ANOVA: weather
-# Descriptive comparison
 
+# Recode weathersit
+# To string
+wbr["ws_cat"] = wbr.weathersit
+wbr.ws_cat = wbr.ws_cat.replace(to_replace=1, value="Sunny")
+wbr.ws_cat = wbr.ws_cat.replace(to_replace=2, value="Cloudy")
+wbr.ws_cat = wbr.ws_cat.replace(to_replace=3, value="Rainy")
+
+# Descriptive comparison
+wbr.groupby("ws_cat").cnt.mean()
+
+# Statistical comparison
+cnt_sunny = wbr.loc[wbr.ws_cat == "Sunny", "cnt"]
+cnt_cloudy = wbr.loc[wbr.ws_cat == "Cloudy", "cnt"]
+cnt_rainy = wbr.loc[wbr.ws_cat == "Rainy", "cnt"]
+# One-way ANOVA
+stats.f_oneway(cnt_sunny, cnt_cloudy, cnt_rainy)
+
+# Graphic comparison
+plt.figure(figsize=(5, 5))
+ax = sns.pointplot(x="ws_cat", y="cnt", data=wbr, ci=95, join=0)
+plt.yticks(np.arange(1000, 7000, step=500))
+plt.ylim(1000, 6500)
+plt.axhline(y=wbr.cnt.mean(), linewidth=1, linestyle="dashed", color="green")
+props = dict(boxstyle="round", facecolor="white", lw=0.5)
+plt.text(
+    -0.4, 5200, "Mean: 4504.3\n" "n: 731\n" "t: 18.57\n" "Pval.: 1e-6\n", bbox=props
+)
+plt.xlabel("Weather Situation")
+plt.title("Figure 7. Average rentals by Weather Situation.\n")
+plt.show()
+# CONCLUSION: p-value<0.05 -> H1: different means
