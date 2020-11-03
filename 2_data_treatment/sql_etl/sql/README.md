@@ -48,7 +48,7 @@ Please follow this instructions to create your own database in local:
 ```
 select first_name, last_name from actor;
 ```
-![Result 1](Results/Res1.png)
+<img src="Results/Res1.png" width="400"/>
 
 
 ### Exercise 2
@@ -65,7 +65,7 @@ from actor a
 	inner join film_actor f_a on f_a.actor_id = a.actor_id
 	inner join film f on f.film_id = f_a.film_id;
 ```
-![Result 2](Results/Res2.png)
+<img src="Results/Res2.png" width="400"/>
 
 
 ### Exercise 3
@@ -84,7 +84,7 @@ from actor a
 group by a.actor_id
 order by num_films desc;
 ```
-![Result 3](Results/Res3.png)
+!<img src="Results/Res3.png" width="400"/>
 
 
 ### Exercise 4
@@ -103,7 +103,7 @@ from film f
 group by f.film_id
 order by num_rentals desc;
 ```
-![Result 4](Results/Res4.png)
+<img src="Results/Res4.png" width="400"/>
 
 
 ### Exercise 5
@@ -123,7 +123,7 @@ from film f
 group by f.film_id
 order by earnings desc;
 ```
-![Result 5](Results/Res5.png)
+<img src="Results/Res5.png" width="400"/>
 
 
 ### Exercise 6
@@ -141,7 +141,7 @@ from customer c
 group by c.customer_id
 order by expenditure desc;
 ```
-![Result 6](Results/Res6.png)
+<img src="Results/Res6.png" width="400"/>
 
 
 ### Exercise 7
@@ -159,4 +159,4 @@ from customer c
 group by c.customer_id
 order by num_rentals desc;
 ```
-![Result 7](Results/Res7.png)
+<img src="Results/Res7.png" width="400"/>
