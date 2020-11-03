@@ -14,8 +14,6 @@ Please follow this instructions to create your own database in local:
 
 1) Git pull my repository
 
-![Pushing and Pulling - GitKraken Documentation](https://support.gitkraken.com/img/documentation/repositories/pushing-pulling/set-default.png)
-
 2) Navigate to the path where the docker compose file is:
 
 `Mode                LastWriteTime         Length Name`
@@ -62,43 +60,43 @@ Please follow this instructions to create your own database in local:
 
 ### Exercise 1
 
-![Exercise 1](/Exercises/Ex1)
+![Exercise 1](/Exercises/Ex1.png)
 
 #### Solution
 
 ### Exercise 2
 
-![Exercise 2](/Exercises/Ex2)
+![Exercise 2](/Exercises/Ex2.png)
 
 #### Solution
 
 ### Exercise 3
 
-![Exercise 3](/Exercises/Ex3)
+![Exercise 3](/Exercises/Ex3.png)
 
 #### Solution
 
 ### Exercise 4
 
-![Exercise 4](/Exercises/Ex4)
+![Exercise 4](/Exercises/Ex4.png)
 
 #### Solution
 
 ### Exercise 5
 
-![Exercise 5](/Exercises/Ex5)
+![Exercise 5](/Exercises/Ex5.png)
 
 #### Solution
 
 ### Exercise 6
 
-![Exercise 6](/Exercises/Ex6)
+![Exercise 6](/Exercises/Ex6.png)
 
 #### Solution
 
 ### Exercise 7
 
-![Exercise 7](/Exercises/Ex7)
+![Exercise 7](/Exercises/Ex7.png)
 
 #### Solution
 
