@@ -41,7 +41,7 @@ Please follow this instructions to create your own database in local:
 
 ### Exercise 1
 
-![Exercise 1](Exercises/Ex1.png)
+<img src="Exercises/Ex1.png" width="400"/>
 
 #### Solution
 
@@ -53,7 +53,7 @@ select first_name, last_name from actor;
 
 ### Exercise 2
 
-![Exercise 2](Exercises/Ex2.png)
+<img src="Exercises/Ex2.png" width="400"/>
 
 #### Solution
 
@@ -70,7 +70,7 @@ from actor a
 
 ### Exercise 3
 
-![Exercise 3](Exercises/Ex3.png)
+<img src="Exercises/Ex3.png" width="400"/>
 
 #### Solution
 
@@ -89,7 +89,7 @@ order by num_films desc;
 
 ### Exercise 4
 
-![Exercise 4](Exercises/Ex4.png)
+<img src="Exercises/Ex4.png" width="400"/>
 
 #### Solution
 
@@ -108,7 +108,7 @@ order by num_rentals desc;
 
 ### Exercise 5
 
-![Exercise 5](Exercises/Ex5.png)
+<img src="Exercises/Ex5.png" width="400"/>
 
 #### Solution
 
@@ -128,7 +128,7 @@ order by earnings desc;
 
 ### Exercise 6
 
-![Exercise 6](Exercises/Ex6.png)
+<img src="Exercises/Ex6.png" width="400"/>
 
 #### Solution
 
@@ -146,7 +146,7 @@ order by expenditure desc;
 
 ### Exercise 7
 
-![Exercise 7](Exercises/Ex7.png)
+<img src="Exercises/Ex7.png" width="400"/>
 
 #### Solution
 
