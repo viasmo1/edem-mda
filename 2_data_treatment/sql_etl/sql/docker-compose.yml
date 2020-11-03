@@ -1,59 +1,39 @@
-version: '3.6'
+version: '3.5'
+ 
 services:
-  db:
-    image: postgres:10
-    restart: always
+  postgres:
+    container_name: postgres_container
+    image: postgres:12.1
     environment:
-        POSTGRES_USER: gft
-        POSTGRES_PASSWORD: 1234
-        POSTGRES_DB: eagle_db
+      POSTGRES_USER: ${POSTGRES_USER:-postgres}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-Welcome01}
+      PGDATA: /data/postgres
+    volumes:
+       - postgres:/data/postgres
     ports:
       - "5432:5432"
-    volumes:
-      - pgvol:/var/lib/postgresql/data 
     networks:
-      - ecosystem-network
-    healthcheck:
-        test: ["CMD", "pg_isready -U gft"]
-        interval: 10s
-        timeout: 5s
-        retries: 5
-
-  pgadmin:
-    image: dpage/pgadmin4
-    restart: always
-    environment:
-      PGADMIN_DEFAULT_EMAIL: "admin"
-      PGADMIN_DEFAULT_PASSWORD: "password"
-      PGADMIN_SERVER_JSON_FILE: 
-    ports:
-      - "1234:80"
-    depends_on:
-      - db
-    links:
-      - "db:database"
-    volumes:
-      - pgadmin:/var/lib/pgadmin
-    networks:
-      - ecosystem-network
-
-  zeppelin:
-    image: apache/zeppelin:0.8.1
-    restart: always
-    ports:
-      - "9999:8080"
-    volumes:
-      - ./zeppelin/shared:/tmp/shared
-      - ./zeppelin/data:/zeppelin/data
-      - ./zeppelin/notebook:/zeppelin/notebook
-    networks:
-      - ecosystem-network
-
+      - postgres
+    restart: unless-stopped
    
-volumes:
-  pgvol:
-  pgadmin: 
-
+  pgadmin:
+    container_name: pgadmin_container
+    image: dpage/pgadmin4:4.16
+    environment:
+      PGADMIN_DEFAULT_EMAIL: ${PGADMIN_DEFAULT_EMAIL:-pgadmin4@pgadmin.org}
+      PGADMIN_DEFAULT_PASSWORD: ${PGADMIN_DEFAULT_PASSWORD:-admin}
+    volumes:
+       - pgadmin:/root/.pgadmin
+    ports:
+      - "${PGADMIN_PORT:-5050}:80"
+    networks:
+      - postgres
+    restart: unless-stopped
+ 
 networks:
-  ecosystem-network:
-    name : ecosystem-network
+  postgres:
+    driver: bridge
+ 
+volumes:
+    postgres:
+    pgadmin:

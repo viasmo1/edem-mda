@@ -41,17 +41,17 @@ Please follow this instructions to create your own database in local:
 
 `docker-compose up`
 
-4) Navigate to localhost:1234  (admin / password)
+4) Navigate to localhost:5050 (pgadmin4@pgadmin.org / admin)
 
 5) Create a new server with this config:
 
-*Host: db*
+*Host: postgres*
 
 *Port: 5432*
 
-*Username: gft*
+*Username: postgres*
 
-*Password:1234*
+*Password: Welcome01*
 
 6) Create a database with name: **dvdrental**
 
