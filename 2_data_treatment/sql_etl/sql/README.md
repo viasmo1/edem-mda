@@ -16,25 +16,6 @@ Please follow this instructions to create your own database in local:
 
 2) Navigate to the path where the docker compose file is:
 
-`Mode                LastWriteTime         Length Name`
-
-----                -------------         ------ ----
-`d-----       26/10/2020     17:22                dvdrental`
-
-`-a----       14/10/2019     18:26          10598 ALUMNOS.csv`
-
-`-a----       14/10/2019      9:48          23923 ALUMNOS.sql`
-
-`-a----       14/10/2019     18:28           3023 ALU_MASTER.csv`
-
-`-a----       14/10/2019      9:49          19197 ALU_MASTER.sql`
-
-`-a----       26/10/2020     16:54           1215 docker-compose.yml`
-
-`-a----       14/10/2019     18:29           1053 MASTERS.csv`
-
-`-a----       14/10/2019      9:32           5398 MASTERS.sql`
-
 3) Once in this folder run the following command:
 
 `docker-compose up`
@@ -60,45 +41,122 @@ Please follow this instructions to create your own database in local:
 
 ### Exercise 1
 
-![Exercise 1](/Exercises/Ex1.png)
+![Exercise 1](Exercises/Ex1.png)
 
 #### Solution
+
+```
+select first_name, last_name from actor;
+```
+![Result 1](Results/Res1.png)
+
 
 ### Exercise 2
 
-![Exercise 2](/Exercises/Ex2.png)
+![Exercise 2](Exercises/Ex2.png)
 
 #### Solution
+
+```
+select 
+	concat(a.first_name, ' ', a.last_name) as actor_name,
+	f.title as film_title
+from actor a
+	inner join film_actor f_a on f_a.actor_id = a.actor_id
+	inner join film f on f.film_id = f_a.film_id;
+```
+![Result 2](Results/Res2.png)
+
 
 ### Exercise 3
 
-![Exercise 3](/Exercises/Ex3.png)
+![Exercise 3](Exercises/Ex3.png)
 
 #### Solution
+
+```
+select 
+	concat(a.first_name, ' ', a.last_name) as actor_name,
+	count(distinct f.film_id) as num_films
+from actor a
+	inner join film_actor f_a on f_a.actor_id = a.actor_id
+	inner join film f on f.film_id = f_a.film_id
+group by a.actor_id
+order by num_films desc;
+```
+![Result 3](Results/Res3.png)
+
 
 ### Exercise 4
 
-![Exercise 4](/Exercises/Ex4.png)
+![Exercise 4](Exercises/Ex4.png)
 
 #### Solution
+
+```
+select 
+	f.title as film_title,
+	count(distinct r.rental_id) as num_rentals
+from film f
+	inner join inventory i on i.film_id = f.film_id
+	inner join rental r on r.inventory_id = i.inventory_id
+group by f.film_id
+order by num_rentals desc;
+```
+![Result 4](Results/Res4.png)
+
 
 ### Exercise 5
 
-![Exercise 5](/Exercises/Ex5.png)
+![Exercise 5](Exercises/Ex5.png)
 
 #### Solution
+
+```
+select 
+	f.title as film_title,
+	sum(p.amount) as earnings
+from film f
+	inner join inventory i on i.film_id = f.film_id
+	inner join rental r on r.inventory_id = i.inventory_id
+	inner join payment p on p.rental_id = r.rental_id
+group by f.film_id
+order by earnings desc;
+```
+![Result 5](Results/Res5.png)
+
 
 ### Exercise 6
 
-![Exercise 6](/Exercises/Ex6.png)
+![Exercise 6](Exercises/Ex6.png)
 
 #### Solution
+
+```
+select 
+	concat(c.first_name, ' ', c.last_name) as customer,
+	sum(p.amount) as expenditure
+from customer c
+	inner join payment p on c.customer_id = p.customer_id
+group by c.customer_id
+order by expenditure desc;
+```
+![Result 6](Results/Res6.png)
+
 
 ### Exercise 7
 
-![Exercise 7](/Exercises/Ex7.png)
+![Exercise 7](Exercises/Ex7.png)
 
 #### Solution
 
-
-
+```
+select 
+	concat(c.first_name, ' ', c.last_name) as customer,
+	count(distinct r.rental_id) as num_rentals
+from customer c
+	inner join rental r on r.customer_id = c.customer_id
+group by c.customer_id
+order by num_rentals desc;
+```
+![Result 7](Results/Res7.png)
