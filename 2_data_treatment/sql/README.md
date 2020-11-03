@@ -160,3 +160,4 @@ group by c.customer_id
 order by num_rentals desc;
 ```
 <img src="Results/Res7.png" width="400"/>
+
