@@ -8,7 +8,7 @@
 
 Modified and solved by [me](https://github.com/viasmo1)
 
-## Exercise
+## Create and load the database
 
 Please follow this instructions to create your own database in local:
 
@@ -56,3 +56,51 @@ Please follow this instructions to create your own database in local:
 6) Create a database with name: **dvdrental**
 
 7) Database Restore from File **dvdrental/dvdrental.tar**
+
+
+## Exercises
+
+### Exercise 1
+
+![Exercise 1](/Exercises/Ex1)
+
+#### Solution
+
+### Exercise 2
+
+![Exercise 2](/Exercises/Ex2)
+
+#### Solution
+
+### Exercise 3
+
+![Exercise 3](/Exercises/Ex3)
+
+#### Solution
+
+### Exercise 4
+
+![Exercise 4](/Exercises/Ex4)
+
+#### Solution
+
+### Exercise 5
+
+![Exercise 5](/Exercises/Ex5)
+
+#### Solution
+
+### Exercise 6
+
+![Exercise 6](/Exercises/Ex6)
+
+#### Solution
+
+### Exercise 7
+
+![Exercise 7](/Exercises/Ex7)
+
+#### Solution
+
+
+
