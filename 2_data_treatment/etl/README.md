@@ -2,7 +2,7 @@
 
 ## Exercise 1
 
-<img src="Exercises/Ex1.png" width="400px">
+<img src="Exercises/Ex1.png" width="500px">
 
 ### Solution
 
@@ -14,7 +14,7 @@
 
 ## Exercise 2
 
-<img src="Exercises/Ex2.png" width="400px">
+<img src="Exercises/Ex2.png" width="300px">
 
 ### Solution
 
@@ -26,7 +26,7 @@
 
 ## Exercise 3
 
-<img src="Exercises/Ex3.png" width="400px">
+<img src="Exercises/Ex3.png" width="300px">
 
 ### Solution
 
@@ -38,7 +38,7 @@
 
 ## Exercise 4
 
-<img src="Exercises/Ex4.png" width="400px">
+<img src="Exercises/Ex4.png" width="500px">
 
 ### Solution
 
@@ -50,7 +50,7 @@
 
 ## Exercise 5
 
-<img src="Exercises/Ex5.png" width="400px">
+<img src="Exercises/Ex5.png" width="500px">
 
 ### Solution
 
@@ -62,7 +62,7 @@
 
 ## Exercise 6
 
-<img src="Exercises/Ex6.png" width="400px">
+<img src="Exercises/Ex6.png" width="500px">
 
 ### Solution
 
@@ -74,7 +74,7 @@
 
 ## Exercise 7
 
-<img src="Exercises/Ex7.png" width="400px">
+<img src="Exercises/Ex7.png" width="500px">
 
 ### Solution
 
@@ -86,7 +86,7 @@
 
 ## Exercise 8
 
-<img src="Exercises/Ex8.png" width="400px">
+<img src="Exercises/Ex8.png" width="500px">
 
 ### Solution
 
