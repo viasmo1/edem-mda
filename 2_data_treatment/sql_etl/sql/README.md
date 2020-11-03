@@ -45,7 +45,7 @@ Please follow this instructions to create your own database in local:
 
 #### Solution
 
-```
+```sql
 select first_name, last_name from actor;
 ```
 <img src="Results/Res1.png" width="400"/>
@@ -57,7 +57,7 @@ select first_name, last_name from actor;
 
 #### Solution
 
-```
+```sql
 select 
 	concat(a.first_name, ' ', a.last_name) as actor_name,
 	f.title as film_title
@@ -74,7 +74,7 @@ from actor a
 
 #### Solution
 
-```
+```sql
 select 
 	concat(a.first_name, ' ', a.last_name) as actor_name,
 	count(distinct f.film_id) as num_films
@@ -93,7 +93,7 @@ order by num_films desc;
 
 #### Solution
 
-```
+```sql
 select 
 	f.title as film_title,
 	count(distinct r.rental_id) as num_rentals
@@ -112,7 +112,7 @@ order by num_rentals desc;
 
 #### Solution
 
-```
+```sql
 select 
 	f.title as film_title,
 	sum(p.amount) as earnings
@@ -132,7 +132,7 @@ order by earnings desc;
 
 #### Solution
 
-```
+```sql
 select 
 	concat(c.first_name, ' ', c.last_name) as customer,
 	sum(p.amount) as expenditure
@@ -150,7 +150,7 @@ order by expenditure desc;
 
 #### Solution
 
-```
+```sql
 select 
 	concat(c.first_name, ' ', c.last_name) as customer,
 	count(distinct r.rental_id) as num_rentals
