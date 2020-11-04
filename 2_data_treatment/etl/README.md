@@ -2,19 +2,29 @@
 
 ## Exercise 1
 
-<img src="Exercises/Ex1.png" width="500px">
+<img src="Exercises/Ex1.png" width="400px">
 
 ### Solution
 
+#### Read csv file
+
+<img src="Solutions/Sol1_read_csv.png" width="300"/>
+
+#### Select and configure tFileOutputJson component
+
+<img src="Solutions/Sol1_outputJSON.png" width="400"/>
+
+#### Final job
+
 <img src="Solutions/Sol1.png" width="400"/>
 
-```json
+#### Output JSON
 
-```
+[Sol1.json](Solutions/Sol1.json)
 
 ## Exercise 2
 
-<img src="Exercises/Ex2.png" width="300px">
+<img src="Exercises/Ex2.png" width="250px">
 
 ### Solution
 
