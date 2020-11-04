@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "gender": "M",
+            "name": "Vicent",
+            "id": 1
+        },
+        {
+            "gender": "F",
+            "name": "Julia",
+            "id": 2
+        },
+        {
+            "gender": "M",
+            "name": "Gustavo",
+            "id": 3
+        },
+        {
+            "gender": "F",
+            "name": "Angela",
+            "id": 4
+        },
+        {
+            "gender": "F",
+            "name": "Paqui",
+            "id": 5
+        },
+        {
+            "gender": "M",
+            "name": "Josemi",
+            "id": 6
+        }
+    ]
+}

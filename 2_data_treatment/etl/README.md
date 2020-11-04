@@ -6,9 +6,9 @@
 
 ### Solution
 
-#### Read csv file
+#### Read csv file: ALUMNOS.csv
 
-<img src="Solutions/Sol1_read_csv.png" width="300"/>
+<img src="Solutions/Sol1_read_csv.png" width="250"/>
 
 #### Select and configure tFileOutputJson component
 
@@ -18,7 +18,7 @@
 
 <img src="Solutions/Sol1.png" width="400"/>
 
-#### Output JSON
+#### Output JSON: Sol1.json
 
 [Sol1.json](Solutions/Sol1.json)
 
@@ -26,25 +26,41 @@
 
 <img src="Exercises/Ex2.png" width="250px">
 
-### Solution
+#### Read csv file: Ex2.csv
+
+<img src="Solutions/Sol1_read_csv.png" width="250"/>
+
+#### Select and configure tReplace component
+
+<img src="Solutions/Sol2_tReplace.png" width="450"/>
+
+#### Select and configure tFileOutputJson component
+
+<img src="Solutions/Sol2_outputJSON.png" width="400"/>
+
+#### Final job
 
 <img src="Solutions/Sol2.png" width="400"/>
 
-```json
+#### Output JSON: Sol2.json
 
-```
+[Sol2.json](Solutions/Sol2.json)
 
 ## Exercise 3
 
-<img src="Exercises/Ex3.png" width="300px">
+<img src="Exercises/Ex3.png" width="250px">
 
-### Solution
+#### Select and configure tFileOutputJson component
+
+<img src="Solutions/Sol3_outputJSON.png" width="400"/>
+
+#### Final job
 
 <img src="Solutions/Sol3.png" width="400"/>
 
-```json
+#### Output JSON: Sol3.json
 
-```
+[Sol3.json](Solutions/Sol3.json)
 
 ## Exercise 4
 
