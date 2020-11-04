@@ -50,6 +50,20 @@
 
 <img src="Exercises/Ex3.png" width="250px">
 
+#### Connect to postgres db dvdrental
+
+Add connection
+
+<img src="Solutions/Sol3_db_connection.png" width="250"/>
+
+Configure connection
+
+<img src="Solutions/Sol3_db_connection_2.png" width="250"/>
+
+#### Select actor table
+
+<img src="Solutions/Sol3_actor.png" width="250"/>
+
 #### Select and configure tFileOutputJson component
 
 <img src="Solutions/Sol3_outputJSON.png" width="400"/>
