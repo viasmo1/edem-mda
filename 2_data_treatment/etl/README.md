@@ -6,19 +6,19 @@
 
 ### Solution
 
-#### Read csv file: ALUMNOS.csv
+### Read csv file: ALUMNOS.csv
 
 <img src="Solutions/Sol1_read_csv.png" width="250"/>
 
-#### Select and configure tFileOutputJson component
+### Select and configure tFileOutputJson component
 
 <img src="Solutions/Sol1_outputJSON.png" width="400"/>
 
-#### Final job
+### Final job
 
 <img src="Solutions/Sol1.png" width="400"/>
 
-#### Output JSON: Sol1.json
+### Output JSON: Sol1.json
 
 [Sol1.json](Solutions/Sol1.json)
 
@@ -26,23 +26,23 @@
 
 <img src="Exercises/Ex2.png" width="250px">
 
-#### Read csv file: Ex2.csv
+### Read csv file: Ex2.csv
 
 <img src="Solutions/Sol1_read_csv.png" width="250"/>
 
-#### Select and configure tReplace component
+### Select and configure tReplace component
 
 <img src="Solutions/Sol2_tReplace.png" width="450"/>
 
-#### Select and configure tFileOutputJson component
+### Select and configure tFileOutputJson component
 
 <img src="Solutions/Sol2_outputJSON.png" width="400"/>
 
-#### Final job
+### Final job
 
 <img src="Solutions/Sol2.png" width="400"/>
 
-#### Output JSON: Sol2.json
+### Output JSON: Sol2.json
 
 [Sol2.json](Solutions/Sol2.json)
 
@@ -50,7 +50,9 @@
 
 <img src="Exercises/Ex3.png" width="250px">
 
-#### Connect to postgres db dvdrental
+### Connect to postgres db dvdrental
+
+https://youtu.be/3tF_6JGIsuA
 
 Add connection
 
@@ -58,11 +60,17 @@ Add connection
 
 Configure connection
 
-<img src="Solutions/Sol3_db_connection_2.png" width="250"/>
+<img src="Solutions/Sol3_db_connection_2.png" width="350"/>
+
+Add schemas
+
+<img src="Solutions/Sol3_db_connection_3.png" width="350"/>
 
 #### Select actor table
 
-<img src="Solutions/Sol3_actor.png" width="250"/>
+https://youtu.be/aQlD-KURSlc
+
+<img src="Solutions/Sol3_actor.png" width="350"/>
 
 #### Select and configure tFileOutputJson component
 
@@ -70,7 +78,7 @@ Configure connection
 
 #### Final job
 
-<img src="Solutions/Sol3.png" width="400"/>
+<img src="Solutions/Sol3.png" width="300"/>
 
 #### Output JSON: Sol3.json
 
