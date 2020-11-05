@@ -120,11 +120,19 @@ https://youtu.be/nKF2fxJYfc4
 
 ## Exercise 5
 
-<img src="Exercises/Ex5.png" width="500px">
+<img src="Exercises/Ex5.png" width="450px">
 
 ### Solution
 
+https://youtu.be/RsZqWlDTHmY
 
+#### Final job
+
+<img src="Solutions/Sol5.png" width="400"/>
+
+#### Output JSON: Sol5.json
+
+[Sol5.json](Solutions/Sol5.json)
 
 ## Exercise 6
 
@@ -132,7 +140,15 @@ https://youtu.be/nKF2fxJYfc4
 
 ### Solution
 
+https://youtu.be/vqox4KDe_0I
 
+#### Final job
+
+<img src="Solutions/Sol6.png" width="400"/>
+
+#### Output JSON: Sol6.json
+
+[Sol6.json](Solutions/Sol6.json)
 
 ## Exercise 7
 
@@ -140,7 +156,15 @@ https://youtu.be/nKF2fxJYfc4
 
 ### Solution
 
+https://youtu.be/RsZqWlDTHmY
 
+#### Final job
+
+<img src="Solutions/Sol7.png" width="400"/>
+
+#### Output JSON: Sol7.json
+
+[Sol7.json](Solutions/Sol7.json)
 
 ## Exercise 8
 
@@ -148,3 +172,12 @@ https://youtu.be/nKF2fxJYfc4
 
 ### Solution
 
+https://youtu.be/RsZqWlDTHmY
+
+#### Final job
+
+<img src="Solutions/Sol8.png" width="400"/>
+
+#### Output JSON: Sol8.json
+
+[Sol8.json](Solutions/Sol8.json)
