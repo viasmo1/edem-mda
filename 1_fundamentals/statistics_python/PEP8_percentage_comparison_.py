@@ -100,6 +100,8 @@ print(ct_perc)
 ct = pd.crosstab(wbr.cnt_cat, wbr.wd_cat)
 stats.chi2_contingency(ct)
 
+# CONCLUSION: p-value>0.05 -> H0: equal means
+
 # Represent ct_perc in a bar plot
 # Transpose
 ct_perc2 = ct_perc.transpose()
@@ -131,9 +133,16 @@ print(ct_perc)
 ct = pd.crosstab(wbr.cnt_cat, wbr.ws_cat)
 stats.chi2_contingency(ct)
 
+# CONCLUSION: p-value<0.05 -> H1: different means
+
 # Represent ct_perc in a bar plot
 # Transpose
 ct_perc2 = ct_perc.transpose()
 # plot
-ct_perc2.plot(kind="bar", edgecolor="black")
+ct_perc2.plot(kind="bar", edgecolor="black", colormap="Blues")
+props = dict(boxstyle="round", facecolor="white", lw=0.5)
+plt.text(-0.4, 70, "Chi2: 68.76\n" "p-value: 4.13e-14\n" "n: 731\n", bbox=props)
+plt.xlabel("Weather Situation")
+plt.title("Figure 7. Rentals by Weather Situation.\n")
+plt.show()
 
