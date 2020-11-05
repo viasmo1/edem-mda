@@ -1,0 +1,24 @@
+{
+    "data": [
+        {
+            "rating": "R",
+            "count": 195
+        },
+        {
+            "rating": "PG",
+            "count": 194
+        },
+        {
+            "rating": "G",
+            "count": 178
+        },
+        {
+            "rating": "NC-17",
+            "count": 210
+        },
+        {
+            "rating": "PG-13",
+            "count": 223
+        }
+    ]
+}

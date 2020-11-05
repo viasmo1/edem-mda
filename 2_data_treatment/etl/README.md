@@ -6,19 +6,19 @@
 
 ### Solution
 
-### Read csv file: ALUMNOS.csv
+#### Read csv file: ALUMNOS.csv
 
 <img src="Solutions/Sol1_read_csv.png" width="250"/>
 
-### Select and configure tFileOutputJson component
+#### Select and configure tFileOutputJson component
 
 <img src="Solutions/Sol1_outputJSON.png" width="400"/>
 
-### Final job
+#### Final job
 
 <img src="Solutions/Sol1.png" width="400"/>
 
-### Output JSON: Sol1.json
+#### Output JSON: Sol1.json
 
 [Sol1.json](Solutions/Sol1.json)
 
@@ -26,23 +26,25 @@
 
 <img src="Exercises/Ex2.png" width="250px">
 
-### Read csv file: Ex2.csv
+### Solution
+
+#### Read csv file: Ex2.csv
 
 <img src="Solutions/Sol1_read_csv.png" width="250"/>
 
-### Select and configure tReplace component
+#### Select and configure tReplace component
 
 <img src="Solutions/Sol2_tReplace.png" width="450"/>
 
-### Select and configure tFileOutputJson component
+#### Select and configure tFileOutputJson component
 
 <img src="Solutions/Sol2_outputJSON.png" width="400"/>
 
-### Final job
+#### Final job
 
 <img src="Solutions/Sol2.png" width="400"/>
 
-### Output JSON: Sol2.json
+#### Output JSON: Sol2.json
 
 [Sol2.json](Solutions/Sol2.json)
 
@@ -50,7 +52,9 @@
 
 <img src="Exercises/Ex3.png" width="250px">
 
-### Connect to postgres db dvdrental
+### Solution
+
+#### Connect to postgres db dvdrental
 
 https://youtu.be/3tF_6JGIsuA
 
@@ -86,15 +90,33 @@ https://youtu.be/aQlD-KURSlc
 
 ## Exercise 4
 
-<img src="Exercises/Ex4.png" width="500px">
+<img src="Exercises/Ex4.png" width="400px">
 
 ### Solution
 
+https://youtu.be/nKF2fxJYfc4
+
+#### Select film table
+
+<img src="Solutions/Sol4_film.png" width="400"/>
+
+#### Add and configure tAggregateRow
+
+<img src="Solutions/Sol4_aggregateRow_1.png" width="400"/>
+
+<img src="Solutions/Sol4_aggregateRow_2.png" width="400"/>
+
+#### Select and configure tFileOutputJson component
+
+<img src="Solutions/Sol4_outputJSON.png" width="400"/>
+
+#### Final job
+
 <img src="Solutions/Sol4.png" width="400"/>
 
-```json
+#### Output JSON: Sol4.json
 
-```
+[Sol4.json](Solutions/Sol4.json)
 
 ## Exercise 5
 
@@ -102,11 +124,7 @@ https://youtu.be/aQlD-KURSlc
 
 ### Solution
 
-<img src="Solutions/Sol5.png" width="400"/>
 
-```json
-
-```
 
 ## Exercise 6
 
@@ -114,11 +132,7 @@ https://youtu.be/aQlD-KURSlc
 
 ### Solution
 
-<img src="Solutions/Sol6.png" width="400"/>
 
-```json
-
-```
 
 ## Exercise 7
 
@@ -126,11 +140,7 @@ https://youtu.be/aQlD-KURSlc
 
 ### Solution
 
-<img src="Solutions/Sol7.png" width="400"/>
 
-```json
-
-```
 
 ## Exercise 8
 
@@ -138,8 +148,3 @@ https://youtu.be/aQlD-KURSlc
 
 ### Solution
 
-<img src="Solutions/Sol8.png" width="400"/>
-
-```json
-
-```
