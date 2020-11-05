@@ -60,7 +60,7 @@ Add connection
 
 Configure connection
 
-<img src="Solutions/Sol3_db_connection_2.png" width="350"/>
+<img src="Solutions/Sol3_db_connection_2.png" width="450"/>
 
 Add schemas
 
@@ -70,7 +70,7 @@ Add schemas
 
 https://youtu.be/aQlD-KURSlc
 
-<img src="Solutions/Sol3_actor.png" width="350"/>
+<img src="Solutions/Sol3_actor.png" width="400"/>
 
 #### Select and configure tFileOutputJson component
 
