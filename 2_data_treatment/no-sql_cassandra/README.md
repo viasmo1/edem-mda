@@ -1,5 +1,14 @@
 # EDEM - Master on Data Analytics - NOSQL databases with Cassandra
 
+## Author
+
+[Esteban Chiner](https://github.com/echiner)
+
+[Original repo](https://github.com/echiner/edem-mda-nosql-cassandra)
+
+Modified and solved by [me](https://github.com/viasmo1)
+
+
 ## Introduction
 
 <img width="250" src="http://cassandra.apache.org/img/cassandra_logo.png">
