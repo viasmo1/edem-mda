@@ -22,7 +22,7 @@ cqlsh> describe tables;
 cqlsh> SELECT cluster_name, listen_address, release_version FROM system.local;
 
 # Create a new keyspace
-cqlsh> CREATE KEYSPACE edem WITH  replication = {'class': 'SimpleStrategy', 'replication_factor' : 3};
+cqlsh> CREATE KEYSPACE edem WITH replication = {'class': 'SimpleStrategy', 'replication_factor' : 3};
 
 # Create a new table
 cqlsh> CREATE TABLE edem.students (

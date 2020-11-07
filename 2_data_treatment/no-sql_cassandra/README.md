@@ -22,6 +22,11 @@ Use the following command to start all the components:
 ```shell
 docker-compose up -d
 ```
+Use the following command to list the containers
+
+```shell
+docker ps
+```
 
 As you will see, looks like one is missing. It is the CQL Shell, which is launched interactively:
 
