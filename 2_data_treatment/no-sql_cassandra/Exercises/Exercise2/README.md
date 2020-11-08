@@ -44,3 +44,8 @@ We want to create the tables required for a persistent messaging system similar 
 
 * DDL scripts for the required table(s)
 * Explanation of the data model
+
+### Solution
+
+* [PDF](nosql-cassandra-Exercise2.pdf)
+* [JSON file to import in Zeppelin](nosql-cassandra-Exercise2.json)
