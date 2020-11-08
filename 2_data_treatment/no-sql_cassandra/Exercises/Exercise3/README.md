@@ -27,7 +27,7 @@ Once the table is created, then we need to start inserting data. Given that we d
 
 We will create a new workflow in Apache NiFi with just two processors:
 
-* **GenerateFlowFile**: With this Processor you can reate a new FlowFile with an arbitrary text and then schedule it so it can run every "x" seconds. You can create as many as you want to simulate different sensors.
+* **GenerateFlowFile**: With this Processor you can create a new FlowFile with an arbitrary text and then schedule it so it can run every "x" seconds. You can create as many as you want to simulate different sensors.
   * **TIP**: In the "Custom Text" property you can directly create the insert statement (if you later use PutCassandraQL)
   * **TIP**: Since we don't have sensor data, consider using the [random function](https://nifi.apache.org/docs/nifi-docs/html/expression-language-guide.html#random) in NiFi for the values.
 * **PutCassandraXX**: This one inserts into Cassandra. Feel free to either use PutCassandraQL or PutCassandraRecord.
