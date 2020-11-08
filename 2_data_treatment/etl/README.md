@@ -182,35 +182,46 @@ https://youtu.be/RsZqWlDTHmY
 
 https://youtu.be/vqox4KDe_0I
 
-#### Configure tMap for joinning payment and customer tables
+**Create a table film_rentals in dvdrentals database**
 
-<img src="Solutions/Sol7_tmap.png" width="700"/>
+Columns:
 
-#### Configure aggregate row
+| Name | data_type | PK |
+|--- | --- | --- |
+| film_id | int | yes |
+| film_title | string | no |
+| total_rentals | int | no |
 
-<img src="Solutions/Sol7_aggregateRow.png" width="700"/>
 
-#### Configure filter row
+**Configure tMap for joinning payment and customer tables**
+
+<img src="Solutions/Sol7_tmap.png" width="900"/>
+
+**Configure aggregate row**
+
+<img src="Solutions/Sol7_aggregateRow.png" width="900"/>
+
+**Configure filter row**
 
 <img src="Solutions/Sol7_filter.png" width="600"/>
 
-#### Configure sort row
+**Configure sort row**
 
 <img src="Solutions/Sol7_sort.png" width="600"/>
 
-#### Configure export to table dvdrentals.film_rentals
+**Configure export to table dvdrentals.film_rentals**
 
 <img src="Solutions/Sol7_export.png" width="700"/>
 
-#### Final job
+**Final job**
 
 <img src="Solutions/Sol7.png" width="600"/>
 
-#### Output in dvdrentals
+**Output in dvdrentals**
 
 <img src="Solutions/Sol7_film_rentals.png" width="400"/>
 
-#### Check that there are no films with 0 rentals
+**Check that there are no films with 0 rentals**
 
 <img src="Solutions/Sol7_0_rentals.png" width="400"/>
 
