@@ -18,7 +18,7 @@ Please follow this instructions to create your own database in local:
 
 3) Once in this folder run the following command:
 
-`docker-compose up`
+`docker-compose up -d`
 
 4) Navigate to localhost:5050 (pgadmin4@pgadmin.org / admin)
 
