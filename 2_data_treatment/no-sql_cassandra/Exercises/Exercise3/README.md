@@ -71,6 +71,6 @@ CREATE TABLE IF NOT EXISTS iot.sensor_data (
 
 * NiFi workflow
 
-![Solution](Nifi_workflow.png)
+![Solution](NiFi_workflow.png)
 
 * [Zeppelin dashboard](nosql-cassandra-Exercise3.pdf)
