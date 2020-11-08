@@ -148,6 +148,8 @@ https://youtu.be/RsZqWlDTHmY
 
 <img src="Exercises/Ex6.png" width="500px">
 
+### Solution
+
 #### Configure tMap for joinning payment and customer tables
 
 <img src="Solutions/Sol6_tmap.png" width="400"/>
