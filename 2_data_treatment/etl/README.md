@@ -176,15 +176,39 @@ https://youtu.be/RsZqWlDTHmY
 
 ### Solution
 
-https://youtu.be/RsZqWlDTHmY
+https://youtu.be/vqox4KDe_0I
+
+#### Configure tMap for joinning payment and customer tables
+
+<img src="Solutions/Sol7_tmap.png" width="500"/>
+
+#### Configure aggregate row
+
+<img src="Solutions/Sol7_aggregateRow.png" width="400"/>
+
+#### Configure filter row
+
+<img src="Solutions/Sol7_filter.png" width="400"/>
+
+#### Configure sort row
+
+<img src="Solutions/Sol7_sort.png" width="400"/>
+
+#### Configure export to table dvdrentals.film_rentals
+
+<img src="Solutions/Sol7_export.png" width="400"/>
 
 #### Final job
 
 <img src="Solutions/Sol7.png" width="400"/>
 
-#### Output JSON: Sol7.json
+#### Output in dvdrentals
 
-[Sol7.json](Solutions/Sol7.json)
+<img src="Solutions/Sol7_film_rentals.png" width="400"/>
+
+#### Check that there are no films with 0 rentals
+
+<img src="Solutions/Sol7_0_rentals.png" width="400"/>
 
 ## Exercise 8
 
