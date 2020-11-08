@@ -8,7 +8,7 @@
 
 `docker-compose up -d`
 
-3) Navigate to localhost:5050 (pgadmin4@pgadmin.org / admin)
+3) Navigate to [localhost:5050](http://localhost:5050) (pgadmin4@pgadmin.org / admin)
 
 ## Exercise 1
 
