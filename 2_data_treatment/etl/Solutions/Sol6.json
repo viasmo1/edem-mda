@@ -1,0 +1,3598 @@
+{
+    "data": [
+        {
+            "total": 211.55,
+            "last_name": "Hunt",
+            "customer_id": 148,
+            "first_name": "Eleanor"
+        },
+        {
+            "total": 208.58,
+            "last_name": "Seal",
+            "customer_id": 526,
+            "first_name": "Karl"
+        },
+        {
+            "total": 194.61,
+            "last_name": "Snyder",
+            "customer_id": 178,
+            "first_name": "Marion"
+        },
+        {
+            "total": 191.62,
+            "last_name": "Kennedy",
+            "customer_id": 137,
+            "first_name": "Rhonda"
+        },
+        {
+            "total": 189.6,
+            "last_name": "Shaw",
+            "customer_id": 144,
+            "first_name": "Clara"
+        },
+        {
+            "total": 183.63,
+            "last_name": "Collazo",
+            "customer_id": 459,
+            "first_name": "Tommy"
+        },
+        {
+            "total": 167.67,
+            "last_name": "Bradley",
+            "customer_id": 181,
+            "first_name": "Ana"
+        },
+        {
+            "total": 167.62,
+            "last_name": "Irby",
+            "customer_id": 410,
+            "first_name": "Curtis"
+        },
+        {
+            "total": 166.61,
+            "last_name": "Dean",
+            "customer_id": 236,
+            "first_name": "Marcia"
+        },
+        {
+            "total": 162.67,
+            "last_name": "Way",
+            "customer_id": 403,
+            "first_name": "Mike"
+        },
+        {
+            "total": 161.68,
+            "last_name": "Havens",
+            "customer_id": 522,
+            "first_name": "Arnold"
+        },
+        {
+            "total": 158.65,
+            "last_name": "Bull",
+            "customer_id": 469,
+            "first_name": "Wesley"
+        },
+        {
+            "total": 157.69,
+            "last_name": "Allard",
+            "customer_id": 470,
+            "first_name": "Gordon"
+        },
+        {
+            "total": 156.66,
+            "last_name": "Leone",
+            "customer_id": 373,
+            "first_name": "Louis"
+        },
+        {
+            "total": 154.7,
+            "last_name": "Jensen",
+            "customer_id": 259,
+            "first_name": "Lena"
+        },
+        {
+            "total": 154.66,
+            "last_name": "Cary",
+            "customer_id": 468,
+            "first_name": "Tim"
+        },
+        {
+            "total": 152.69,
+            "last_name": "Sherrod",
+            "customer_id": 462,
+            "first_name": "Warren"
+        },
+        {
+            "total": 152.68,
+            "last_name": "Mackenzie",
+            "customer_id": 372,
+            "first_name": "Steve"
+        },
+        {
+            "total": 151.73,
+            "last_name": "Riley",
+            "customer_id": 187,
+            "first_name": "Brittany"
+        },
+        {
+            "total": 151.69,
+            "last_name": "Brownlee",
+            "customer_id": 550,
+            "first_name": "Guy"
+        },
+        {
+            "total": 151.68,
+            "last_name": "Carroll",
+            "customer_id": 176,
+            "first_name": "June"
+        },
+        {
+            "total": 149.69,
+            "last_name": "Renner",
+            "customer_id": 532,
+            "first_name": "Neil"
+        },
+        {
+            "total": 149.61,
+            "last_name": "Sanders",
+            "customer_id": 75,
+            "first_name": "Tammy"
+        },
+        {
+            "total": 147.71,
+            "last_name": "Chapman",
+            "customer_id": 209,
+            "first_name": "Tonya"
+        },
+        {
+            "total": 146.68,
+            "last_name": "Clark",
+            "customer_id": 21,
+            "first_name": "Michelle"
+        },
+        {
+            "total": 146.68,
+            "last_name": "Hall",
+            "customer_id": 26,
+            "first_name": "Jessica"
+        },
+        {
+            "total": 146.68,
+            "last_name": "Long",
+            "customer_id": 86,
+            "first_name": "Jacqueline"
+        },
+        {
+            "total": 146.67,
+            "last_name": "Montgomery",
+            "customer_id": 211,
+            "first_name": "Stacey"
+        },
+        {
+            "total": 145.7,
+            "last_name": "Simpkins",
+            "customer_id": 346,
+            "first_name": "Arthur"
+        },
+        {
+            "total": 145.64,
+            "last_name": "Huey",
+            "customer_id": 366,
+            "first_name": "Brandon"
+        },
+        {
+            "total": 144.7,
+            "last_name": "Collins",
+            "customer_id": 50,
+            "first_name": "Diane"
+        },
+        {
+            "total": 144.68,
+            "last_name": "Madrigal",
+            "customer_id": 360,
+            "first_name": "Ralph"
+        },
+        {
+            "total": 144.66,
+            "last_name": "Quintanilla",
+            "customer_id": 348,
+            "first_name": "Roger"
+        },
+        {
+            "total": 143.7,
+            "last_name": "Tubbs",
+            "customer_id": 513,
+            "first_name": "Duane"
+        },
+        {
+            "total": 143.68,
+            "last_name": "Gresham",
+            "customer_id": 454,
+            "first_name": "Alex"
+        },
+        {
+            "total": 142.7,
+            "last_name": "Salisbury",
+            "customer_id": 347,
+            "first_name": "Ryan"
+        },
+        {
+            "total": 142.69,
+            "last_name": "Heaton",
+            "customer_id": 390,
+            "first_name": "Shawn"
+        },
+        {
+            "total": 142.67,
+            "last_name": "Wade",
+            "customer_id": 267,
+            "first_name": "Margie"
+        },
+        {
+            "total": 142.66,
+            "last_name": "Douglas",
+            "customer_id": 257,
+            "first_name": "Marsha"
+        },
+        {
+            "total": 141.71,
+            "last_name": "Nelson",
+            "customer_id": 39,
+            "first_name": "Debra"
+        },
+        {
+            "total": 141.69,
+            "last_name": "Wood",
+            "customer_id": 78,
+            "first_name": "Lori"
+        },
+        {
+            "total": 140.69,
+            "last_name": "Barfield",
+            "customer_id": 362,
+            "first_name": "Nicholas"
+        },
+        {
+            "total": 139.72,
+            "last_name": "Whiting",
+            "customer_id": 363,
+            "first_name": "Roy"
+        },
+        {
+            "total": 139.69,
+            "last_name": "Marshall",
+            "customer_id": 119,
+            "first_name": "Sherry"
+        },
+        {
+            "total": 139.69,
+            "last_name": "Arce",
+            "customer_id": 368,
+            "first_name": "Harry"
+        },
+        {
+            "total": 139.67,
+            "last_name": "Ward",
+            "customer_id": 66,
+            "first_name": "Janice"
+        },
+        {
+            "total": 138.69,
+            "last_name": "Gilbert",
+            "customer_id": 237,
+            "first_name": "Tanya"
+        },
+        {
+            "total": 138.65,
+            "last_name": "Hernandez",
+            "customer_id": 29,
+            "first_name": "Angela"
+        },
+        {
+            "total": 137.72,
+            "last_name": "Patterson",
+            "customer_id": 87,
+            "first_name": "Wanda"
+        },
+        {
+            "total": 137.7,
+            "last_name": "Ross",
+            "customer_id": 80,
+            "first_name": "Marilyn"
+        },
+        {
+            "total": 137.67,
+            "last_name": "Fennell",
+            "customer_id": 439,
+            "first_name": "Alexander"
+        },
+        {
+            "total": 135.72,
+            "last_name": "Eggleston",
+            "customer_id": 558,
+            "first_name": "Jimmie"
+        },
+        {
+            "total": 135.7,
+            "last_name": "Choate",
+            "customer_id": 494,
+            "first_name": "Ramon"
+        },
+        {
+            "total": 135.68,
+            "last_name": "Mccarter",
+            "customer_id": 576,
+            "first_name": "Morris"
+        },
+        {
+            "total": 134.73,
+            "last_name": "Arsenault",
+            "customer_id": 591,
+            "first_name": "Kent"
+        },
+        {
+            "total": 134.72,
+            "last_name": "Deloach",
+            "customer_id": 467,
+            "first_name": "Alvin"
+        },
+        {
+            "total": 134.71,
+            "last_name": "Hite",
+            "customer_id": 479,
+            "first_name": "Zachary"
+        },
+        {
+            "total": 134.7,
+            "last_name": "Ortiz",
+            "customer_id": 120,
+            "first_name": "Sylvia"
+        },
+        {
+            "total": 134.7,
+            "last_name": "Oliver",
+            "customer_id": 210,
+            "first_name": "Ella"
+        },
+        {
+            "total": 134.69,
+            "last_name": "Schmidt",
+            "customer_id": 204,
+            "first_name": "Rosemary"
+        },
+        {
+            "total": 134.68,
+            "last_name": "Harris",
+            "customer_id": 15,
+            "first_name": "Helen"
+        },
+        {
+            "total": 134.65,
+            "last_name": "Brown",
+            "customer_id": 5,
+            "first_name": "Elizabeth"
+        },
+        {
+            "total": 133.72,
+            "last_name": "Gilliland",
+            "customer_id": 349,
+            "first_name": "Joe"
+        },
+        {
+            "total": 133.71,
+            "last_name": "Scroggins",
+            "customer_id": 404,
+            "first_name": "Stanley"
+        },
+        {
+            "total": 133.7,
+            "last_name": "Willis",
+            "customer_id": 172,
+            "first_name": "Bernice"
+        },
+        {
+            "total": 133.68,
+            "last_name": "Peters",
+            "customer_id": 197,
+            "first_name": "Sue"
+        },
+        {
+            "total": 132.72,
+            "last_name": "Terry",
+            "customer_id": 265,
+            "first_name": "Jennie"
+        },
+        {
+            "total": 132.7,
+            "last_name": "Milam",
+            "customer_id": 533,
+            "first_name": "Jessie"
+        },
+        {
+            "total": 132.65,
+            "last_name": "Brinson",
+            "customer_id": 380,
+            "first_name": "Russell"
+        },
+        {
+            "total": 131.74,
+            "last_name": "Robins",
+            "customer_id": 472,
+            "first_name": "Greg"
+        },
+        {
+            "total": 131.73,
+            "last_name": "Jackson",
+            "customer_id": 13,
+            "first_name": "Karen"
+        },
+        {
+            "total": 131.69,
+            "last_name": "Campbell",
+            "customer_id": 46,
+            "first_name": "Catherine"
+        },
+        {
+            "total": 131.69,
+            "last_name": "Webb",
+            "customer_id": 125,
+            "first_name": "Ethel"
+        },
+        {
+            "total": 130.76,
+            "last_name": "Williams",
+            "customer_id": 3,
+            "first_name": "Linda"
+        },
+        {
+            "total": 130.72,
+            "last_name": "Miller",
+            "customer_id": 7,
+            "first_name": "Maria"
+        },
+        {
+            "total": 130.72,
+            "last_name": "Lowe",
+            "customer_id": 273,
+            "first_name": "Priscilla"
+        },
+        {
+            "total": 130.7,
+            "last_name": "Cornwell",
+            "customer_id": 502,
+            "first_name": "Brett"
+        },
+        {
+            "total": 130.68,
+            "last_name": "Martino",
+            "customer_id": 342,
+            "first_name": "Harold"
+        },
+        {
+            "total": 130.68,
+            "last_name": "Mena",
+            "customer_id": 566,
+            "first_name": "Casey"
+        },
+        {
+            "total": 129.72,
+            "last_name": "Reynolds",
+            "customer_id": 112,
+            "first_name": "Rosa"
+        },
+        {
+            "total": 129.71,
+            "last_name": "Archuleta",
+            "customer_id": 560,
+            "first_name": "Jordan"
+        },
+        {
+            "total": 129.7,
+            "last_name": "Ford",
+            "customer_id": 102,
+            "first_name": "Crystal"
+        },
+        {
+            "total": 129.68,
+            "last_name": "Berry",
+            "customer_id": 168,
+            "first_name": "Regina"
+        },
+        {
+            "total": 128.73,
+            "last_name": "Vu",
+            "customer_id": 484,
+            "first_name": "Roberto"
+        },
+        {
+            "total": 128.71,
+            "last_name": "Hamilton",
+            "customer_id": 103,
+            "first_name": "Gladys"
+        },
+        {
+            "total": 128.71,
+            "last_name": "Frazier",
+            "customer_id": 242,
+            "first_name": "Glenda"
+        },
+        {
+            "total": 128.7,
+            "last_name": "Perry",
+            "customer_id": 84,
+            "first_name": "Sara"
+        },
+        {
+            "total": 128.69,
+            "last_name": "Austin",
+            "customer_id": 196,
+            "first_name": "Alma"
+        },
+        {
+            "total": 127.73,
+            "last_name": "Morrison",
+            "customer_id": 221,
+            "first_name": "Bessie"
+        },
+        {
+            "total": 127.73,
+            "last_name": "Betancourt",
+            "customer_id": 448,
+            "first_name": "Miguel"
+        },
+        {
+            "total": 127.69,
+            "last_name": "Reyes",
+            "customer_id": 141,
+            "first_name": "Debbie"
+        },
+        {
+            "total": 127.69,
+            "last_name": "Westmoreland",
+            "customer_id": 520,
+            "first_name": "Mitchell"
+        },
+        {
+            "total": 127.66,
+            "last_name": "Gonzalez",
+            "customer_id": 38,
+            "first_name": "Martha"
+        },
+        {
+            "total": 126.74,
+            "last_name": "Lawson",
+            "customer_id": 200,
+            "first_name": "Jeanne"
+        },
+        {
+            "total": 126.73,
+            "last_name": "Rice",
+            "customer_id": 146,
+            "first_name": "Jamie"
+        },
+        {
+            "total": 126.73,
+            "last_name": "Vasquez",
+            "customer_id": 206,
+            "first_name": "Terri"
+        },
+        {
+            "total": 126.73,
+            "last_name": "Quigley",
+            "customer_id": 436,
+            "first_name": "Troy"
+        },
+        {
+            "total": 126.72,
+            "last_name": "Cole",
+            "customer_id": 108,
+            "first_name": "Tracy"
+        },
+        {
+            "total": 126.7,
+            "last_name": "Ellis",
+            "customer_id": 114,
+            "first_name": "Grace"
+        },
+        {
+            "total": 125.74,
+            "last_name": "Motley",
+            "customer_id": 426,
+            "first_name": "Bradley"
+        },
+        {
+            "total": 125.74,
+            "last_name": "Crawley",
+            "customer_id": 482,
+            "first_name": "Maurice"
+        },
+        {
+            "total": 125.72,
+            "last_name": "Bates",
+            "customer_id": 295,
+            "first_name": "Daisy"
+        },
+        {
+            "total": 125.68,
+            "last_name": "Robertson",
+            "customer_id": 147,
+            "first_name": "Joanne"
+        },
+        {
+            "total": 125.67,
+            "last_name": "Ngo",
+            "customer_id": 354,
+            "first_name": "Justin"
+        },
+        {
+            "total": 124.74,
+            "last_name": "Phillips",
+            "customer_id": 45,
+            "first_name": "Janet"
+        },
+        {
+            "total": 124.71,
+            "last_name": "Flores",
+            "customer_id": 89,
+            "first_name": "Julia"
+        },
+        {
+            "total": 124.68,
+            "last_name": "Kelley",
+            "customer_id": 198,
+            "first_name": "Elsie"
+        },
+        {
+            "total": 124.66,
+            "last_name": "Porter",
+            "customer_id": 129,
+            "first_name": "Carrie"
+        },
+        {
+            "total": 123.74,
+            "last_name": "Johnson",
+            "customer_id": 2,
+            "first_name": "Patricia"
+        },
+        {
+            "total": 123.74,
+            "last_name": "Farnsworth",
+            "customer_id": 300,
+            "first_name": "John"
+        },
+        {
+            "total": 123.72,
+            "last_name": "Seward",
+            "customer_id": 506,
+            "first_name": "Leslie"
+        },
+        {
+            "total": 123.71,
+            "last_name": "Poulin",
+            "customer_id": 371,
+            "first_name": "Billy"
+        },
+        {
+            "total": 123.7,
+            "last_name": "Allen",
+            "customer_id": 27,
+            "first_name": "Shirley"
+        },
+        {
+            "total": 123.7,
+            "last_name": "Stewart",
+            "customer_id": 51,
+            "first_name": "Alice"
+        },
+        {
+            "total": 123.66,
+            "last_name": "King",
+            "customer_id": 30,
+            "first_name": "Melissa"
+        },
+        {
+            "total": 122.74,
+            "last_name": "Simmons",
+            "customer_id": 92,
+            "first_name": "Tina"
+        },
+        {
+            "total": 122.74,
+            "last_name": "Tomlin",
+            "customer_id": 434,
+            "first_name": "Eddie"
+        },
+        {
+            "total": 122.72,
+            "last_name": "Elrod",
+            "customer_id": 535,
+            "first_name": "Javier"
+        },
+        {
+            "total": 122.71,
+            "last_name": "Spencer",
+            "customer_id": 163,
+            "first_name": "Cathy"
+        },
+        {
+            "total": 122.7,
+            "last_name": "Hanson",
+            "customer_id": 244,
+            "first_name": "Viola"
+        },
+        {
+            "total": 122.69,
+            "last_name": "Olivares",
+            "customer_id": 473,
+            "first_name": "Jorge"
+        },
+        {
+            "total": 121.77,
+            "last_name": "Howland",
+            "customer_id": 508,
+            "first_name": "Milton"
+        },
+        {
+            "total": 121.73,
+            "last_name": "Payne",
+            "customer_id": 166,
+            "first_name": "Lynn"
+        },
+        {
+            "total": 121.73,
+            "last_name": "Sledge",
+            "customer_id": 497,
+            "first_name": "Gilbert"
+        },
+        {
+            "total": 121.7,
+            "last_name": "Lovelace",
+            "customer_id": 438,
+            "first_name": "Barry"
+        },
+        {
+            "total": 121.7,
+            "last_name": "Rea",
+            "customer_id": 451,
+            "first_name": "Jim"
+        },
+        {
+            "total": 121.69,
+            "last_name": "Runyon",
+            "customer_id": 406,
+            "first_name": "Nathan"
+        },
+        {
+            "total": 120.75,
+            "last_name": "Mattox",
+            "customer_id": 491,
+            "first_name": "Rick"
+        },
+        {
+            "total": 120.74,
+            "last_name": "Hart",
+            "customer_id": 179,
+            "first_name": "Dana"
+        },
+        {
+            "total": 120.74,
+            "last_name": "Casillas",
+            "customer_id": 423,
+            "first_name": "Alfred"
+        },
+        {
+            "total": 120.71,
+            "last_name": "Outlaw",
+            "customer_id": 499,
+            "first_name": "Marc"
+        },
+        {
+            "total": 120.7,
+            "last_name": "Murray",
+            "customer_id": 122,
+            "first_name": "Thelma"
+        },
+        {
+            "total": 119.76,
+            "last_name": "Murphy",
+            "customer_id": 59,
+            "first_name": "Cheryl"
+        },
+        {
+            "total": 119.75,
+            "last_name": "Kahn",
+            "customer_id": 389,
+            "first_name": "Alan"
+        },
+        {
+            "total": 119.74,
+            "last_name": "Poindexter",
+            "customer_id": 487,
+            "first_name": "Hector"
+        },
+        {
+            "total": 119.72,
+            "last_name": "Castillo",
+            "customer_id": 207,
+            "first_name": "Gertrude"
+        },
+        {
+            "total": 119.72,
+            "last_name": "Kowalski",
+            "customer_id": 306,
+            "first_name": "Charles"
+        },
+        {
+            "total": 118.76,
+            "last_name": "Coleman",
+            "customer_id": 82,
+            "first_name": "Kathryn"
+        },
+        {
+            "total": 118.75,
+            "last_name": "Mitchell",
+            "customer_id": 41,
+            "first_name": "Stephanie"
+        },
+        {
+            "total": 118.75,
+            "last_name": "Herrmann",
+            "customer_id": 589,
+            "first_name": "Tracy"
+        },
+        {
+            "total": 118.73,
+            "last_name": "Nettles",
+            "customer_id": 565,
+            "first_name": "Jaime"
+        },
+        {
+            "total": 118.7,
+            "last_name": "Green",
+            "customer_id": 35,
+            "first_name": "Virginia"
+        },
+        {
+            "total": 118.7,
+            "last_name": "Tucker",
+            "customer_id": 128,
+            "first_name": "Marjorie"
+        },
+        {
+            "total": 118.69,
+            "last_name": "George",
+            "customer_id": 230,
+            "first_name": "Joy"
+        },
+        {
+            "total": 117.77,
+            "last_name": "Mckinney",
+            "customer_id": 285,
+            "first_name": "Miriam"
+        },
+        {
+            "total": 117.77,
+            "last_name": "Thorn",
+            "customer_id": 583,
+            "first_name": "Marshall"
+        },
+        {
+            "total": 117.76,
+            "last_name": "Swafford",
+            "customer_id": 585,
+            "first_name": "Perry"
+        },
+        {
+            "total": 117.75,
+            "last_name": "Hawks",
+            "customer_id": 421,
+            "first_name": "Lee"
+        },
+        {
+            "total": 117.75,
+            "last_name": "Adam",
+            "customer_id": 504,
+            "first_name": "Nathaniel"
+        },
+        {
+            "total": 117.72,
+            "last_name": "Box",
+            "customer_id": 573,
+            "first_name": "Byron"
+        },
+        {
+            "total": 116.76,
+            "last_name": "Edwards",
+            "customer_id": 49,
+            "first_name": "Joyce"
+        },
+        {
+            "total": 116.75,
+            "last_name": "Black",
+            "customer_id": 149,
+            "first_name": "Valerie"
+        },
+        {
+            "total": 116.74,
+            "last_name": "Carlson",
+            "customer_id": 253,
+            "first_name": "Terry"
+        },
+        {
+            "total": 116.73,
+            "last_name": "Hopkins",
+            "customer_id": 263,
+            "first_name": "Hilda"
+        },
+        {
+            "total": 116.73,
+            "last_name": "Jennings",
+            "customer_id": 274,
+            "first_name": "Naomi"
+        },
+        {
+            "total": 116.72,
+            "last_name": "James",
+            "customer_id": 71,
+            "first_name": "Kathy"
+        },
+        {
+            "total": 116.71,
+            "last_name": "Fultz",
+            "customer_id": 356,
+            "first_name": "Gerald"
+        },
+        {
+            "total": 115.74,
+            "last_name": "Cook",
+            "customer_id": 56,
+            "first_name": "Gloria"
+        },
+        {
+            "total": 115.74,
+            "last_name": "Vines",
+            "customer_id": 512,
+            "first_name": "Cecil"
+        },
+        {
+            "total": 115.72,
+            "last_name": "Guillen",
+            "customer_id": 529,
+            "first_name": "Erik"
+        },
+        {
+            "total": 115.71,
+            "last_name": "Causey",
+            "customer_id": 393,
+            "first_name": "Philip"
+        },
+        {
+            "total": 115.7,
+            "last_name": "Stone",
+            "customer_id": 158,
+            "first_name": "Veronica"
+        },
+        {
+            "total": 114.76,
+            "last_name": "Shelton",
+            "customer_id": 279,
+            "first_name": "Dianne"
+        },
+        {
+            "total": 114.74,
+            "last_name": "Rogers",
+            "customer_id": 54,
+            "first_name": "Teresa"
+        },
+        {
+            "total": 114.73,
+            "last_name": "Davidson",
+            "customer_id": 262,
+            "first_name": "Patsy"
+        },
+        {
+            "total": 114.73,
+            "last_name": "Teel",
+            "customer_id": 584,
+            "first_name": "Salvador"
+        },
+        {
+            "total": 114.72,
+            "last_name": "Woods",
+            "customer_id": 107,
+            "first_name": "Florence"
+        },
+        {
+            "total": 114.72,
+            "last_name": "Morrell",
+            "customer_id": 388,
+            "first_name": "Craig"
+        },
+        {
+            "total": 114.7,
+            "last_name": "Smith",
+            "customer_id": 1,
+            "first_name": "Mary"
+        },
+        {
+            "total": 113.77,
+            "last_name": "Bone",
+            "customer_id": 433,
+            "first_name": "Don"
+        },
+        {
+            "total": 113.75,
+            "last_name": "Greco",
+            "customer_id": 309,
+            "first_name": "Christopher"
+        },
+        {
+            "total": 113.74,
+            "last_name": "Herrera",
+            "customer_id": 266,
+            "first_name": "Nora"
+        },
+        {
+            "total": 113.74,
+            "last_name": "Silverman",
+            "customer_id": 302,
+            "first_name": "Michael"
+        },
+        {
+            "total": 113.73,
+            "last_name": "Dixon",
+            "customer_id": 139,
+            "first_name": "Amber"
+        },
+        {
+            "total": 113.73,
+            "last_name": "Gardiner",
+            "customer_id": 569,
+            "first_name": "Dave"
+        },
+        {
+            "total": 113.72,
+            "last_name": "Pinson",
+            "customer_id": 416,
+            "first_name": "Jeffery"
+        },
+        {
+            "total": 113.71,
+            "last_name": "Linton",
+            "customer_id": 314,
+            "first_name": "George"
+        },
+        {
+            "total": 113.7,
+            "last_name": "Vargas",
+            "customer_id": 260,
+            "first_name": "Christy"
+        },
+        {
+            "total": 112.76,
+            "last_name": "Asher",
+            "customer_id": 540,
+            "first_name": "Tyrone"
+        },
+        {
+            "total": 112.76,
+            "last_name": "Vanhorn",
+            "customer_id": 582,
+            "first_name": "Andy"
+        },
+        {
+            "total": 112.75,
+            "last_name": "Richardson",
+            "customer_id": 63,
+            "first_name": "Ashley"
+        },
+        {
+            "total": 112.74,
+            "last_name": "Lopez",
+            "customer_id": 32,
+            "first_name": "Amy"
+        },
+        {
+            "total": 112.73,
+            "last_name": "Hicks",
+            "customer_id": 131,
+            "first_name": "Monica"
+        },
+        {
+            "total": 112.72,
+            "last_name": "Tobias",
+            "customer_id": 485,
+            "first_name": "Clyde"
+        },
+        {
+            "total": 111.77,
+            "last_name": "Martel",
+            "customer_id": 453,
+            "first_name": "Calvin"
+        },
+        {
+            "total": 111.76,
+            "last_name": "Harvey",
+            "customer_id": 225,
+            "first_name": "Arlene"
+        },
+        {
+            "total": 111.76,
+            "last_name": "Jordon",
+            "customer_id": 337,
+            "first_name": "Jerry"
+        },
+        {
+            "total": 111.74,
+            "last_name": "Malcolm",
+            "customer_id": 577,
+            "first_name": "Clifton"
+        },
+        {
+            "total": 111.73,
+            "last_name": "Fisher",
+            "customer_id": 113,
+            "first_name": "Cindy"
+        },
+        {
+            "total": 111.73,
+            "last_name": "Ray",
+            "customer_id": 173,
+            "first_name": "Audrey"
+        },
+        {
+            "total": 111.73,
+            "last_name": "Larue",
+            "customer_id": 579,
+            "first_name": "Daryl"
+        },
+        {
+            "total": 111.71,
+            "last_name": "Perez",
+            "customer_id": 42,
+            "first_name": "Carolyn"
+        },
+        {
+            "total": 111.71,
+            "last_name": "Fox",
+            "customer_id": 186,
+            "first_name": "Holly"
+        },
+        {
+            "total": 111.71,
+            "last_name": "Roush",
+            "customer_id": 592,
+            "first_name": "Terrance"
+        },
+        {
+            "total": 110.77,
+            "last_name": "Waugh",
+            "customer_id": 531,
+            "first_name": "Jamie"
+        },
+        {
+            "total": 110.76,
+            "last_name": "Fleming",
+            "customer_id": 258,
+            "first_name": "Myrtle"
+        },
+        {
+            "total": 110.76,
+            "last_name": "Bess",
+            "customer_id": 495,
+            "first_name": "Charlie"
+        },
+        {
+            "total": 110.74,
+            "last_name": "Rapp",
+            "customer_id": 515,
+            "first_name": "Andre"
+        },
+        {
+            "total": 110.73,
+            "last_name": "Grant",
+            "customer_id": 154,
+            "first_name": "Michele"
+        },
+        {
+            "total": 110.73,
+            "last_name": "Williamson",
+            "customer_id": 213,
+            "first_name": "Gina"
+        },
+        {
+            "total": 110.72,
+            "last_name": "Washington",
+            "customer_id": 90,
+            "first_name": "Ruby"
+        },
+        {
+            "total": 110.72,
+            "last_name": "Banda",
+            "customer_id": 559,
+            "first_name": "Everett"
+        },
+        {
+            "total": 110.71,
+            "last_name": "Gunderson",
+            "customer_id": 595,
+            "first_name": "Terrence"
+        },
+        {
+            "total": 110.68,
+            "last_name": "Larson",
+            "customer_id": 241,
+            "first_name": "Heidi"
+        },
+        {
+            "total": 109.77,
+            "last_name": "Arnold",
+            "customer_id": 170,
+            "first_name": "Beatrice"
+        },
+        {
+            "total": 109.77,
+            "last_name": "Churchill",
+            "customer_id": 536,
+            "first_name": "Fernando"
+        },
+        {
+            "total": 109.76,
+            "last_name": "Oglesby",
+            "customer_id": 575,
+            "first_name": "Isaac"
+        },
+        {
+            "total": 109.75,
+            "last_name": "Martin",
+            "customer_id": 16,
+            "first_name": "Sandra"
+        },
+        {
+            "total": 109.75,
+            "last_name": "Alvarez",
+            "customer_id": 220,
+            "first_name": "Charlene"
+        },
+        {
+            "total": 109.73,
+            "last_name": "Gaither",
+            "customer_id": 376,
+            "first_name": "Randy"
+        },
+        {
+            "total": 109.73,
+            "last_name": "Bowens",
+            "customer_id": 447,
+            "first_name": "Clifford"
+        },
+        {
+            "total": 109.73,
+            "last_name": "Breaux",
+            "customer_id": 538,
+            "first_name": "Ted"
+        },
+        {
+            "total": 109.72,
+            "last_name": "Tan",
+            "customer_id": 386,
+            "first_name": "Todd"
+        },
+        {
+            "total": 109.72,
+            "last_name": "Culp",
+            "customer_id": 446,
+            "first_name": "Theodore"
+        },
+        {
+            "total": 109.72,
+            "last_name": "Devore",
+            "customer_id": 481,
+            "first_name": "Herman"
+        },
+        {
+            "total": 109.71,
+            "last_name": "Spurlock",
+            "customer_id": 424,
+            "first_name": "Kyle"
+        },
+        {
+            "total": 108.78,
+            "last_name": "Gregory",
+            "customer_id": 284,
+            "first_name": "Sonia"
+        },
+        {
+            "total": 108.77,
+            "last_name": "Hiatt",
+            "customer_id": 594,
+            "first_name": "Eduardo"
+        },
+        {
+            "total": 108.76,
+            "last_name": "Jimenez",
+            "customer_id": 277,
+            "first_name": "Olga"
+        },
+        {
+            "total": 108.76,
+            "last_name": "Hannon",
+            "customer_id": 590,
+            "first_name": "Seth"
+        },
+        {
+            "total": 108.75,
+            "last_name": "Mcwhorter",
+            "customer_id": 334,
+            "first_name": "Raymond"
+        },
+        {
+            "total": 108.75,
+            "last_name": "Harder",
+            "customer_id": 518,
+            "first_name": "Gabriel"
+        },
+        {
+            "total": 108.73,
+            "last_name": "Vest",
+            "customer_id": 574,
+            "first_name": "Julian"
+        },
+        {
+            "total": 108.72,
+            "last_name": "Romero",
+            "customer_id": 239,
+            "first_name": "Minnie"
+        },
+        {
+            "total": 108.71,
+            "last_name": "Pierce",
+            "customer_id": 167,
+            "first_name": "Sally"
+        },
+        {
+            "total": 107.79,
+            "last_name": "Fletcher",
+            "customer_id": 293,
+            "first_name": "Mae"
+        },
+        {
+            "total": 107.78,
+            "last_name": "Chisholm",
+            "customer_id": 571,
+            "first_name": "Johnnie"
+        },
+        {
+            "total": 107.77,
+            "last_name": "Mccartney",
+            "customer_id": 427,
+            "first_name": "Jesus"
+        },
+        {
+            "total": 107.74,
+            "last_name": "Qualls",
+            "customer_id": 332,
+            "first_name": "Stephen"
+        },
+        {
+            "total": 107.73,
+            "last_name": "Holmes",
+            "customer_id": 145,
+            "first_name": "Lucille"
+        },
+        {
+            "total": 107.73,
+            "last_name": "Cheatham",
+            "customer_id": 441,
+            "first_name": "Mario"
+        },
+        {
+            "total": 107.73,
+            "last_name": "Ocampo",
+            "customer_id": 588,
+            "first_name": "Marion"
+        },
+        {
+            "total": 107.71,
+            "last_name": "Rose",
+            "customer_id": 157,
+            "first_name": "Darlene"
+        },
+        {
+            "total": 107.7,
+            "last_name": "Silva",
+            "customer_id": 254,
+            "first_name": "Maxine"
+        },
+        {
+            "total": 107.7,
+            "last_name": "East",
+            "customer_id": 418,
+            "first_name": "Jeff"
+        },
+        {
+            "total": 107.66,
+            "last_name": "Butler",
+            "customer_id": 91,
+            "first_name": "Lois"
+        },
+        {
+            "total": 106.79,
+            "last_name": "Paine",
+            "customer_id": 477,
+            "first_name": "Dan"
+        },
+        {
+            "total": 106.77,
+            "last_name": "Welch",
+            "customer_id": 240,
+            "first_name": "Marlene"
+        },
+        {
+            "total": 106.77,
+            "last_name": "Graf",
+            "customer_id": 343,
+            "first_name": "Douglas"
+        },
+        {
+            "total": 106.76,
+            "last_name": "Knight",
+            "customer_id": 155,
+            "first_name": "Gail"
+        },
+        {
+            "total": 106.75,
+            "last_name": "Fuller",
+            "customer_id": 234,
+            "first_name": "Claudia"
+        },
+        {
+            "total": 106.74,
+            "last_name": "Gibson",
+            "customer_id": 116,
+            "first_name": "Victoria"
+        },
+        {
+            "total": 106.74,
+            "last_name": "Sauer",
+            "customer_id": 471,
+            "first_name": "Dean"
+        },
+        {
+            "total": 106.73,
+            "last_name": "Lewis",
+            "customer_id": 23,
+            "first_name": "Sarah"
+        },
+        {
+            "total": 106.73,
+            "last_name": "Dunn",
+            "customer_id": 160,
+            "first_name": "Erin"
+        },
+        {
+            "total": 106.73,
+            "last_name": "Gavin",
+            "customer_id": 457,
+            "first_name": "Bill"
+        },
+        {
+            "total": 106.72,
+            "last_name": "Sanchez",
+            "customer_id": 52,
+            "first_name": "Julie"
+        },
+        {
+            "total": 106.68,
+            "last_name": "Warren",
+            "customer_id": 138,
+            "first_name": "Hazel"
+        },
+        {
+            "total": 105.78,
+            "last_name": "Stevens",
+            "customer_id": 127,
+            "first_name": "Elaine"
+        },
+        {
+            "total": 105.78,
+            "last_name": "Robert",
+            "customer_id": 331,
+            "first_name": "Eric"
+        },
+        {
+            "total": 105.78,
+            "last_name": "Mcduffie",
+            "customer_id": 490,
+            "first_name": "Sam"
+        },
+        {
+            "total": 105.77,
+            "last_name": "Elliott",
+            "customer_id": 193,
+            "first_name": "Katie"
+        },
+        {
+            "total": 105.77,
+            "last_name": "Watts",
+            "customer_id": 294,
+            "first_name": "Shelly"
+        },
+        {
+            "total": 105.76,
+            "last_name": "Bell",
+            "customer_id": 58,
+            "first_name": "Jean"
+        },
+        {
+            "total": 105.76,
+            "last_name": "Hardison",
+            "customer_id": 400,
+            "first_name": "Bryan"
+        },
+        {
+            "total": 105.74,
+            "last_name": "Carter",
+            "customer_id": 40,
+            "first_name": "Amanda"
+        },
+        {
+            "total": 105.74,
+            "last_name": "Shanks",
+            "customer_id": 396,
+            "first_name": "Earl"
+        },
+        {
+            "total": 105.73,
+            "last_name": "Alexander",
+            "customer_id": 96,
+            "first_name": "Diana"
+        },
+        {
+            "total": 105.72,
+            "last_name": "Hidalgo",
+            "customer_id": 444,
+            "first_name": "Marcus"
+        },
+        {
+            "total": 105.7,
+            "last_name": "Young",
+            "customer_id": 28,
+            "first_name": "Cynthia"
+        },
+        {
+            "total": 104.79,
+            "last_name": "Artis",
+            "customer_id": 345,
+            "first_name": "Carl"
+        },
+        {
+            "total": 104.78,
+            "last_name": "Harkins",
+            "customer_id": 493,
+            "first_name": "Brent"
+        },
+        {
+            "total": 104.76,
+            "last_name": "Rodriquez",
+            "customer_id": 289,
+            "first_name": "Violet"
+        },
+        {
+            "total": 104.75,
+            "last_name": "Gomez",
+            "customer_id": 121,
+            "first_name": "Josephine"
+        },
+        {
+            "total": 104.75,
+            "last_name": "Wagner",
+            "customer_id": 171,
+            "first_name": "Dolores"
+        },
+        {
+            "total": 104.74,
+            "last_name": "Wright",
+            "customer_id": 31,
+            "first_name": "Brenda"
+        },
+        {
+            "total": 104.74,
+            "last_name": "Ratcliff",
+            "customer_id": 407,
+            "first_name": "Dale"
+        },
+        {
+            "total": 104.73,
+            "last_name": "Walker",
+            "customer_id": 25,
+            "first_name": "Deborah"
+        },
+        {
+            "total": 104.72,
+            "last_name": "Schrader",
+            "customer_id": 397,
+            "first_name": "Jimmy"
+        },
+        {
+            "total": 104.71,
+            "last_name": "Bustamante",
+            "customer_id": 442,
+            "first_name": "Leroy"
+        },
+        {
+            "total": 103.78,
+            "last_name": "Menard",
+            "customer_id": 341,
+            "first_name": "Peter"
+        },
+        {
+            "total": 103.77,
+            "last_name": "Barrett",
+            "customer_id": 280,
+            "first_name": "Tracey"
+        },
+        {
+            "total": 103.77,
+            "last_name": "Hale",
+            "customer_id": 296,
+            "first_name": "Ramona"
+        },
+        {
+            "total": 103.74,
+            "last_name": "Gutierrez",
+            "customer_id": 202,
+            "first_name": "Carla"
+        },
+        {
+            "total": 103.74,
+            "last_name": "Johnston",
+            "customer_id": 214,
+            "first_name": "Kristin"
+        },
+        {
+            "total": 103.74,
+            "last_name": "Day",
+            "customer_id": 245,
+            "first_name": "Courtney"
+        },
+        {
+            "total": 103.73,
+            "last_name": "Robinson",
+            "customer_id": 20,
+            "first_name": "Sharon"
+        },
+        {
+            "total": 103.73,
+            "last_name": "Murrell",
+            "customer_id": 408,
+            "first_name": "Manuel"
+        },
+        {
+            "total": 102.78,
+            "last_name": "Lambert",
+            "customer_id": 292,
+            "first_name": "Misty"
+        },
+        {
+            "total": 102.77,
+            "last_name": "Easter",
+            "customer_id": 510,
+            "first_name": "Ben"
+        },
+        {
+            "total": 102.77,
+            "last_name": "Pitt",
+            "customer_id": 553,
+            "first_name": "Max"
+        },
+        {
+            "total": 102.76,
+            "last_name": "Griffin",
+            "customer_id": 98,
+            "first_name": "Lillian"
+        },
+        {
+            "total": 102.76,
+            "last_name": "Stanfield",
+            "customer_id": 587,
+            "first_name": "Sergio"
+        },
+        {
+            "total": 102.75,
+            "last_name": "Simpson",
+            "customer_id": 126,
+            "first_name": "Ellen"
+        },
+        {
+            "total": 102.75,
+            "last_name": "Weaver",
+            "customer_id": 190,
+            "first_name": "Yolanda"
+        },
+        {
+            "total": 101.79,
+            "last_name": "Turner",
+            "customer_id": 44,
+            "first_name": "Marie"
+        },
+        {
+            "total": 101.78,
+            "last_name": "Ebert",
+            "customer_id": 466,
+            "first_name": "Leo"
+        },
+        {
+            "total": 101.77,
+            "last_name": "Hayes",
+            "customer_id": 100,
+            "first_name": "Robin"
+        },
+        {
+            "total": 101.76,
+            "last_name": "Mcalister",
+            "customer_id": 593,
+            "first_name": "Rene"
+        },
+        {
+            "total": 101.7,
+            "last_name": "Schofield",
+            "customer_id": 405,
+            "first_name": "Leonard"
+        },
+        {
+            "total": 100.77,
+            "last_name": "Talbert",
+            "customer_id": 486,
+            "first_name": "Glen"
+        },
+        {
+            "total": 100.76,
+            "last_name": "Mccurdy",
+            "customer_id": 517,
+            "first_name": "Brad"
+        },
+        {
+            "total": 100.76,
+            "last_name": "Burleson",
+            "customer_id": 572,
+            "first_name": "Sidney"
+        },
+        {
+            "total": 100.75,
+            "last_name": "Howell",
+            "customer_id": 219,
+            "first_name": "Willie"
+        },
+        {
+            "total": 100.75,
+            "last_name": "Brewer",
+            "customer_id": 251,
+            "first_name": "Vickie"
+        },
+        {
+            "total": 100.72,
+            "last_name": "Mason",
+            "customer_id": 135,
+            "first_name": "Juanita"
+        },
+        {
+            "total": 99.78,
+            "last_name": "Deluca",
+            "customer_id": 519,
+            "first_name": "Ron"
+        },
+        {
+            "total": 99.77,
+            "last_name": "Anderson",
+            "customer_id": 11,
+            "first_name": "Lisa"
+        },
+        {
+            "total": 99.74,
+            "last_name": "Morgan",
+            "customer_id": 57,
+            "first_name": "Evelyn"
+        },
+        {
+            "total": 99.74,
+            "last_name": "Rhodes",
+            "customer_id": 297,
+            "first_name": "Sherri"
+        },
+        {
+            "total": 99.73,
+            "last_name": "Prewitt",
+            "customer_id": 563,
+            "first_name": "Ken"
+        },
+        {
+            "total": 99.72,
+            "last_name": "Barclay",
+            "customer_id": 503,
+            "first_name": "Angel"
+        },
+        {
+            "total": 99.71,
+            "last_name": "Milner",
+            "customer_id": 452,
+            "first_name": "Tom"
+        },
+        {
+            "total": 99.68,
+            "last_name": "Boudreau",
+            "customer_id": 381,
+            "first_name": "Bobby"
+        },
+        {
+            "total": 98.82,
+            "last_name": "Martinez",
+            "customer_id": 19,
+            "first_name": "Ruth"
+        },
+        {
+            "total": 98.77,
+            "last_name": "Waggoner",
+            "customer_id": 329,
+            "first_name": "Frank"
+        },
+        {
+            "total": 98.76,
+            "last_name": "Olson",
+            "customer_id": 175,
+            "first_name": "Annette"
+        },
+        {
+            "total": 98.76,
+            "last_name": "Buford",
+            "customer_id": 537,
+            "first_name": "Clinton"
+        },
+        {
+            "total": 98.75,
+            "last_name": "May",
+            "customer_id": 264,
+            "first_name": "Gwendolyn"
+        },
+        {
+            "total": 98.75,
+            "last_name": "Hurtado",
+            "customer_id": 374,
+            "first_name": "Jeremy"
+        },
+        {
+            "total": 98.75,
+            "last_name": "Sikes",
+            "customer_id": 425,
+            "first_name": "Francis"
+        },
+        {
+            "total": 98.74,
+            "last_name": "Grey",
+            "customer_id": 580,
+            "first_name": "Ross"
+        },
+        {
+            "total": 97.8,
+            "last_name": "Howard",
+            "customer_id": 65,
+            "first_name": "Rose"
+        },
+        {
+            "total": 97.8,
+            "last_name": "Gooch",
+            "customer_id": 367,
+            "first_name": "Adam"
+        },
+        {
+            "total": 97.79,
+            "last_name": "Bostic",
+            "customer_id": 460,
+            "first_name": "Leon"
+        },
+        {
+            "total": 97.78,
+            "last_name": "Lawrence",
+            "customer_id": 192,
+            "first_name": "Laurie"
+        },
+        {
+            "total": 97.78,
+            "last_name": "Moeller",
+            "customer_id": 409,
+            "first_name": "Rodney"
+        },
+        {
+            "total": 97.78,
+            "last_name": "Chestnut",
+            "customer_id": 475,
+            "first_name": "Pedro"
+        },
+        {
+            "total": 97.78,
+            "last_name": "Slone",
+            "customer_id": 562,
+            "first_name": "Wallace"
+        },
+        {
+            "total": 97.77,
+            "last_name": "Freeman",
+            "customer_id": 123,
+            "first_name": "Shannon"
+        },
+        {
+            "total": 97.75,
+            "last_name": "Holland",
+            "customer_id": 256,
+            "first_name": "Mabel"
+        },
+        {
+            "total": 97.75,
+            "last_name": "Wofford",
+            "customer_id": 581,
+            "first_name": "Virgil"
+        },
+        {
+            "total": 96.79,
+            "last_name": "Soto",
+            "customer_id": 268,
+            "first_name": "Nina"
+        },
+        {
+            "total": 96.79,
+            "last_name": "Walters",
+            "customer_id": 269,
+            "first_name": "Cassandra"
+        },
+        {
+            "total": 96.79,
+            "last_name": "Coughlin",
+            "customer_id": 379,
+            "first_name": "Carlos"
+        },
+        {
+            "total": 96.78,
+            "last_name": "Jenkins",
+            "customer_id": 83,
+            "first_name": "Louise"
+        },
+        {
+            "total": 96.78,
+            "last_name": "Crouse",
+            "customer_id": 352,
+            "first_name": "Albert"
+        },
+        {
+            "total": 96.77,
+            "last_name": "White",
+            "customer_id": 14,
+            "first_name": "Betty"
+        },
+        {
+            "total": 96.77,
+            "last_name": "Ralston",
+            "customer_id": 414,
+            "first_name": "Vincent"
+        },
+        {
+            "total": 96.76,
+            "last_name": "Lucas",
+            "customer_id": 286,
+            "first_name": "Velma"
+        },
+        {
+            "total": 96.76,
+            "last_name": "Baugh",
+            "customer_id": 317,
+            "first_name": "Edward"
+        },
+        {
+            "total": 96.76,
+            "last_name": "Forman",
+            "customer_id": 445,
+            "first_name": "Micheal"
+        },
+        {
+            "total": 96.75,
+            "last_name": "Ellington",
+            "customer_id": 422,
+            "first_name": "Melvin"
+        },
+        {
+            "total": 96.75,
+            "last_name": "Kinder",
+            "customer_id": 500,
+            "first_name": "Reginald"
+        },
+        {
+            "total": 96.74,
+            "last_name": "Kelly",
+            "customer_id": 74,
+            "first_name": "Denise"
+        },
+        {
+            "total": 95.8,
+            "last_name": "Olvera",
+            "customer_id": 554,
+            "first_name": "Dwayne"
+        },
+        {
+            "total": 95.79,
+            "last_name": "Wallace",
+            "customer_id": 106,
+            "first_name": "Connie"
+        },
+        {
+            "total": 95.79,
+            "last_name": "Lumpkin",
+            "customer_id": 578,
+            "first_name": "Willard"
+        },
+        {
+            "total": 95.78,
+            "last_name": "Cunningham",
+            "customer_id": 180,
+            "first_name": "Stacy"
+        },
+        {
+            "total": 95.78,
+            "last_name": "Coy",
+            "customer_id": 324,
+            "first_name": "Gary"
+        },
+        {
+            "total": 95.78,
+            "last_name": "Millard",
+            "customer_id": 488,
+            "first_name": "Shane"
+        },
+        {
+            "total": 95.78,
+            "last_name": "Windham",
+            "customer_id": 541,
+            "first_name": "Darren"
+        },
+        {
+            "total": 95.76,
+            "last_name": "Franklin",
+            "customer_id": 199,
+            "first_name": "Beth"
+        },
+        {
+            "total": 95.76,
+            "last_name": "Perryman",
+            "customer_id": 339,
+            "first_name": "Walter"
+        },
+        {
+            "total": 95.76,
+            "last_name": "Ricketts",
+            "customer_id": 456,
+            "first_name": "Ronnie"
+        },
+        {
+            "total": 95.72,
+            "last_name": "Crawford",
+            "customer_id": 132,
+            "first_name": "Esther"
+        },
+        {
+            "total": 94.81,
+            "last_name": "Rodriguez",
+            "customer_id": 22,
+            "first_name": "Laura"
+        },
+        {
+            "total": 94.78,
+            "last_name": "Peterson",
+            "customer_id": 68,
+            "first_name": "Nicole"
+        },
+        {
+            "total": 94.78,
+            "last_name": "Daniels",
+            "customer_id": 150,
+            "first_name": "Danielle"
+        },
+        {
+            "total": 94.77,
+            "last_name": "Graves",
+            "customer_id": 276,
+            "first_name": "Brandy"
+        },
+        {
+            "total": 94.76,
+            "last_name": "Taylor",
+            "customer_id": 10,
+            "first_name": "Dorothy"
+        },
+        {
+            "total": 94.76,
+            "last_name": "Nichols",
+            "customer_id": 153,
+            "first_name": "Suzanne"
+        },
+        {
+            "total": 94.76,
+            "last_name": "Perkins",
+            "customer_id": 161,
+            "first_name": "Geraldine"
+        },
+        {
+            "total": 94.76,
+            "last_name": "Knott",
+            "customer_id": 546,
+            "first_name": "Kelly"
+        },
+        {
+            "total": 94.75,
+            "last_name": "Owens",
+            "customer_id": 111,
+            "first_name": "Carmen"
+        },
+        {
+            "total": 93.83,
+            "last_name": "Schuler",
+            "customer_id": 321,
+            "first_name": "Kevin"
+        },
+        {
+            "total": 93.8,
+            "last_name": "Burk",
+            "customer_id": 432,
+            "first_name": "Edwin"
+        },
+        {
+            "total": 93.8,
+            "last_name": "Herzog",
+            "customer_id": 528,
+            "first_name": "Claude"
+        },
+        {
+            "total": 93.79,
+            "last_name": "Weiner",
+            "customer_id": 319,
+            "first_name": "Ronald"
+        },
+        {
+            "total": 93.79,
+            "last_name": "Skidmore",
+            "customer_id": 443,
+            "first_name": "Francisco"
+        },
+        {
+            "total": 93.78,
+            "last_name": "Sullivan",
+            "customer_id": 105,
+            "first_name": "Dawn"
+        },
+        {
+            "total": 93.78,
+            "last_name": "Mark",
+            "customer_id": 336,
+            "first_name": "Joshua"
+        },
+        {
+            "total": 93.76,
+            "last_name": "Holm",
+            "customer_id": 385,
+            "first_name": "Phillip"
+        },
+        {
+            "total": 93.75,
+            "last_name": "Nguyen",
+            "customer_id": 229,
+            "first_name": "Tamara"
+        },
+        {
+            "total": 93.75,
+            "last_name": "Bales",
+            "customer_id": 383,
+            "first_name": "Martin"
+        },
+        {
+            "total": 93.74,
+            "last_name": "Thomas",
+            "customer_id": 12,
+            "first_name": "Nancy"
+        },
+        {
+            "total": 93.74,
+            "last_name": "Fortner",
+            "customer_id": 377,
+            "first_name": "Howard"
+        },
+        {
+            "total": 92.81,
+            "last_name": "Parker",
+            "customer_id": 47,
+            "first_name": "Frances"
+        },
+        {
+            "total": 92.8,
+            "last_name": "Joy",
+            "customer_id": 307,
+            "first_name": "Joseph"
+        },
+        {
+            "total": 92.8,
+            "last_name": "Nolen",
+            "customer_id": 544,
+            "first_name": "Cody"
+        },
+        {
+            "total": 92.79,
+            "last_name": "Henderson",
+            "customer_id": 81,
+            "first_name": "Andrea"
+        },
+        {
+            "total": 92.79,
+            "last_name": "Schwarz",
+            "customer_id": 365,
+            "first_name": "Bruce"
+        },
+        {
+            "total": 92.78,
+            "last_name": "Francisco",
+            "customer_id": 431,
+            "first_name": "Joel"
+        },
+        {
+            "total": 92.78,
+            "last_name": "Benner",
+            "customer_id": 511,
+            "first_name": "Chester"
+        },
+        {
+            "total": 92.76,
+            "last_name": "Lane",
+            "customer_id": 182,
+            "first_name": "Renee"
+        },
+        {
+            "total": 92.76,
+            "last_name": "Noe",
+            "customer_id": 516,
+            "first_name": "Elmer"
+        },
+        {
+            "total": 92.75,
+            "last_name": "Armstrong",
+            "customer_id": 188,
+            "first_name": "Melanie"
+        },
+        {
+            "total": 92.75,
+            "last_name": "Barnett",
+            "customer_id": 275,
+            "first_name": "Carole"
+        },
+        {
+            "total": 92.75,
+            "last_name": "Gillette",
+            "customer_id": 474,
+            "first_name": "Dustin"
+        },
+        {
+            "total": 91.81,
+            "last_name": "Meador",
+            "customer_id": 489,
+            "first_name": "Ricardo"
+        },
+        {
+            "total": 91.81,
+            "last_name": "Abney",
+            "customer_id": 505,
+            "first_name": "Rafael"
+        },
+        {
+            "total": 91.8,
+            "last_name": "Richards",
+            "customer_id": 212,
+            "first_name": "Wilma"
+        },
+        {
+            "total": 91.79,
+            "last_name": "Baker",
+            "customer_id": 37,
+            "first_name": "Pamela"
+        },
+        {
+            "total": 91.78,
+            "last_name": "Fields",
+            "customer_id": 201,
+            "first_name": "Vicki"
+        },
+        {
+            "total": 91.78,
+            "last_name": "Estep",
+            "customer_id": 417,
+            "first_name": "Travis"
+        },
+        {
+            "total": 91.77,
+            "last_name": "Douglass",
+            "customer_id": 392,
+            "first_name": "Sean"
+        },
+        {
+            "total": 91.75,
+            "last_name": "Mahan",
+            "customer_id": 323,
+            "first_name": "Matthew"
+        },
+        {
+            "total": 91.75,
+            "last_name": "Cromwell",
+            "customer_id": 570,
+            "first_name": "Ivan"
+        },
+        {
+            "total": 91.7,
+            "last_name": "Cox",
+            "customer_id": 64,
+            "first_name": "Judith"
+        },
+        {
+            "total": 90.78,
+            "last_name": "Meyer",
+            "customer_id": 216,
+            "first_name": "Natalie"
+        },
+        {
+            "total": 90.78,
+            "last_name": "Byrd",
+            "customer_id": 261,
+            "first_name": "Deanna"
+        },
+        {
+            "total": 90.77,
+            "last_name": "Diaz",
+            "customer_id": 99,
+            "first_name": "Emily"
+        },
+        {
+            "total": 90.75,
+            "last_name": "Adams",
+            "customer_id": 36,
+            "first_name": "Kathleen"
+        },
+        {
+            "total": 90.73,
+            "last_name": "Blakely",
+            "customer_id": 461,
+            "first_name": "Derek"
+        },
+        {
+            "total": 89.8,
+            "last_name": "Waldrop",
+            "customer_id": 552,
+            "first_name": "Hugh"
+        },
+        {
+            "total": 89.78,
+            "last_name": "Roberts",
+            "customer_id": 43,
+            "first_name": "Christine"
+        },
+        {
+            "total": 89.78,
+            "last_name": "Brooks",
+            "customer_id": 73,
+            "first_name": "Beverly"
+        },
+        {
+            "total": 89.78,
+            "last_name": "Purdy",
+            "customer_id": 333,
+            "first_name": "Andrew"
+        },
+        {
+            "total": 89.78,
+            "last_name": "Varney",
+            "customer_id": 364,
+            "first_name": "Benjamin"
+        },
+        {
+            "total": 89.77,
+            "last_name": "Gray",
+            "customer_id": 69,
+            "first_name": "Judy"
+        },
+        {
+            "total": 89.77,
+            "last_name": "Ferguson",
+            "customer_id": 156,
+            "first_name": "Bertha"
+        },
+        {
+            "total": 89.77,
+            "last_name": "Kim",
+            "customer_id": 233,
+            "first_name": "Lillie"
+        },
+        {
+            "total": 89.77,
+            "last_name": "Lynch",
+            "customer_id": 235,
+            "first_name": "Jackie"
+        },
+        {
+            "total": 89.77,
+            "last_name": "Rhoads",
+            "customer_id": 507,
+            "first_name": "Edgar"
+        },
+        {
+            "total": 89.76,
+            "last_name": "Scott",
+            "customer_id": 34,
+            "first_name": "Rebecca"
+        },
+        {
+            "total": 89.76,
+            "last_name": "Power",
+            "customer_id": 463,
+            "first_name": "Darrell"
+        },
+        {
+            "total": 89.71,
+            "last_name": "Lawton",
+            "customer_id": 361,
+            "first_name": "Lawrence"
+        },
+        {
+            "total": 88.81,
+            "last_name": "Moreno",
+            "customer_id": 247,
+            "first_name": "Stella"
+        },
+        {
+            "total": 88.81,
+            "last_name": "Medina",
+            "customer_id": 249,
+            "first_name": "Dora"
+        },
+        {
+            "total": 88.8,
+            "last_name": "Hill",
+            "customer_id": 33,
+            "first_name": "Anna"
+        },
+        {
+            "total": 88.8,
+            "last_name": "Selby",
+            "customer_id": 375,
+            "first_name": "Aaron"
+        },
+        {
+            "total": 88.78,
+            "last_name": "Bailey",
+            "customer_id": 60,
+            "first_name": "Mildred"
+        },
+        {
+            "total": 88.78,
+            "last_name": "Pullen",
+            "customer_id": 415,
+            "first_name": "Glenn"
+        },
+        {
+            "total": 88.77,
+            "last_name": "Jacobs",
+            "customer_id": 231,
+            "first_name": "Georgia"
+        },
+        {
+            "total": 88.76,
+            "last_name": "Morris",
+            "customer_id": 53,
+            "first_name": "Heather"
+        },
+        {
+            "total": 88.75,
+            "last_name": "Henry",
+            "customer_id": 133,
+            "first_name": "Pauline"
+        },
+        {
+            "total": 88.73,
+            "last_name": "Watson",
+            "customer_id": 72,
+            "first_name": "Theresa"
+        },
+        {
+            "total": 87.82,
+            "last_name": "Thompson",
+            "customer_id": 17,
+            "first_name": "Donna"
+        },
+        {
+            "total": 87.81,
+            "last_name": "Ryan",
+            "customer_id": 203,
+            "first_name": "Tara"
+        },
+        {
+            "total": 87.8,
+            "last_name": "Mccrary",
+            "customer_id": 305,
+            "first_name": "Richard"
+        },
+        {
+            "total": 87.8,
+            "last_name": "Bourque",
+            "customer_id": 476,
+            "first_name": "Derrick"
+        },
+        {
+            "total": 87.8,
+            "last_name": "Guajardo",
+            "customer_id": 523,
+            "first_name": "Harvey"
+        },
+        {
+            "total": 87.8,
+            "last_name": "Emmons",
+            "customer_id": 547,
+            "first_name": "Kurt"
+        },
+        {
+            "total": 87.79,
+            "last_name": "Carpenter",
+            "customer_id": 189,
+            "first_name": "Loretta"
+        },
+        {
+            "total": 87.79,
+            "last_name": "Little",
+            "customer_id": 226,
+            "first_name": "Maureen"
+        },
+        {
+            "total": 87.78,
+            "last_name": "Hunter",
+            "customer_id": 130,
+            "first_name": "Charlotte"
+        },
+        {
+            "total": 87.77,
+            "last_name": "Foust",
+            "customer_id": 351,
+            "first_name": "Jack"
+        },
+        {
+            "total": 87.77,
+            "last_name": "Duggan",
+            "customer_id": 597,
+            "first_name": "Freddie"
+        },
+        {
+            "total": 86.82,
+            "last_name": "Fortier",
+            "customer_id": 509,
+            "first_name": "Raul"
+        },
+        {
+            "total": 86.81,
+            "last_name": "Sims",
+            "customer_id": 195,
+            "first_name": "Vanessa"
+        },
+        {
+            "total": 86.81,
+            "last_name": "Garrett",
+            "customer_id": 238,
+            "first_name": "Nellie"
+        },
+        {
+            "total": 86.81,
+            "last_name": "Lyman",
+            "customer_id": 478,
+            "first_name": "Lewis"
+        },
+        {
+            "total": 86.81,
+            "last_name": "Geary",
+            "customer_id": 501,
+            "first_name": "Ruben"
+        },
+        {
+            "total": 86.8,
+            "last_name": "Torres",
+            "customer_id": 67,
+            "first_name": "Kelly"
+        },
+        {
+            "total": 86.8,
+            "last_name": "Matthews",
+            "customer_id": 169,
+            "first_name": "Erica"
+        },
+        {
+            "total": 86.79,
+            "last_name": "Bishop",
+            "customer_id": 217,
+            "first_name": "Agnes"
+        },
+        {
+            "total": 86.77,
+            "last_name": "Myers",
+            "customer_id": 101,
+            "first_name": "Peggy"
+        },
+        {
+            "total": 86.77,
+            "last_name": "Reid",
+            "customer_id": 232,
+            "first_name": "Constance"
+        },
+        {
+            "total": 86.76,
+            "last_name": "Carbone",
+            "customer_id": 419,
+            "first_name": "Chad"
+        },
+        {
+            "total": 86.75,
+            "last_name": "Wheeler",
+            "customer_id": 208,
+            "first_name": "Lucy"
+        },
+        {
+            "total": 86.75,
+            "last_name": "Stanley",
+            "customer_id": 228,
+            "first_name": "Allison"
+        },
+        {
+            "total": 86.75,
+            "last_name": "Still",
+            "customer_id": 561,
+            "first_name": "Ian"
+        },
+        {
+            "total": 86.73,
+            "last_name": "Harrison",
+            "customer_id": 115,
+            "first_name": "Wendy"
+        },
+        {
+            "total": 85.8,
+            "last_name": "Neumann",
+            "customer_id": 437,
+            "first_name": "Randall"
+        },
+        {
+            "total": 85.8,
+            "last_name": "Mcadams",
+            "customer_id": 567,
+            "first_name": "Alfredo"
+        },
+        {
+            "total": 85.78,
+            "last_name": "Markham",
+            "customer_id": 359,
+            "first_name": "Willie"
+        },
+        {
+            "total": 85.78,
+            "last_name": "Barkley",
+            "customer_id": 382,
+            "first_name": "Victor"
+        },
+        {
+            "total": 85.78,
+            "last_name": "Wiles",
+            "customer_id": 455,
+            "first_name": "Jon"
+        },
+        {
+            "total": 85.77,
+            "last_name": "Wilson",
+            "customer_id": 8,
+            "first_name": "Susan"
+        },
+        {
+            "total": 85.77,
+            "last_name": "Lee",
+            "customer_id": 24,
+            "first_name": "Kimberly"
+        },
+        {
+            "total": 85.77,
+            "last_name": "Bennett",
+            "customer_id": 77,
+            "first_name": "Jane"
+        },
+        {
+            "total": 85.75,
+            "last_name": "Robb",
+            "customer_id": 450,
+            "first_name": "Jay"
+        },
+        {
+            "total": 84.84,
+            "last_name": "Tirado",
+            "customer_id": 542,
+            "first_name": "Lonnie"
+        },
+        {
+            "total": 84.81,
+            "last_name": "Reed",
+            "customer_id": 55,
+            "first_name": "Doris"
+        },
+        {
+            "total": 84.81,
+            "last_name": "Noland",
+            "customer_id": 545,
+            "first_name": "Julio"
+        },
+        {
+            "total": 84.8,
+            "last_name": "Hughes",
+            "customer_id": 88,
+            "first_name": "Bonnie"
+        },
+        {
+            "total": 84.8,
+            "last_name": "Bolin",
+            "customer_id": 539,
+            "first_name": "Mathew"
+        },
+        {
+            "total": 84.79,
+            "last_name": "Gannon",
+            "customer_id": 299,
+            "first_name": "James"
+        },
+        {
+            "total": 84.75,
+            "last_name": "Davis",
+            "customer_id": 6,
+            "first_name": "Jennifer"
+        },
+        {
+            "total": 83.82,
+            "last_name": "Ramos",
+            "customer_id": 140,
+            "first_name": "Eva"
+        },
+        {
+            "total": 83.81,
+            "last_name": "Hauser",
+            "customer_id": 480,
+            "first_name": "Corey"
+        },
+        {
+            "total": 83.8,
+            "last_name": "Gordon",
+            "customer_id": 143,
+            "first_name": "Leslie"
+        },
+        {
+            "total": 83.79,
+            "last_name": "Colby",
+            "customer_id": 440,
+            "first_name": "Bernard"
+        },
+        {
+            "total": 83.78,
+            "last_name": "Delvalle",
+            "customer_id": 598,
+            "first_name": "Wade"
+        },
+        {
+            "total": 83.77,
+            "last_name": "Newsom",
+            "customer_id": 340,
+            "first_name": "Patrick"
+        },
+        {
+            "total": 82.81,
+            "last_name": "Wren",
+            "customer_id": 496,
+            "first_name": "Tyler"
+        },
+        {
+            "total": 82.78,
+            "last_name": "Pfeiffer",
+            "customer_id": 564,
+            "first_name": "Bob"
+        },
+        {
+            "total": 82.76,
+            "last_name": "Sanborn",
+            "customer_id": 498,
+            "first_name": "Gene"
+        },
+        {
+            "total": 81.83,
+            "last_name": "Chapa",
+            "customer_id": 483,
+            "first_name": "Vernon"
+        },
+        {
+            "total": 81.83,
+            "last_name": "Ely",
+            "customer_id": 524,
+            "first_name": "Jared"
+        },
+        {
+            "total": 81.81,
+            "last_name": "Watkins",
+            "customer_id": 174,
+            "first_name": "Yvonne"
+        },
+        {
+            "total": 81.81,
+            "last_name": "Grigsby",
+            "customer_id": 308,
+            "first_name": "Thomas"
+        },
+        {
+            "total": 81.81,
+            "last_name": "Morrissey",
+            "customer_id": 322,
+            "first_name": "Jason"
+        },
+        {
+            "total": 81.8,
+            "last_name": "Stephens",
+            "customer_id": 165,
+            "first_name": "Lorraine"
+        },
+        {
+            "total": 81.8,
+            "last_name": "Rinehart",
+            "customer_id": 312,
+            "first_name": "Mark"
+        },
+        {
+            "total": 81.78,
+            "last_name": "Jones",
+            "customer_id": 4,
+            "first_name": "Barbara"
+        },
+        {
+            "total": 81.78,
+            "last_name": "Jung",
+            "customer_id": 534,
+            "first_name": "Christian"
+        },
+        {
+            "total": 81.76,
+            "last_name": "Banks",
+            "customer_id": 215,
+            "first_name": "Jessie"
+        },
+        {
+            "total": 81.76,
+            "last_name": "Meehan",
+            "customer_id": 527,
+            "first_name": "Cory"
+        },
+        {
+            "total": 81.75,
+            "last_name": "Palmer",
+            "customer_id": 151,
+            "first_name": "Megan"
+        },
+        {
+            "total": 80.85,
+            "last_name": "Trout",
+            "customer_id": 311,
+            "first_name": "Paul"
+        },
+        {
+            "total": 80.83,
+            "last_name": "Aquino",
+            "customer_id": 449,
+            "first_name": "Oscar"
+        },
+        {
+            "total": 80.82,
+            "last_name": "Carr",
+            "customer_id": 205,
+            "first_name": "Eileen"
+        },
+        {
+            "total": 80.81,
+            "last_name": "Curley",
+            "customer_id": 316,
+            "first_name": "Steven"
+        },
+        {
+            "total": 80.8,
+            "last_name": "Ruiz",
+            "customer_id": 184,
+            "first_name": "Vivian"
+        },
+        {
+            "total": 80.78,
+            "last_name": "Miles",
+            "customer_id": 287,
+            "first_name": "Becky"
+        },
+        {
+            "total": 80.78,
+            "last_name": "Chambers",
+            "customer_id": 290,
+            "first_name": "Kristina"
+        },
+        {
+            "total": 80.77,
+            "last_name": "Rico",
+            "customer_id": 357,
+            "first_name": "Keith"
+        },
+        {
+            "total": 80.77,
+            "last_name": "South",
+            "customer_id": 521,
+            "first_name": "Roland"
+        },
+        {
+            "total": 79.81,
+            "last_name": "West",
+            "customer_id": 109,
+            "first_name": "Edna"
+        },
+        {
+            "total": 79.81,
+            "last_name": "Royal",
+            "customer_id": 304,
+            "first_name": "David"
+        },
+        {
+            "total": 79.8,
+            "last_name": "Harper",
+            "customer_id": 185,
+            "first_name": "Roberta"
+        },
+        {
+            "total": 79.8,
+            "last_name": "Castro",
+            "customer_id": 282,
+            "first_name": "Jenny"
+        },
+        {
+            "total": 79.78,
+            "last_name": "Schilling",
+            "customer_id": 387,
+            "first_name": "Jesse"
+        },
+        {
+            "total": 79.75,
+            "last_name": "Gamez",
+            "customer_id": 391,
+            "first_name": "Clarence"
+        },
+        {
+            "total": 78.84,
+            "last_name": "Isbell",
+            "customer_id": 429,
+            "first_name": "Frederick"
+        },
+        {
+            "total": 78.82,
+            "last_name": "Cintron",
+            "customer_id": 599,
+            "first_name": "Austin"
+        },
+        {
+            "total": 78.81,
+            "last_name": "Garcia",
+            "customer_id": 18,
+            "first_name": "Carol"
+        },
+        {
+            "total": 78.8,
+            "last_name": "Moore",
+            "customer_id": 9,
+            "first_name": "Margaret"
+        },
+        {
+            "total": 78.8,
+            "last_name": "Gilman",
+            "customer_id": 338,
+            "first_name": "Dennis"
+        },
+        {
+            "total": 78.79,
+            "last_name": "Cooper",
+            "customer_id": 62,
+            "first_name": "Joan"
+        },
+        {
+            "total": 78.79,
+            "last_name": "Pena",
+            "customer_id": 298,
+            "first_name": "Erika"
+        },
+        {
+            "total": 78.78,
+            "last_name": "Burton",
+            "customer_id": 227,
+            "first_name": "Colleen"
+        },
+        {
+            "total": 78.77,
+            "last_name": "Shelby",
+            "customer_id": 435,
+            "first_name": "Ricky"
+        },
+        {
+            "total": 77.84,
+            "last_name": "Fernandez",
+            "customer_id": 223,
+            "first_name": "Melinda"
+        },
+        {
+            "total": 77.81,
+            "last_name": "Boyd",
+            "customer_id": 134,
+            "first_name": "Emma"
+        },
+        {
+            "total": 77.81,
+            "last_name": "Yanez",
+            "customer_id": 402,
+            "first_name": "Luis"
+        },
+        {
+            "total": 77.8,
+            "last_name": "Brothers",
+            "customer_id": 394,
+            "first_name": "Chris"
+        },
+        {
+            "total": 77.79,
+            "last_name": "Stepp",
+            "customer_id": 384,
+            "first_name": "Ernest"
+        },
+        {
+            "total": 77.78,
+            "last_name": "Graham",
+            "customer_id": 104,
+            "first_name": "Rita"
+        },
+        {
+            "total": 77.77,
+            "last_name": "Burke",
+            "customer_id": 243,
+            "first_name": "Lydia"
+        },
+        {
+            "total": 76.82,
+            "last_name": "Mendoza",
+            "customer_id": 246,
+            "first_name": "Marian"
+        },
+        {
+            "total": 76.8,
+            "last_name": "Foster",
+            "customer_id": 93,
+            "first_name": "Phyllis"
+        },
+        {
+            "total": 76.8,
+            "last_name": "Cruz",
+            "customer_id": 118,
+            "first_name": "Kim"
+        },
+        {
+            "total": 76.78,
+            "last_name": "Garza",
+            "customer_id": 224,
+            "first_name": "Pearl"
+        },
+        {
+            "total": 75.83,
+            "last_name": "Ramirez",
+            "customer_id": 70,
+            "first_name": "Christina"
+        },
+        {
+            "total": 75.81,
+            "last_name": "Curtis",
+            "customer_id": 270,
+            "first_name": "Leah"
+        },
+        {
+            "total": 75.8,
+            "last_name": "Marlow",
+            "customer_id": 358,
+            "first_name": "Samuel"
+        },
+        {
+            "total": 75.79,
+            "last_name": "Barbee",
+            "customer_id": 551,
+            "first_name": "Clayton"
+        },
+        {
+            "total": 75.78,
+            "last_name": "Andrews",
+            "customer_id": 183,
+            "first_name": "Ida"
+        },
+        {
+            "total": 75.78,
+            "last_name": "Ashcraft",
+            "customer_id": 530,
+            "first_name": "Darryl"
+        },
+        {
+            "total": 74.84,
+            "last_name": "Chavez",
+            "customer_id": 194,
+            "first_name": "Kristen"
+        },
+        {
+            "total": 74.83,
+            "last_name": "Butterfield",
+            "customer_id": 412,
+            "first_name": "Allen"
+        },
+        {
+            "total": 74.83,
+            "last_name": "Lombardi",
+            "customer_id": 555,
+            "first_name": "Dwight"
+        },
+        {
+            "total": 74.81,
+            "last_name": "Thrasher",
+            "customer_id": 327,
+            "first_name": "Larry"
+        },
+        {
+            "total": 74.8,
+            "last_name": "Lance",
+            "customer_id": 420,
+            "first_name": "Jacob"
+        },
+        {
+            "total": 74.79,
+            "last_name": "Price",
+            "customer_id": 76,
+            "first_name": "Irene"
+        },
+        {
+            "total": 74.77,
+            "last_name": "Burns",
+            "customer_id": 142,
+            "first_name": "April"
+        },
+        {
+            "total": 73.85,
+            "last_name": "Meek",
+            "customer_id": 398,
+            "first_name": "Antonio"
+        },
+        {
+            "total": 73.83,
+            "last_name": "Holt",
+            "customer_id": 291,
+            "first_name": "Toni"
+        },
+        {
+            "total": 73.82,
+            "last_name": "Isom",
+            "customer_id": 399,
+            "first_name": "Danny"
+        },
+        {
+            "total": 73.81,
+            "last_name": "Barnes",
+            "customer_id": 79,
+            "first_name": "Rachel"
+        },
+        {
+            "total": 73.81,
+            "last_name": "Mills",
+            "customer_id": 152,
+            "first_name": "Alicia"
+        },
+        {
+            "total": 73.81,
+            "last_name": "Kruger",
+            "customer_id": 428,
+            "first_name": "Herbert"
+        },
+        {
+            "total": 73.8,
+            "last_name": "Pemberton",
+            "customer_id": 543,
+            "first_name": "Lance"
+        },
+        {
+            "total": 73.78,
+            "last_name": "Mauldin",
+            "customer_id": 335,
+            "first_name": "Gregory"
+        },
+        {
+            "total": 73.78,
+            "last_name": "Forsythe",
+            "customer_id": 596,
+            "first_name": "Enrique"
+        },
+        {
+            "total": 73.76,
+            "last_name": "Currier",
+            "customer_id": 411,
+            "first_name": "Norman"
+        },
+        {
+            "total": 72.83,
+            "last_name": "Bryant",
+            "customer_id": 95,
+            "first_name": "Paula"
+        },
+        {
+            "total": 72.82,
+            "last_name": "Bunn",
+            "customer_id": 325,
+            "first_name": "Timothy"
+        },
+        {
+            "total": 72.82,
+            "last_name": "Gruber",
+            "customer_id": 556,
+            "first_name": "Armando"
+        },
+        {
+            "total": 72.79,
+            "last_name": "Powell",
+            "customer_id": 85,
+            "first_name": "Anne"
+        },
+        {
+            "total": 71.85,
+            "last_name": "Baughman",
+            "customer_id": 301,
+            "first_name": "Robert"
+        },
+        {
+            "total": 71.84,
+            "last_name": "Hansen",
+            "customer_id": 222,
+            "first_name": "Delores"
+        },
+        {
+            "total": 71.81,
+            "last_name": "Gonzales",
+            "customer_id": 94,
+            "first_name": "Norma"
+        },
+        {
+            "total": 71.8,
+            "last_name": "Houle",
+            "customer_id": 430,
+            "first_name": "Ray"
+        },
+        {
+            "total": 71.79,
+            "last_name": "Horton",
+            "customer_id": 278,
+            "first_name": "Billie"
+        },
+        {
+            "total": 71.77,
+            "last_name": "Duncan",
+            "customer_id": 177,
+            "first_name": "Samantha"
+        },
+        {
+            "total": 70.82,
+            "last_name": "Pearson",
+            "customer_id": 255,
+            "first_name": "Irma"
+        },
+        {
+            "total": 70.82,
+            "last_name": "Culpepper",
+            "customer_id": 378,
+            "first_name": "Eugene"
+        },
+        {
+            "total": 70.81,
+            "last_name": "Satterfield",
+            "customer_id": 303,
+            "first_name": "William"
+        },
+        {
+            "total": 70.81,
+            "last_name": "Truong",
+            "customer_id": 370,
+            "first_name": "Wayne"
+        },
+        {
+            "total": 69.83,
+            "last_name": "Mcdonald",
+            "customer_id": 117,
+            "first_name": "Edith"
+        },
+        {
+            "total": 69.79,
+            "last_name": "Wheat",
+            "customer_id": 369,
+            "first_name": "Fred"
+        },
+        {
+            "total": 69.79,
+            "last_name": "Troutman",
+            "customer_id": 514,
+            "first_name": "Franklin"
+        },
+        {
+            "total": 68.87,
+            "last_name": "Cabral",
+            "customer_id": 310,
+            "first_name": "Daniel"
+        },
+        {
+            "total": 68.84,
+            "last_name": "Gandy",
+            "customer_id": 465,
+            "first_name": "Floyd"
+        },
+        {
+            "total": 68.82,
+            "last_name": "Clary",
+            "customer_id": 525,
+            "first_name": "Adrian"
+        },
+        {
+            "total": 68.81,
+            "last_name": "Grissom",
+            "customer_id": 355,
+            "first_name": "Terry"
+        },
+        {
+            "total": 68.77,
+            "last_name": "Sutton",
+            "customer_id": 283,
+            "first_name": "Felicia"
+        },
+        {
+            "total": 67.86,
+            "last_name": "Evans",
+            "customer_id": 48,
+            "first_name": "Ann"
+        },
+        {
+            "total": 67.86,
+            "last_name": "Gooden",
+            "customer_id": 315,
+            "first_name": "Kenneth"
+        },
+        {
+            "total": 67.86,
+            "last_name": "Kenyon",
+            "customer_id": 464,
+            "first_name": "Jerome"
+        },
+        {
+            "total": 67.82,
+            "last_name": "Mccoy",
+            "customer_id": 218,
+            "first_name": "Vera"
+        },
+        {
+            "total": 66.82,
+            "last_name": "Greene",
+            "customer_id": 191,
+            "first_name": "Jeanette"
+        },
+        {
+            "total": 66.81,
+            "last_name": "Dowd",
+            "customer_id": 458,
+            "first_name": "Lloyd"
+        },
+        {
+            "total": 66.79,
+            "last_name": "Henning",
+            "customer_id": 568,
+            "first_name": "Alberto"
+        },
+        {
+            "total": 65.87,
+            "last_name": "Caldwell",
+            "customer_id": 272,
+            "first_name": "Kay"
+        },
+        {
+            "total": 65.83,
+            "last_name": "Spear",
+            "customer_id": 328,
+            "first_name": "Jeffrey"
+        },
+        {
+            "total": 65.83,
+            "last_name": "Scarborough",
+            "customer_id": 353,
+            "first_name": "Jonathan"
+        },
+        {
+            "total": 65.81,
+            "last_name": "Yee",
+            "customer_id": 413,
+            "first_name": "Marvin"
+        },
+        {
+            "total": 64.85,
+            "last_name": "Gardner",
+            "customer_id": 164,
+            "first_name": "Joann"
+        },
+        {
+            "total": 64.84,
+            "last_name": "Billingsley",
+            "customer_id": 344,
+            "first_name": "Henry"
+        },
+        {
+            "total": 64.82,
+            "last_name": "Andrew",
+            "customer_id": 326,
+            "first_name": "Jose"
+        },
+        {
+            "total": 63.84,
+            "last_name": "Mahon",
+            "customer_id": 313,
+            "first_name": "Donald"
+        },
+        {
+            "total": 63.84,
+            "last_name": "Cornish",
+            "customer_id": 548,
+            "first_name": "Allan"
+        },
+        {
+            "total": 63.79,
+            "last_name": "Fraley",
+            "customer_id": 350,
+            "first_name": "Juan"
+        },
+        {
+            "total": 63.78,
+            "last_name": "Gaffney",
+            "customer_id": 557,
+            "first_name": "Felix"
+        },
+        {
+            "total": 62.85,
+            "last_name": "Kraus",
+            "customer_id": 492,
+            "first_name": "Lester"
+        },
+        {
+            "total": 62.84,
+            "last_name": "Christenson",
+            "customer_id": 549,
+            "first_name": "Nelson"
+        },
+        {
+            "total": 62.81,
+            "last_name": "Carranza",
+            "customer_id": 401,
+            "first_name": "Tony"
+        },
+        {
+            "total": 60.82,
+            "last_name": "Shelley",
+            "customer_id": 330,
+            "first_name": "Scott"
+        },
+        {
+            "total": 59.86,
+            "last_name": "Morales",
+            "customer_id": 136,
+            "first_name": "Anita"
+        },
+        {
+            "total": 59.83,
+            "last_name": "Hudson",
+            "customer_id": 162,
+            "first_name": "Lauren"
+        },
+        {
+            "total": 58.83,
+            "last_name": "Hawkins",
+            "customer_id": 159,
+            "first_name": "Jill"
+        },
+        {
+            "total": 58.82,
+            "last_name": "Russell",
+            "customer_id": 97,
+            "first_name": "Annie"
+        },
+        {
+            "total": 58.8,
+            "last_name": "Hoffman",
+            "customer_id": 252,
+            "first_name": "Mattie"
+        },
+        {
+            "total": 57.87,
+            "last_name": "Rivera",
+            "customer_id": 61,
+            "first_name": "Katherine"
+        },
+        {
+            "total": 57.86,
+            "last_name": "Wells",
+            "customer_id": 124,
+            "first_name": "Sheila"
+        },
+        {
+            "total": 57.81,
+            "last_name": "Turpin",
+            "customer_id": 395,
+            "first_name": "Johnny"
+        },
+        {
+            "total": 56.84,
+            "last_name": "Neal",
+            "customer_id": 271,
+            "first_name": "Penny"
+        },
+        {
+            "total": 54.85,
+            "last_name": "Fowler",
+            "customer_id": 250,
+            "first_name": "Jo"
+        },
+        {
+            "total": 52.81,
+            "last_name": "Craig",
+            "customer_id": 288,
+            "first_name": "Bobbie"
+        },
+        {
+            "total": 50.83,
+            "last_name": "Stclair",
+            "customer_id": 586,
+            "first_name": "Kirk"
+        },
+        {
+            "total": 49.88,
+            "last_name": "Jordan",
+            "customer_id": 110,
+            "first_name": "Tiffany"
+        },
+        {
+            "total": 47.85,
+            "last_name": "Schwab",
+            "customer_id": 320,
+            "first_name": "Anthony"
+        },
+        {
+            "total": 37.87,
+            "last_name": "Bowman",
+            "customer_id": 248,
+            "first_name": "Caroline"
+        },
+        {
+            "total": 32.9,
+            "last_name": "Obrien",
+            "customer_id": 281,
+            "first_name": "Leona"
+        },
+        {
+            "total": 27.93,
+            "last_name": "Wyman",
+            "customer_id": 318,
+            "first_name": "Brian"
+        }
+    ]
+}

@@ -146,13 +146,25 @@ https://youtu.be/RsZqWlDTHmY
 
 <img src="Exercises/Ex6.png" width="500px">
 
-### Solution
+#### Configure tMap for joinning payment and customer tables
 
-https://youtu.be/vqox4KDe_0I
+<img src="Solutions/Sol6_tmap.png" width="400"/>
+
+#### Configure aggregate row
+
+<img src="Solutions/Sol6_aggregateRow.png" width="400"/>
+
+#### Configure sort row
+
+<img src="Solutions/Sol6_sort.png" width="400"/>
+
+#### Select and configure tFileOutputJson component
+
+<img src="Solutions/Sol6_outputJSON.png" width="400"/>
 
 #### Final job
 
-<img src="Solutions/Sol6.png" width="400"/>
+<img src="Solutions/Sol6.png" width="450"/>
 
 #### Output JSON: Sol6.json
 
