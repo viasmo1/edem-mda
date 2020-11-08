@@ -1,8 +1,8 @@
 # ETL Exercise
 
-## Load the database created in the SQL session
+## Activate container with the database created in the SQL session
 
-1) Navigate to the path where the sql docker compose file is
+1) Navigate to the path where the sql docker-compose file is
 
 2) Run the following command:
 
