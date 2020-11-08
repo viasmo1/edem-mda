@@ -22,7 +22,7 @@
 
 #### Select and configure tFileOutputJson component
 
-<img src="Solutions/Sol1_outputJSON.png" width="400"/>
+<img src="Solutions/Sol1_outputJSON.png" width="500"/>
 
 #### Final job
 
@@ -44,11 +44,11 @@
 
 #### Select and configure tReplace component
 
-<img src="Solutions/Sol2_tReplace.png" width="450"/>
+<img src="Solutions/Sol2_tReplace.png" width="550"/>
 
 #### Select and configure tFileOutputJson component
 
-<img src="Solutions/Sol2_outputJSON.png" width="400"/>
+<img src="Solutions/Sol2_outputJSON.png" width="500"/>
 
 #### Final job
 
@@ -74,7 +74,7 @@ Add connection
 
 Configure connection
 
-<img src="Solutions/Sol3_db_connection_2.png" width="450"/>
+<img src="Solutions/Sol3_db_connection_2.png" width="550"/>
 
 Add schemas
 
@@ -84,11 +84,11 @@ Add schemas
 
 https://youtu.be/aQlD-KURSlc
 
-<img src="Solutions/Sol3_actor.png" width="400"/>
+<img src="Solutions/Sol3_actor.png" width="550"/>
 
 #### Select and configure tFileOutputJson component
 
-<img src="Solutions/Sol3_outputJSON.png" width="400"/>
+<img src="Solutions/Sol3_outputJSON.png" width="500"/>
 
 #### Final job
 
@@ -108,17 +108,17 @@ https://youtu.be/nKF2fxJYfc4
 
 #### Select film table
 
-<img src="Solutions/Sol4_film.png" width="400"/>
+<img src="Solutions/Sol4_film.png" width="550"/>
 
 #### Add and configure tAggregateRow
 
-<img src="Solutions/Sol4_aggregateRow_1.png" width="400"/>
+<img src="Solutions/Sol4_aggregateRow_1.png" width="550"/>
 
-<img src="Solutions/Sol4_aggregateRow_2.png" width="400"/>
+<img src="Solutions/Sol4_aggregateRow_2.png" width="550"/>
 
 #### Select and configure tFileOutputJson component
 
-<img src="Solutions/Sol4_outputJSON.png" width="400"/>
+<img src="Solutions/Sol4_outputJSON.png" width="500"/>
 
 #### Final job
 
@@ -152,19 +152,19 @@ https://youtu.be/RsZqWlDTHmY
 
 #### Configure tMap for joinning payment and customer tables
 
-<img src="Solutions/Sol6_tmap.png" width="400"/>
+<img src="Solutions/Sol6_tmap.png" width="600"/>
 
 #### Configure aggregate row
 
-<img src="Solutions/Sol6_aggregateRow.png" width="400"/>
+<img src="Solutions/Sol6_aggregateRow.png" width="600"/>
 
 #### Configure sort row
 
-<img src="Solutions/Sol6_sort.png" width="400"/>
+<img src="Solutions/Sol6_sort.png" width="500"/>
 
 #### Select and configure tFileOutputJson component
 
-<img src="Solutions/Sol6_outputJSON.png" width="400"/>
+<img src="Solutions/Sol6_outputJSON.png" width="500"/>
 
 #### Final job
 
@@ -184,27 +184,27 @@ https://youtu.be/vqox4KDe_0I
 
 #### Configure tMap for joinning payment and customer tables
 
-<img src="Solutions/Sol7_tmap.png" width="500"/>
+<img src="Solutions/Sol7_tmap.png" width="600"/>
 
 #### Configure aggregate row
 
-<img src="Solutions/Sol7_aggregateRow.png" width="400"/>
+<img src="Solutions/Sol7_aggregateRow.png" width="600"/>
 
 #### Configure filter row
 
-<img src="Solutions/Sol7_filter.png" width="400"/>
+<img src="Solutions/Sol7_filter.png" width="500"/>
 
 #### Configure sort row
 
-<img src="Solutions/Sol7_sort.png" width="400"/>
+<img src="Solutions/Sol7_sort.png" width="500"/>
 
 #### Configure export to table dvdrentals.film_rentals
 
-<img src="Solutions/Sol7_export.png" width="400"/>
+<img src="Solutions/Sol7_export.png" width="550"/>
 
 #### Final job
 
-<img src="Solutions/Sol7.png" width="400"/>
+<img src="Solutions/Sol7.png" width="500"/>
 
 #### Output in dvdrentals
 
@@ -226,11 +226,11 @@ Follow steps of *Authenticating with Google BigQuery* in the following [link](ht
 
 **Select and configure tBigQueryInput**
 
-<img src="Solutions/Sol8_bigQ_input.png" width="450"/>
+<img src="Solutions/Sol8_bigQ_input.png" width="550"/>
 
 **Select and configure tFileOutputJson component**
 
-<img src="Solutions/Sol8_outputJSON.png" width="400"/>
+<img src="Solutions/Sol8_outputJSON.png" width="500"/>
 
 **Final job**
 
