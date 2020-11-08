@@ -1,9 +1,9 @@
 ﻿{
     "paragraphs": [
         {
-            "text": "%md\n# Exercise2",
+            "text": "%md\n# NOSQL Cassandra: Exercise2",
             "user": "anonymous",
-            "dateUpdated": "2020-11-08T10:30:34+0000",
+            "dateUpdated": "2020-11-08T10:54:38+0000",
             "config": {
                 "colWidth": 12,
                 "fontSize": 9,
@@ -27,7 +27,7 @@
                 "msg": [
                     {
                         "type": "HTML",
-                        "data": "<div class=\"markdown-body\">\n<h1>Exercise2</h1>\n</div>"
+                        "data": "<div class=\"markdown-body\">\n<h1>NOSQL Cassandra: Exercise2</h1>\n</div>"
                     }
                 ]
             },
@@ -35,12 +35,12 @@
             "jobName": "paragraph_1604688610392_1651023705",
             "id": "20201106-185010_1007845213",
             "dateCreated": "2020-11-06T18:50:10+0000",
-            "dateStarted": "2020-11-08T10:30:34+0000",
-            "dateFinished": "2020-11-08T10:30:34+0000",
+            "dateStarted": "2020-11-08T10:54:38+0000",
+            "dateFinished": "2020-11-08T10:54:38+0000",
             "status": "FINISHED",
             "progressUpdateIntervalMs": 500,
             "focus": true,
-            "$$hashKey": "object:3367"
+            "$$hashKey": "object:30473"
         },
         {
             "text": "%md\n- Get the help",
@@ -81,7 +81,7 @@
             "dateFinished": "2020-11-08T10:30:35+0000",
             "status": "FINISHED",
             "progressUpdateIntervalMs": 500,
-            "$$hashKey": "object:3368"
+            "$$hashKey": "object:30474"
         },
         {
             "text": "HELP;",
@@ -119,7 +119,7 @@
             "dateFinished": "2020-11-08T10:30:37+0000",
             "status": "FINISHED",
             "progressUpdateIntervalMs": 500,
-            "$$hashKey": "object:3369"
+            "$$hashKey": "object:30475"
         },
         {
             "text": "%md\n## Use Case: Messaging System\n\n**Description:**\n\nWe want to create the tables required for a persistent messaging system similar to WhatsApp.\n\n**Features:**\n\n* We need to store all messages\n* The user has the ability to create groups\n* Access patterns:\n    * Send a message (store a single message) in a conversation or group\n    * Retrieve all messages from a conversation\n    * Retrieve all messages from a group\n    * Remove a single message\n\n**Deliverable:**\n\nDDL scripts for the required table(s)\nExplanation of the data model",
@@ -160,7 +160,7 @@
             "dateFinished": "2020-11-08T10:30:39+0000",
             "status": "FINISHED",
             "progressUpdateIntervalMs": 500,
-            "$$hashKey": "object:3370"
+            "$$hashKey": "object:30476"
         },
         {
             "text": "%md\n**Create keyspace named whatsapp**",
@@ -201,7 +201,7 @@
             "dateFinished": "2020-11-08T10:30:42+0000",
             "status": "FINISHED",
             "progressUpdateIntervalMs": 500,
-            "$$hashKey": "object:3371"
+            "$$hashKey": "object:30477"
         },
         {
             "text": "CREATE KEYSPACE IF NOT EXISTS whatsapp WITH replication = {'class': 'SimpleStrategy', 'replication_factor' : 3};\nDESCRIBE KEYSPACE whatsapp;",
@@ -270,7 +270,7 @@
             "dateFinished": "2020-11-08T10:34:09+0000",
             "status": "FINISHED",
             "progressUpdateIntervalMs": 500,
-            "$$hashKey": "object:3372"
+            "$$hashKey": "object:30478"
         },
         {
             "text": "%md\n**Create messages table**",
@@ -311,7 +311,7 @@
             "dateFinished": "2020-11-08T10:34:19+0000",
             "status": "FINISHED",
             "progressUpdateIntervalMs": 500,
-            "$$hashKey": "object:3373"
+            "$$hashKey": "object:30479"
         },
         {
             "text": "CREATE TABLE IF NOT EXISTS whatsapp.messages (\n    message_id uuid,\n    message_content text, \n    sent_at timeuuid,\n    group_id uuid,\n    sender uuid,\n    message_reply uuid,\n    PRIMARY KEY ((group_id, message_id), sent_at)\n);\nDESCRIBE TABLE whatsapp.messages;",
@@ -349,7 +349,7 @@
             "dateFinished": "2020-11-08T10:34:41+0000",
             "status": "FINISHED",
             "progressUpdateIntervalMs": 500,
-            "$$hashKey": "object:3374"
+            "$$hashKey": "object:30480"
         },
         {
             "text": "%md\n**Insert first entry in whatsapp.messages**",
@@ -390,7 +390,7 @@
             "dateFinished": "2020-11-08T10:35:21+0000",
             "status": "FINISHED",
             "progressUpdateIntervalMs": 500,
-            "$$hashKey": "object:3375"
+            "$$hashKey": "object:30481"
         },
         {
             "text": "INSERT INTO whatsapp.messages (message_id, message_content, sent_at, group_id, sender) VALUES (uuid(), 'Hello people!', now(), uuid(), uuid());",
@@ -428,7 +428,7 @@
             "dateFinished": "2020-11-08T10:35:25+0000",
             "status": "FINISHED",
             "progressUpdateIntervalMs": 500,
-            "$$hashKey": "object:3376"
+            "$$hashKey": "object:30482"
         },
         {
             "text": "%md\n**Query whatsapp.messages**",
@@ -452,15 +452,6 @@
                 "params": {},
                 "forms": {}
             },
-            "apps": [],
-            "jobName": "paragraph_1604692370375_446300832",
-            "id": "20201106-195250_1853601334",
-            "dateCreated": "2020-11-06T19:52:50+0000",
-            "status": "FINISHED",
-            "progressUpdateIntervalMs": 500,
-            "$$hashKey": "object:3377",
-            "dateFinished": "2020-11-08T10:35:26+0000",
-            "dateStarted": "2020-11-08T10:35:26+0000",
             "results": {
                 "code": "SUCCESS",
                 "msg": [
@@ -469,7 +460,16 @@
                         "data": "<div class=\"markdown-body\">\n<p><strong>Query whatsapp.messages</strong></p>\n</div>"
                     }
                 ]
-            }
+            },
+            "apps": [],
+            "jobName": "paragraph_1604692370375_446300832",
+            "id": "20201106-195250_1853601334",
+            "dateCreated": "2020-11-06T19:52:50+0000",
+            "dateStarted": "2020-11-08T10:35:26+0000",
+            "dateFinished": "2020-11-08T10:35:26+0000",
+            "status": "FINISHED",
+            "progressUpdateIntervalMs": 500,
+            "$$hashKey": "object:30483"
         },
         {
             "text": "SELECT * FROM whatsapp.messages;",
@@ -539,10 +539,12 @@
             "dateFinished": "2020-11-08T10:35:31+0000",
             "status": "FINISHED",
             "progressUpdateIntervalMs": 500,
-            "$$hashKey": "object:3378"
+            "$$hashKey": "object:30484"
         },
         {
+            "text": "%md\n**Detele all entries in whatsapp.messages**",
             "user": "anonymous",
+            "dateUpdated": "2020-11-08T10:35:43+0000",
             "config": {
                 "colWidth": 12,
                 "fontSize": 9,
@@ -561,18 +563,6 @@
                 "params": {},
                 "forms": {}
             },
-            "apps": [],
-            "jobName": "paragraph_1604829750403_-2078612014",
-            "id": "20201108-100230_1173656604",
-            "dateCreated": "2020-11-08T10:02:30+0000",
-            "status": "FINISHED",
-            "progressUpdateIntervalMs": 500,
-            "focus": true,
-            "$$hashKey": "object:7543",
-            "text": "%md\n**Detele all entries in whatsapp.messages**",
-            "dateUpdated": "2020-11-08T10:35:43+0000",
-            "dateFinished": "2020-11-08T10:35:43+0000",
-            "dateStarted": "2020-11-08T10:35:43+0000",
             "results": {
                 "code": "SUCCESS",
                 "msg": [
@@ -581,7 +571,16 @@
                         "data": "<div class=\"markdown-body\">\n<p><strong>Detele all entries in whatsapp.messages</strong></p>\n</div>"
                     }
                 ]
-            }
+            },
+            "apps": [],
+            "jobName": "paragraph_1604829750403_-2078612014",
+            "id": "20201108-100230_1173656604",
+            "dateCreated": "2020-11-08T10:02:30+0000",
+            "dateStarted": "2020-11-08T10:35:43+0000",
+            "dateFinished": "2020-11-08T10:35:43+0000",
+            "status": "FINISHED",
+            "progressUpdateIntervalMs": 500,
+            "$$hashKey": "object:30485"
         },
         {
             "text": "TRUNCATE whatsapp.messages;\nSELECT * FROM whatsapp.messages;",
@@ -605,16 +604,6 @@
                 "params": {},
                 "forms": {}
             },
-            "apps": [],
-            "jobName": "paragraph_1604829766221_2114225259",
-            "id": "20201108-100246_703692671",
-            "dateCreated": "2020-11-08T10:02:46+0000",
-            "status": "FINISHED",
-            "progressUpdateIntervalMs": 500,
-            "focus": true,
-            "$$hashKey": "object:7638",
-            "dateFinished": "2020-11-08T10:35:45+0000",
-            "dateStarted": "2020-11-08T10:35:44+0000",
             "results": {
                 "code": "SUCCESS",
                 "msg": [
@@ -623,7 +612,16 @@
                         "data": "\n\n<div class=\"container\">\n<div class=\"row text-center\">\n<h4>No Result</h4>\n</div>\n<br/>\n    <div class=\"row\">\n    <div class=\"col-md-3\"></div>\n    <div class=\"col-md-6 col-offset-md-3 table-responsive table-bordered\">\n        <table class=\"table\">\n            <caption><h5>Last query execution info</h5></caption>\n            <thead>\n                <tr>\n                    <th>Info</th>\n                    <th>Value</th>\n                </tr>\n            </thead>\n            <tbody>\n                <tr>\n                    <td>Statement</td>\n                    <td>SELECT * FROM whatsapp.messages;</td>\n                </tr>\n                <tr>\n                    <td>Achieved Consistency</td>\n                    <td>N/A</td>\n                </tr>\n                <tr>\n                    <td>Tried Hosts</td>\n                    <td>cassandra172.24.0.4:9042</td>\n                </tr>\n                <tr>\n                    <td>Queried Hosts</td>\n                    <td>cassandra172.24.0.4:9042</td>\n                </tr>\n                <tr>\n                    <td>Schema In Agreement</td>\n                    <td>true</td>\n                </tr>\n            </tbody>\n        </table>\n    </div>\n    </div>\n</div>"
                     }
                 ]
-            }
+            },
+            "apps": [],
+            "jobName": "paragraph_1604829766221_2114225259",
+            "id": "20201108-100246_703692671",
+            "dateCreated": "2020-11-08T10:02:46+0000",
+            "dateStarted": "2020-11-08T10:35:44+0000",
+            "dateFinished": "2020-11-08T10:35:45+0000",
+            "status": "FINISHED",
+            "progressUpdateIntervalMs": 500,
+            "$$hashKey": "object:30486"
         },
         {
             "text": "%md\n**Create groups table**\nOne to one conversations are groups of 2 people",
@@ -664,7 +662,7 @@
             "dateFinished": "2020-11-08T10:35:48+0000",
             "status": "FINISHED",
             "progressUpdateIntervalMs": 500,
-            "$$hashKey": "object:3379"
+            "$$hashKey": "object:30487"
         },
         {
             "text": "CREATE TABLE IF NOT EXISTS whatsapp.groups(\n    group_id uuid,\n    created_at timeuuid,\n    admin uuid,\n    participants set<uuid>,\n    PRIMARY KEY (admin, created_at)\n);\nDESCRIBE TABLE whatsapp.groups;",
@@ -702,10 +700,12 @@
             "dateFinished": "2020-11-08T10:36:03+0000",
             "status": "FINISHED",
             "progressUpdateIntervalMs": 500,
-            "$$hashKey": "object:3380"
+            "$$hashKey": "object:30488"
         },
         {
+            "text": "%md\n**Use whatsapp keyspace and describe it**\nWe won't need to use the keyspace name to call the tables inside: *whatsapp.groups -> groups*",
             "user": "anonymous",
+            "dateUpdated": "2020-11-08T10:36:08+0000",
             "config": {
                 "colWidth": 12,
                 "fontSize": 9,
@@ -724,18 +724,6 @@
                 "params": {},
                 "forms": {}
             },
-            "apps": [],
-            "jobName": "paragraph_1604830012435_350883567",
-            "id": "20201108-100652_1717229911",
-            "dateCreated": "2020-11-08T10:06:52+0000",
-            "status": "FINISHED",
-            "progressUpdateIntervalMs": 500,
-            "focus": true,
-            "$$hashKey": "object:8158",
-            "text": "%md\n**Use whatsapp keyspace and describe it**\nWe won't need to use the keyspace name to call the tables inside: *whatsapp.groups -> groups*",
-            "dateUpdated": "2020-11-08T10:36:08+0000",
-            "dateFinished": "2020-11-08T10:36:08+0000",
-            "dateStarted": "2020-11-08T10:36:08+0000",
             "results": {
                 "code": "SUCCESS",
                 "msg": [
@@ -744,7 +732,16 @@
                         "data": "<div class=\"markdown-body\">\n<p><strong>Use whatsapp keyspace and describe it</strong><br/>We won&rsquo;t need to use the keyspace name to call the tables inside: <em>whatsapp.groups -&gt; groups</em></p>\n</div>"
                     }
                 ]
-            }
+            },
+            "apps": [],
+            "jobName": "paragraph_1604830012435_350883567",
+            "id": "20201108-100652_1717229911",
+            "dateCreated": "2020-11-08T10:06:52+0000",
+            "dateStarted": "2020-11-08T10:36:08+0000",
+            "dateFinished": "2020-11-08T10:36:08+0000",
+            "status": "FINISHED",
+            "progressUpdateIntervalMs": 500,
+            "$$hashKey": "object:30489"
         },
         {
             "text": "USE whatsapp;\nDESCRIBE KEYSPACE whatsapp;",
@@ -767,16 +764,6 @@
                 "params": {},
                 "forms": {}
             },
-            "apps": [],
-            "jobName": "paragraph_1604830036450_-625139922",
-            "id": "20201108-100716_366465862",
-            "dateCreated": "2020-11-08T10:07:16+0000",
-            "status": "FINISHED",
-            "progressUpdateIntervalMs": 500,
-            "focus": true,
-            "$$hashKey": "object:8246",
-            "dateFinished": "2020-11-08T10:36:11+0000",
-            "dateStarted": "2020-11-08T10:36:11+0000",
             "results": {
                 "code": "SUCCESS",
                 "msg": [
@@ -785,10 +772,21 @@
                         "data": "\n\n<br/>\n<br/>\n<nav class=\"navbar navbar-default\">\n    <ul class=\"nav navbar-nav\">\n        \n\n<li role=\"presentation\" class=\"dropdown\">\n    <a class=\"dropdown-toggle\" data-toggle=\"dropdown\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\">\n        <span class=\"text-danger\"><i class=\"glyphicon glyphicon-folder-open\"/>&nbsp;&nbsp;<strong>whatsapp</strong></span>\n        <span class=\"text-danger caret\"></span>\n        <ul class=\"dropdown-menu\">\n            \n\n            <li class=\"dropdown-header\"><span class=\"text-primary\">Tables</span></li>\n                            <li>\n                <a role=\"button\" data-toggle=\"collapse\" data-target=\"#38645e20-21ae-11eb-8b5a-db68b2ded4e6\">\n                    <span class=\"text-primary\"><i class=\"glyphicon glyphicon-th-list\"/>&nbsp;groups</span>\n                </a>\n            </li>\n                            <li>\n                <a role=\"button\" data-toggle=\"collapse\" data-target=\"#3864fa60-21ae-11eb-8b5a-db68b2ded4e6\">\n                    <span class=\"text-primary\"><i class=\"glyphicon glyphicon-th-list\"/>&nbsp;messages</span>\n                </a>\n            </li>\n                            \n            \n            \n            \n                    </ul>\n    </a>\n</li>\n        <li>\n            <a><strong>DESCRIBE KEYSPACE whatsapp;</strong></a>\n        </li>\n    </ul>\n    <ul class=\"nav navbar-nav navbar-right\">\n        <li class=\"dropdown\">\n            <a class=\"dropdown-toggle\" data-toggle=\"dropdown\" role=\"button\" aria-haspopup=\"true\" aria-expanded=\"false\">\n                <strong>Legend</strong>\n                <span class=\"caret\"></span>\n            </a>\n            <ul class=\"dropdown-menu\">\n                <li>\n                    <a role=\"button\">\n                        <i class=\"glyphicon glyphicon-dashboard text-muted\" />&nbsp;Cluster\n                    </a>\n                </li>\n                <li>\n                    <a role=\"button\">\n                        <i class=\"glyphicon glyphicon-folder-open text-danger\" />&nbsp;&nbsp;Keyspace\n                    </a>\n                </li>\n                <li>\n                    <a role=\"button\">\n                        <i class=\"glyphicon glyphicon-copyright-mark text-warning\" />&nbsp;&nbsp;UDT\n                    </a>\n                </li>\n                <li>\n                    <a role=\"button\">\n                        <i class=\"glyphicon glyphicon-th-list text-primary\" />&nbsp;&nbsp;Table\n                    </a>\n                </li>\n                <li>\n                    <a role=\"button\">\n                        <i class=\"glyphicon glyphicon-eye-open text-primary\" />&nbsp;&nbsp;Materialized View\n                    </a>\n                </li>\n                <li>\n                    <a role=\"button\">\n                        <i class=\"glyphicon glyphicon-random text-success\" />&nbsp;&nbsp;Function\n                    </a>\n                </li>\n                <li>\n                    <a role=\"button\">\n                        <i class=\"glyphicon glyphicon-retweet text-success\" />&nbsp;&nbsp;Aggregate\n                    </a>\n                </li>\n                <li role=\"separator\" class=\"divider text-muted\"></li>\n                <li class=\"dropdown-header\"><span class=\"text-primary\">Table icons</span></li>\n                <li class=\"bg-info\">\n                    <a role=\"button\">\n                        <i class=\"glyphicon glyphicon-fullscreen\" />&nbsp;&nbsp;Partition Key\n                    </a>\n                </li>\n                <li class=\"bg-warning\">\n                    <a role=\"button\">\n                        <i class=\"glyphicon glyphicon-pushpin\" />&nbsp;&nbsp;Static Column\n                    </a>\n                </li>\n                <li class=\"bg-success\">\n                    <a role=\"button\">\n                        <i class=\"glyphicon glyphicon-sort\" />&nbsp;&nbsp;Clustering Column\n                    </a>\n                </li>\n                <li class=\"bg-success\">\n                    <a role=\"button\">\n                        <i class=\"glyphicon glyphicon-sort-by-attributes\" />&nbsp;&nbsp;Clustering Order ASC\n                    </a>\n                </li>\n                <li class=\"bg-success\">\n                    <a role=\"button\">\n                        <i class=\"glyphicon glyphicon-sort-by-attributes-alt\" />&nbsp;&nbsp;Clustering Order DESC\n                    </a>\n                </li>\n            </ul>\n        </li>\n        <li>\n            <a href=\"#\"></a>\n        </li>\n    </ul>\n</nav>\n<hr/>\n\n<div class=\"container\">\n    <!-- Keyspace -->\n    \n\n\n<div class=\"row\">\n    <div class=\"col-md-2\"></div>\n    <div class=\"col-md-8 col-offset-md-2\">\n        <div class=\"panel panel-default table-responsive table-bordered\">\n            <table class=\"table\">\n                \n                <caption>\n                    <h4 class=\"text-danger\">\n                        <i class=\"glyphicon glyphicon-folder-open\"/>&nbsp;&nbsp;whatsapp\n                    </h4>\n                </caption>\n                                <thead>\n                <tr>\n                    <th class=\"col-md-10\">Replication</th>\n                    <th class=\"col-md-2\">Durable Writes</th>\n                </tr>\n                </thead>\n                <tbody>\n                    <tr>\n                        <td class=\"col-md-10\">{'class' : 'org.apache.cassandra.locator.SimpleStrategy', 'replication_factor' : '3'}</td>\n                        <td class=\"col-md-2\">true</td>\n                    </tr>\n                <tbody>\n            </table>\n            <div class=\"panel-footer\">\n                <a data-toggle=\"collapse\" data-target=\"#38634cb0-21ae-11eb-8b5a-db68b2ded4e6_asCQL\" class=\"text-danger\">\n                    <strong>As CQL statement</strong>\n                    <span class=\"caret\"></span>\n                </a>\n                <br/><br/>\n                <div class=\"collapse\" id=\"38634cb0-21ae-11eb-8b5a-db68b2ded4e6_asCQL\">\n                    <pre class=\"well\">CREATE KEYSPACE whatsapp WITH REPLICATION = { \n\t'class' : 'org.apache.cassandra.locator.SimpleStrategy', \n\t'replication_factor': '3' }\nAND DURABLE_WRITES = true;</pre>\n                </div>\n            </div>\n        </div>\n    </div>\n    <div class=\"col-md-2\"></div>\n</div>\n\n    <!-- Tables -->\n    <div class=\"row\"></div>\n    \n\n    <table width=\"100%\">\n        <td><hr /></td>\n        <td style=\"width:1px; padding: 0 10px; white-space: nowrap;\"><strong class=\"text-primary\">Tables</strong></td>\n        <td><hr /></td>\n    </table>\n    <div class=\"row\">\n        <div class=\"panel-group\" role=\"tablist\" aria-multiselectable=\"true\">\n            \n            <div class=\"panel panel-default\">\n                <div class=\"panel-heading\" role=\"tab\">\n                    <h4 class=\"panel-title\">\n                        <a role=\"button\" data-toggle=\"collapse\" data-target=\"#38645e20-21ae-11eb-8b5a-db68b2ded4e6\" aria-expanded=\"false\">\n                            <span class=\"text-primary\">\n                                <i class=\"glyphicon glyphicon-th-list\"/>&nbsp;groups\n                            </span>\n                        </a>\n                    </h4>\n                </div>\n                <div id=\"38645e20-21ae-11eb-8b5a-db68b2ded4e6\" class=\"panel-collapse collapse\" role=\"tabpanel\">\n                    <div class=\"panel-body\">\n                        \n\n<div class=\"row\">\n    <div class=\"col-md-2\"/>\n    <div class=\"col-md-8 col-offset-md-2\">\n        <div class=\"panel panel-default table-responsive table-bordered\">\n            <table class=\"table\">\n                                <thead>\n                    <tr>\n                        <th class=\"col-md-4\">Column Type</th>\n                        <th class=\"col-md-4\">Column Name</th>\n                        <th class=\"col-md-4\">Data Type</th>\n                    </tr>\n                </thead>\n                <tbody>\n                                            \n\n                    <tr class=\"info\">\n                        <td class=\"col-md-4\">\n                            <i class=\"glyphicon glyphicon-fullscreen\" title=\"Partition Key\"/>\n                        </td>\n                        <td class=\"col-md-4\">admin</td>\n                        <td class=\"col-md-4\">uuid</td>\n                    </tr>\n                                                                    \n                    <tr class=\"success\">\n                        <td class=\"col-md-4\">\n                            <i class=\"glyphicon glyphicon-sort\" title=\"Clustering Column\"/>\n                            &nbsp;\n                            <i class=\"glyphicon glyphicon-sort-by-attributes\" title=\"Sort ASC\"/>\n                        </td>\n                        <td class=\"col-md-4\">created_at</td>\n                        <td class=\"col-md-4\">timeuuid</td>\n                    </tr>\n                                                                    \n                    <tr>\n                        <td class=\"col-md-4\"></td>\n                        <td class=\"col-md-4\">group_id</td>\n                        <td class=\"col-md-4\">uuid</td>\n                    </tr>\n                                                                    \n                    <tr>\n                        <td class=\"col-md-4\"></td>\n                        <td class=\"col-md-4\">participants</td>\n                        <td class=\"col-md-4\">set&lt;uuid&gt;</td>\n                    </tr>\n                                            \n                </tbody>\n            </table>\n            <div class=\"panel-footer\">\n                <a data-toggle=\"collapse\" data-target=\"#38648530-21ae-11eb-8b5a-db68b2ded4e6_asCQL\" class=\"text-primary\">\n                    <strong>As CQL statement</strong>\n                    <span class=\"caret\"></span>\n                </a>\n                <br/><br/>\n                <div class=\"collapse\" id=\"38648530-21ae-11eb-8b5a-db68b2ded4e6_asCQL\">\n                    <pre class=\"well\">CREATE TABLE whatsapp.groups (\n    admin uuid,\n    created_at timeuuid,\n    group_id uuid,\n    participants set&lt;uuid&gt;,\n    PRIMARY KEY (admin, created_at)\n) WITH read_repair_chance = 0.0\n   AND dclocal_read_repair_chance = 0.1\n   AND gc_grace_seconds = 864000\n   AND bloom_filter_fp_chance = 0.01\n   AND caching = { 'keys' : 'ALL', 'rows_per_partition' : 'NONE' }\n   AND comment = ''\n   AND compaction = { 'class' : 'org.apache.cassandra.db.compaction.SizeTieredCompactionStrategy', 'max_threshold' : 32, 'min_threshold' : 4 }\n   AND compression = { 'chunk_length_in_kb' : 64, 'class' : 'org.apache.cassandra.io.compress.LZ4Compressor' }\n   AND default_time_to_live = 0\n   AND speculative_retry = '99PERCENTILE'\n   AND min_index_interval = 128\n   AND max_index_interval = 2048\n   AND crc_check_chance = 1.0;</pre>\n                </div>\n            </div>\n        </div>\n            </div>\n    <div class=\"col-md-2\"></div>\n</div>\n                    </div>\n                 </div>\n            </div>\n            \n            <div class=\"panel panel-default\">\n                <div class=\"panel-heading\" role=\"tab\">\n                    <h4 class=\"panel-title\">\n                        <a role=\"button\" data-toggle=\"collapse\" data-target=\"#3864fa60-21ae-11eb-8b5a-db68b2ded4e6\" aria-expanded=\"false\">\n                            <span class=\"text-primary\">\n                                <i class=\"glyphicon glyphicon-th-list\"/>&nbsp;messages\n                            </span>\n                        </a>\n                    </h4>\n                </div>\n                <div id=\"3864fa60-21ae-11eb-8b5a-db68b2ded4e6\" class=\"panel-collapse collapse\" role=\"tabpanel\">\n                    <div class=\"panel-body\">\n                        \n\n<div class=\"row\">\n    <div class=\"col-md-2\"/>\n    <div class=\"col-md-8 col-offset-md-2\">\n        <div class=\"panel panel-default table-responsive table-bordered\">\n            <table class=\"table\">\n                                <thead>\n                    <tr>\n                        <th class=\"col-md-4\">Column Type</th>\n                        <th class=\"col-md-4\">Column Name</th>\n                        <th class=\"col-md-4\">Data Type</th>\n                    </tr>\n                </thead>\n                <tbody>\n                                            \n\n                    <tr class=\"info\">\n                        <td class=\"col-md-4\">\n                            <i class=\"glyphicon glyphicon-fullscreen\" title=\"Partition Key\"/>\n                        </td>\n                        <td class=\"col-md-4\">group_id</td>\n                        <td class=\"col-md-4\">uuid</td>\n                    </tr>\n                                                                    \n\n                    <tr class=\"info\">\n                        <td class=\"col-md-4\">\n                            <i class=\"glyphicon glyphicon-fullscreen\" title=\"Partition Key\"/>\n                        </td>\n                        <td class=\"col-md-4\">message_id</td>\n                        <td class=\"col-md-4\">uuid</td>\n                    </tr>\n                                                                    \n                    <tr class=\"success\">\n                        <td class=\"col-md-4\">\n                            <i class=\"glyphicon glyphicon-sort\" title=\"Clustering Column\"/>\n                            &nbsp;\n                            <i class=\"glyphicon glyphicon-sort-by-attributes\" title=\"Sort ASC\"/>\n                        </td>\n                        <td class=\"col-md-4\">sent_at</td>\n                        <td class=\"col-md-4\">timeuuid</td>\n                    </tr>\n                                                                    \n                    <tr>\n                        <td class=\"col-md-4\"></td>\n                        <td class=\"col-md-4\">message_content</td>\n                        <td class=\"col-md-4\">text</td>\n                    </tr>\n                                                                    \n                    <tr>\n                        <td class=\"col-md-4\"></td>\n                        <td class=\"col-md-4\">message_reply</td>\n                        <td class=\"col-md-4\">uuid</td>\n                    </tr>\n                                                                    \n                    <tr>\n                        <td class=\"col-md-4\"></td>\n                        <td class=\"col-md-4\">sender</td>\n                        <td class=\"col-md-4\">uuid</td>\n                    </tr>\n                                            \n                </tbody>\n            </table>\n            <div class=\"panel-footer\">\n                <a data-toggle=\"collapse\" data-target=\"#38652170-21ae-11eb-8b5a-db68b2ded4e6_asCQL\" class=\"text-primary\">\n                    <strong>As CQL statement</strong>\n                    <span class=\"caret\"></span>\n                </a>\n                <br/><br/>\n                <div class=\"collapse\" id=\"38652170-21ae-11eb-8b5a-db68b2ded4e6_asCQL\">\n                    <pre class=\"well\">CREATE TABLE whatsapp.messages (\n    group_id uuid,\n    message_id uuid,\n    sent_at timeuuid,\n    message_content text,\n    message_reply uuid,\n    sender uuid,\n    PRIMARY KEY ((group_id, message_id), sent_at)\n) WITH read_repair_chance = 0.0\n   AND dclocal_read_repair_chance = 0.1\n   AND gc_grace_seconds = 864000\n   AND bloom_filter_fp_chance = 0.01\n   AND caching = { 'keys' : 'ALL', 'rows_per_partition' : 'NONE' }\n   AND comment = ''\n   AND compaction = { 'class' : 'org.apache.cassandra.db.compaction.SizeTieredCompactionStrategy', 'max_threshold' : 32, 'min_threshold' : 4 }\n   AND compression = { 'chunk_length_in_kb' : 64, 'class' : 'org.apache.cassandra.io.compress.LZ4Compressor' }\n   AND default_time_to_live = 0\n   AND speculative_retry = '99PERCENTILE'\n   AND min_index_interval = 128\n   AND max_index_interval = 2048\n   AND crc_check_chance = 1.0;</pre>\n                </div>\n            </div>\n        </div>\n            </div>\n    <div class=\"col-md-2\"></div>\n</div>\n                    </div>\n                 </div>\n            </div>\n            \n        </div>\n    </div>\n    \n    \n    \n    \n    \n</div>"
                     }
                 ]
-            }
+            },
+            "apps": [],
+            "jobName": "paragraph_1604830036450_-625139922",
+            "id": "20201108-100716_366465862",
+            "dateCreated": "2020-11-08T10:07:16+0000",
+            "dateStarted": "2020-11-08T10:36:11+0000",
+            "dateFinished": "2020-11-08T10:36:11+0000",
+            "status": "FINISHED",
+            "progressUpdateIntervalMs": 500,
+            "$$hashKey": "object:30490"
         },
         {
+            "text": "%md\n**Create first conversation**\nThe person who starts de conversation is the group admin",
             "user": "anonymous",
+            "dateUpdated": "2020-11-08T10:36:22+0000",
             "config": {
                 "colWidth": 12,
                 "fontSize": 9,
@@ -807,18 +805,6 @@
                 "params": {},
                 "forms": {}
             },
-            "apps": [],
-            "jobName": "paragraph_1604830116488_-1740284303",
-            "id": "20201108-100836_167326436",
-            "dateCreated": "2020-11-08T10:08:36+0000",
-            "status": "FINISHED",
-            "progressUpdateIntervalMs": 500,
-            "focus": true,
-            "$$hashKey": "object:8342",
-            "text": "%md\n**Create first conversation**\nThe person who starts de conversation is the group admin",
-            "dateUpdated": "2020-11-08T10:36:22+0000",
-            "dateFinished": "2020-11-08T10:36:22+0000",
-            "dateStarted": "2020-11-08T10:36:22+0000",
             "results": {
                 "code": "SUCCESS",
                 "msg": [
@@ -827,7 +813,16 @@
                         "data": "<div class=\"markdown-body\">\n<p><strong>Create first conversation</strong><br/>The person who starts de conversation is the group admin</p>\n</div>"
                     }
                 ]
-            }
+            },
+            "apps": [],
+            "jobName": "paragraph_1604830116488_-1740284303",
+            "id": "20201108-100836_167326436",
+            "dateCreated": "2020-11-08T10:08:36+0000",
+            "dateStarted": "2020-11-08T10:36:22+0000",
+            "dateFinished": "2020-11-08T10:36:22+0000",
+            "status": "FINISHED",
+            "progressUpdateIntervalMs": 500,
+            "$$hashKey": "object:30491"
         },
         {
             "text": "INSERT INTO groups (group_id, created_at, admin, participants) VALUES (uuid(), now(), uuid(), {uuid()});\nSELECT * FROM groups;",
@@ -881,16 +876,6 @@
                 "params": {},
                 "forms": {}
             },
-            "apps": [],
-            "jobName": "paragraph_1604830134268_-438119669",
-            "id": "20201108-100854_74078707",
-            "dateCreated": "2020-11-08T10:08:54+0000",
-            "status": "FINISHED",
-            "progressUpdateIntervalMs": 500,
-            "focus": true,
-            "$$hashKey": "object:8451",
-            "dateFinished": "2020-11-08T10:36:26+0000",
-            "dateStarted": "2020-11-08T10:36:26+0000",
             "results": {
                 "code": "SUCCESS",
                 "msg": [
@@ -899,10 +884,21 @@
                         "data": "admin\tcreated_at\tgroup_id\tparticipants\n2f1b48c1-4c84-44e6-9611-03270c82af2d\t40d37c80-21ae-11eb-8c0b-f32fe61ab573\td742dd46-1e9d-4d88-841a-3add6b02027a\t[208e06ca-70c8-4f0c-9843-197abdf11e8f]\n"
                     }
                 ]
-            }
+            },
+            "apps": [],
+            "jobName": "paragraph_1604830134268_-438119669",
+            "id": "20201108-100854_74078707",
+            "dateCreated": "2020-11-08T10:08:54+0000",
+            "dateStarted": "2020-11-08T10:36:26+0000",
+            "dateFinished": "2020-11-08T10:36:26+0000",
+            "status": "FINISHED",
+            "progressUpdateIntervalMs": 500,
+            "$$hashKey": "object:30492"
         },
         {
+            "text": "%md\n**Send message in conversation**",
             "user": "anonymous",
+            "dateUpdated": "2020-11-08T10:36:37+0000",
             "config": {
                 "colWidth": 12,
                 "fontSize": 9,
@@ -921,18 +917,6 @@
                 "params": {},
                 "forms": {}
             },
-            "apps": [],
-            "jobName": "paragraph_1604830343230_1844478428",
-            "id": "20201108-101223_1394768625",
-            "dateCreated": "2020-11-08T10:12:23+0000",
-            "status": "FINISHED",
-            "progressUpdateIntervalMs": 500,
-            "focus": true,
-            "$$hashKey": "object:9806",
-            "text": "%md\n**Send message in conversation**",
-            "dateUpdated": "2020-11-08T10:36:37+0000",
-            "dateFinished": "2020-11-08T10:36:37+0000",
-            "dateStarted": "2020-11-08T10:36:37+0000",
             "results": {
                 "code": "SUCCESS",
                 "msg": [
@@ -941,7 +925,16 @@
                         "data": "<div class=\"markdown-body\">\n<p><strong>Send message in conversation</strong></p>\n</div>"
                     }
                 ]
-            }
+            },
+            "apps": [],
+            "jobName": "paragraph_1604830343230_1844478428",
+            "id": "20201108-101223_1394768625",
+            "dateCreated": "2020-11-08T10:12:23+0000",
+            "dateStarted": "2020-11-08T10:36:37+0000",
+            "dateFinished": "2020-11-08T10:36:37+0000",
+            "status": "FINISHED",
+            "progressUpdateIntervalMs": 500,
+            "$$hashKey": "object:30493"
         },
         {
             "text": "INSERT INTO messages (message_id, message_content, sent_at, group_id, sender)\n    VALUES (uuid(), 'Hola Vicent!', now(), d742dd46-1e9d-4d88-841a-3add6b02027a, 2f1b48c1-4c84-44e6-9611-03270c82af2d);\nSELECT * FROM messages;",
@@ -996,16 +989,6 @@
                 "params": {},
                 "forms": {}
             },
-            "apps": [],
-            "jobName": "paragraph_1604830394115_-1885901986",
-            "id": "20201108-101314_94880373",
-            "dateCreated": "2020-11-08T10:13:14+0000",
-            "status": "FINISHED",
-            "progressUpdateIntervalMs": 500,
-            "focus": true,
-            "$$hashKey": "object:10426",
-            "dateFinished": "2020-11-08T10:37:19+0000",
-            "dateStarted": "2020-11-08T10:37:19+0000",
             "results": {
                 "code": "SUCCESS",
                 "msg": [
@@ -1014,10 +997,21 @@
                         "data": "group_id\tmessage_id\tsent_at\tmessage_content\tmessage_reply\tsender\nd742dd46-1e9d-4d88-841a-3add6b02027a\t379654a4-97ef-4162-bf29-04bf90ea5b59\t60d4d880-21ae-11eb-8c0b-f32fe61ab573\tHola Vicent!\tnull\t2f1b48c1-4c84-44e6-9611-03270c82af2d\n"
                     }
                 ]
-            }
+            },
+            "apps": [],
+            "jobName": "paragraph_1604830394115_-1885901986",
+            "id": "20201108-101314_94880373",
+            "dateCreated": "2020-11-08T10:13:14+0000",
+            "dateStarted": "2020-11-08T10:37:19+0000",
+            "dateFinished": "2020-11-08T10:37:19+0000",
+            "status": "FINISHED",
+            "progressUpdateIntervalMs": 500,
+            "$$hashKey": "object:30494"
         },
         {
+            "text": "%md\n**Create frist group conversation**",
             "user": "anonymous",
+            "dateUpdated": "2020-11-08T10:37:35+0000",
             "config": {
                 "colWidth": 12,
                 "fontSize": 9,
@@ -1067,18 +1061,6 @@
                 "params": {},
                 "forms": {}
             },
-            "apps": [],
-            "jobName": "paragraph_1604830203146_1438892523",
-            "id": "20201108-101003_716826126",
-            "dateCreated": "2020-11-08T10:10:03+0000",
-            "status": "FINISHED",
-            "progressUpdateIntervalMs": 500,
-            "focus": true,
-            "$$hashKey": "object:8547",
-            "text": "%md\n**Create frist group conversation**",
-            "dateUpdated": "2020-11-08T10:37:35+0000",
-            "dateFinished": "2020-11-08T10:37:35+0000",
-            "dateStarted": "2020-11-08T10:37:35+0000",
             "results": {
                 "code": "SUCCESS",
                 "msg": [
@@ -1087,10 +1069,21 @@
                         "data": "<div class=\"markdown-body\">\n<p><strong>Create frist group conversation</strong></p>\n</div>"
                     }
                 ]
-            }
+            },
+            "apps": [],
+            "jobName": "paragraph_1604830203146_1438892523",
+            "id": "20201108-101003_716826126",
+            "dateCreated": "2020-11-08T10:10:03+0000",
+            "dateStarted": "2020-11-08T10:37:35+0000",
+            "dateFinished": "2020-11-08T10:37:35+0000",
+            "status": "FINISHED",
+            "progressUpdateIntervalMs": 500,
+            "$$hashKey": "object:30495"
         },
         {
+            "text": "INSERT INTO groups (group_id, created_at, admin, participants) VALUES (uuid(), now(), uuid(), {uuid(), uuid()});\nSELECT * FROM groups;",
             "user": "anonymous",
+            "dateUpdated": "2020-11-08T10:38:38+0000",
             "config": {
                 "colWidth": 12,
                 "fontSize": 9,
@@ -1136,18 +1129,6 @@
                 "params": {},
                 "forms": {}
             },
-            "apps": [],
-            "jobName": "paragraph_1604830262576_135342796",
-            "id": "20201108-101102_777503260",
-            "dateCreated": "2020-11-08T10:11:02+0000",
-            "status": "FINISHED",
-            "progressUpdateIntervalMs": 500,
-            "focus": true,
-            "$$hashKey": "object:8677",
-            "text": "INSERT INTO groups (group_id, created_at, admin, participants) VALUES (uuid(), now(), uuid(), {uuid(), uuid()});\nSELECT * FROM groups;",
-            "dateUpdated": "2020-11-08T10:38:38+0000",
-            "dateFinished": "2020-11-08T10:38:38+0000",
-            "dateStarted": "2020-11-08T10:38:38+0000",
             "results": {
                 "code": "SUCCESS",
                 "msg": [
@@ -1156,10 +1137,21 @@
                         "data": "admin\tcreated_at\tgroup_id\tparticipants\n74aea38c-ae89-4256-b775-82cb7efd5043\t6cbd1810-21ae-11eb-8c0b-f32fe61ab573\tdb609bb8-4c34-48d3-b4f4-e256c2213148\t[1d2906d9-ba54-4fbb-ba68-f0001f781a68, 801cd691-39d9-48ec-9913-12b2a26d005c]\n2f1b48c1-4c84-44e6-9611-03270c82af2d\t40d37c80-21ae-11eb-8c0b-f32fe61ab573\td742dd46-1e9d-4d88-841a-3add6b02027a\t[208e06ca-70c8-4f0c-9843-197abdf11e8f]\nfc5f701d-fe30-438a-86a9-1c8b1cdd5689\t8f8bebf0-21ae-11eb-8c0b-f32fe61ab573\t20ce515b-96b3-4614-bd49-01e270faec89\t[0b000eac-6aa8-4a05-af65-7daaa0c558a2, 6d185975-6733-42de-9016-e3582aebd04f]\n"
                     }
                 ]
-            }
+            },
+            "apps": [],
+            "jobName": "paragraph_1604830262576_135342796",
+            "id": "20201108-101102_777503260",
+            "dateCreated": "2020-11-08T10:11:02+0000",
+            "dateStarted": "2020-11-08T10:38:38+0000",
+            "dateFinished": "2020-11-08T10:38:38+0000",
+            "status": "FINISHED",
+            "progressUpdateIntervalMs": 500,
+            "$$hashKey": "object:30496"
         },
         {
+            "text": "%md\n**Send message in group conversation**",
             "user": "anonymous",
+            "dateUpdated": "2020-11-08T10:37:49+0000",
             "config": {
                 "colWidth": 12,
                 "fontSize": 9,
@@ -1178,18 +1170,6 @@
                 "params": {},
                 "forms": {}
             },
-            "apps": [],
-            "jobName": "paragraph_1604831175507_-1376661677",
-            "id": "20201108-102615_1221517552",
-            "dateCreated": "2020-11-08T10:26:15+0000",
-            "status": "FINISHED",
-            "progressUpdateIntervalMs": 500,
-            "focus": true,
-            "$$hashKey": "object:12820",
-            "text": "%md\n**Send message in group conversation**",
-            "dateUpdated": "2020-11-08T10:37:49+0000",
-            "dateFinished": "2020-11-08T10:37:49+0000",
-            "dateStarted": "2020-11-08T10:37:49+0000",
             "results": {
                 "code": "SUCCESS",
                 "msg": [
@@ -1198,7 +1178,16 @@
                         "data": "<div class=\"markdown-body\">\n<p><strong>Send message in group conversation</strong></p>\n</div>"
                     }
                 ]
-            }
+            },
+            "apps": [],
+            "jobName": "paragraph_1604831175507_-1376661677",
+            "id": "20201108-102615_1221517552",
+            "dateCreated": "2020-11-08T10:26:15+0000",
+            "dateStarted": "2020-11-08T10:37:49+0000",
+            "dateFinished": "2020-11-08T10:37:49+0000",
+            "status": "FINISHED",
+            "progressUpdateIntervalMs": 500,
+            "$$hashKey": "object:30497"
         },
         {
             "text": "INSERT INTO messages (message_id, message_content, sent_at, group_id, sender)\n    VALUES (uuid(), 'Hola grupo!', now(), db609bb8-4c34-48d3-b4f4-e256c2213148, 74aea38c-ae89-4256-b775-82cb7efd5043);\nSELECT * FROM messages;",
@@ -1253,16 +1242,6 @@
                 "params": {},
                 "forms": {}
             },
-            "apps": [],
-            "jobName": "paragraph_1604831236723_-1150627564",
-            "id": "20201108-102716_504159521",
-            "dateCreated": "2020-11-08T10:27:16+0000",
-            "status": "FINISHED",
-            "progressUpdateIntervalMs": 500,
-            "focus": true,
-            "$$hashKey": "object:13360",
-            "dateFinished": "2020-11-08T10:39:12+0000",
-            "dateStarted": "2020-11-08T10:39:12+0000",
             "results": {
                 "code": "SUCCESS",
                 "msg": [
@@ -1271,10 +1250,21 @@
                         "data": "group_id\tmessage_id\tsent_at\tmessage_content\tmessage_reply\tsender\nd742dd46-1e9d-4d88-841a-3add6b02027a\t379654a4-97ef-4162-bf29-04bf90ea5b59\t60d4d880-21ae-11eb-8c0b-f32fe61ab573\tHola Vicent!\tnull\t2f1b48c1-4c84-44e6-9611-03270c82af2d\ndb609bb8-4c34-48d3-b4f4-e256c2213148\t1ac78cc5-a271-47db-a4e4-40ba5d9976eb\ta3ced780-21ae-11eb-8c0b-f32fe61ab573\tHola grupo!\tnull\t74aea38c-ae89-4256-b775-82cb7efd5043\n"
                     }
                 ]
-            }
+            },
+            "apps": [],
+            "jobName": "paragraph_1604831236723_-1150627564",
+            "id": "20201108-102716_504159521",
+            "dateCreated": "2020-11-08T10:27:16+0000",
+            "dateStarted": "2020-11-08T10:39:12+0000",
+            "dateFinished": "2020-11-08T10:39:12+0000",
+            "status": "FINISHED",
+            "progressUpdateIntervalMs": 500,
+            "$$hashKey": "object:30498"
         },
         {
+            "text": "%md\n**Reply to a message in a group conversation**",
             "user": "anonymous",
+            "dateUpdated": "2020-11-08T10:46:58+0000",
             "config": {
                 "colWidth": 12,
                 "fontSize": 9,
@@ -1293,18 +1283,6 @@
                 "params": {},
                 "forms": {}
             },
-            "apps": [],
-            "jobName": "paragraph_1604831952027_-642750370",
-            "id": "20201108-103912_1385694491",
-            "dateCreated": "2020-11-08T10:39:12+0000",
-            "status": "FINISHED",
-            "progressUpdateIntervalMs": 500,
-            "focus": true,
-            "$$hashKey": "object:17978",
-            "text": "%md\n**Reply to a message in a group conversation**",
-            "dateUpdated": "2020-11-08T10:46:58+0000",
-            "dateFinished": "2020-11-08T10:46:59+0000",
-            "dateStarted": "2020-11-08T10:46:58+0000",
             "results": {
                 "code": "SUCCESS",
                 "msg": [
@@ -1313,7 +1291,16 @@
                         "data": "<div class=\"markdown-body\">\n<p><strong>Reply to a message in a group conversation</strong></p>\n</div>"
                     }
                 ]
-            }
+            },
+            "apps": [],
+            "jobName": "paragraph_1604831952027_-642750370",
+            "id": "20201108-103912_1385694491",
+            "dateCreated": "2020-11-08T10:39:12+0000",
+            "dateStarted": "2020-11-08T10:46:58+0000",
+            "dateFinished": "2020-11-08T10:46:59+0000",
+            "status": "FINISHED",
+            "progressUpdateIntervalMs": 500,
+            "$$hashKey": "object:30499"
         },
         {
             "text": "INSERT INTO messages (message_id, message_content, sent_at, group_id, sender, message_reply)\n    VALUES (uuid(), 'Hola!', now(), db609bb8-4c34-48d3-b4f4-e256c2213148, 801cd691-39d9-48ec-9913-12b2a26d005c, 1ac78cc5-a271-47db-a4e4-40ba5d9976eb);\nSELECT * FROM messages;",
@@ -1368,16 +1355,6 @@
                 "params": {},
                 "forms": {}
             },
-            "apps": [],
-            "jobName": "paragraph_1604832418915_-2030355746",
-            "id": "20201108-104658_2131791766",
-            "dateCreated": "2020-11-08T10:46:58+0000",
-            "status": "FINISHED",
-            "progressUpdateIntervalMs": 500,
-            "focus": true,
-            "$$hashKey": "object:18981",
-            "dateFinished": "2020-11-08T10:49:43+0000",
-            "dateStarted": "2020-11-08T10:49:43+0000",
             "results": {
                 "code": "SUCCESS",
                 "msg": [
@@ -1386,10 +1363,19 @@
                         "data": "group_id\tmessage_id\tsent_at\tmessage_content\tmessage_reply\tsender\nd742dd46-1e9d-4d88-841a-3add6b02027a\t379654a4-97ef-4162-bf29-04bf90ea5b59\t60d4d880-21ae-11eb-8c0b-f32fe61ab573\tHola Vicent!\tnull\t2f1b48c1-4c84-44e6-9611-03270c82af2d\ndb609bb8-4c34-48d3-b4f4-e256c2213148\t1ac78cc5-a271-47db-a4e4-40ba5d9976eb\ta3ced780-21ae-11eb-8c0b-f32fe61ab573\tHola grupo!\tnull\t74aea38c-ae89-4256-b775-82cb7efd5043\ndb609bb8-4c34-48d3-b4f4-e256c2213148\t490ee678-2a36-49be-8e11-e66a1002e225\t1c3b4860-21b0-11eb-8c0b-f32fe61ab573\tHola!\t1ac78cc5-a271-47db-a4e4-40ba5d9976eb\t801cd691-39d9-48ec-9913-12b2a26d005c\n"
                     }
                 ]
-            }
+            },
+            "apps": [],
+            "jobName": "paragraph_1604832418915_-2030355746",
+            "id": "20201108-104658_2131791766",
+            "dateCreated": "2020-11-08T10:46:58+0000",
+            "dateStarted": "2020-11-08T10:49:43+0000",
+            "dateFinished": "2020-11-08T10:49:43+0000",
+            "status": "FINISHED",
+            "progressUpdateIntervalMs": 500,
+            "$$hashKey": "object:30500"
         }
     ],
-    "name": "Exercise2",
+    "name": "nosql-cassandra-Exercise2",
     "id": "2FPGYQQZM",
     "noteParams": {},
     "noteForms": {},
