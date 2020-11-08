@@ -57,6 +57,8 @@ We will discuss in the class what we have built and why.
 
 ### Solution
 
+Modeling fridge and freezer sensors.
+
 * Cassandra table:
 ```sql
 CREATE TABLE IF NOT EXISTS iot.sensor_data (
