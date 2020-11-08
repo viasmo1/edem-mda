@@ -1,5 +1,13 @@
 # ETL Exercise
 
+## Load the database created in the SQL session
+
+1) Navigate to the path where the sql docker compose file is
+
+2) Run the following command:
+
+`docker-compose up -d`
+
 ## Exercise 1
 
 <img src="Exercises/Ex1.png" width="400px">
@@ -70,7 +78,7 @@ Add schemas
 
 <img src="Solutions/Sol3_db_connection_3.png" width="350"/>
 
-#### Select actor table
+#### Select actor table
 
 https://youtu.be/aQlD-KURSlc
 
