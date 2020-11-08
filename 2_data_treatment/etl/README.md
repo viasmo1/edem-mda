@@ -237,7 +237,7 @@ Follow steps of *Authenticating with Google BigQuery* in the following [link](ht
 
 **Select and configure tBigQueryInput**
 
-<img src="Solutions/Sol8_bigQ_input.png" width="700"/>
+<img src="Solutions/Sol8_bigQ_input.png" width="800"/>
 
 **Select and configure tFileOutputJson component**
 
