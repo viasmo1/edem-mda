@@ -8,6 +8,8 @@
 
 `docker-compose up -d`
 
+3) Navigate to localhost:5050 (pgadmin4@pgadmin.org / admin)
+
 ## Exercise 1
 
 <img src="Exercises/Ex1.png" width="400px">
