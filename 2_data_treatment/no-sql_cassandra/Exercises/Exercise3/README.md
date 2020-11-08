@@ -58,7 +58,7 @@ We will discuss in the class what we have built and why.
 ### Solution
 
 * Cassandra table:
-```
+```sql
 CREATE TABLE IF NOT EXISTS iot.sensor_data (
     machine_id text,
     sensor_id text,
