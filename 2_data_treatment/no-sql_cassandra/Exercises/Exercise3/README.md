@@ -64,7 +64,7 @@ Modeling fridge and freezer sensors.
 CREATE TABLE IF NOT EXISTS iot.sensor_data (
     machine_id text,
     sensor_id text,
-    event timeuuid,
+    event timestamp,
     obs_type text,
     obs_value float,
     PRIMARY KEY ((machine_id, sensor_id), event),
