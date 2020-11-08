@@ -1,0 +1,36 @@
+{
+    "data": [
+        {
+            "DIRECCION": "blablabla",
+            "ID": 5693,
+            "EMAIL": "viasmo@edem.es",
+            "NOM": "Vicent",
+            "COGNOM": "Asensio Molina",
+            "PAIS": "Spain"
+        },
+        {
+            "DIRECCION": "55254 Talmadge Junction",
+            "ID": 100,
+            "EMAIL": "baseef2r@walmart.com",
+            "NOM": "Cléa",
+            "COGNOM": "Aseef",
+            "PAIS": "Philippines"
+        },
+        {
+            "DIRECCION": "179 Gulseth Junction",
+            "ID": 134,
+            "EMAIL": "maitken3p@ameblo.jp",
+            "NOM": "Gisèle",
+            "COGNOM": "Aitken",
+            "PAIS": "Philippines"
+        },
+        {
+            "DIRECCION": "0 Briar Crest Pass",
+            "ID": 44,
+            "EMAIL": "harlow17@netlog.com",
+            "NOM": "Pélagie",
+            "COGNOM": "Arlow",
+            "PAIS": "Brazil"
+        }
+    ]
+}

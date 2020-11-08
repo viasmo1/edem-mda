@@ -216,11 +216,21 @@ https://youtu.be/vqox4KDe_0I
 
 ### Solution
 
-https://youtu.be/RsZqWlDTHmY
+**Create a service account in GC, register as BigQuery admin and create a key**
 
-#### Final job
+Follow steps of *Authenticating with Google BigQuery* in the following [link](https://www.progress.com/tutorials/jdbc/connect-and-query-google-bigquery-using-jdbc-connector)
 
-<img src="Solutions/Sol8.png" width="400"/>
+**Select and configure tBigQueryInput**
+
+<img src="Solutions/Sol8_bigQ_input.png" width="450"/>
+
+**Select and configure tFileOutputJson component**
+
+<img src="Solutions/Sol8_outputJSON.png" width="400"/>
+
+**Final job**
+
+<img src="Solutions/Sol8.png" width="300"/>
 
 #### Output JSON: Sol8.json
 
