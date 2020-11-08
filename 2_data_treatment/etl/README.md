@@ -140,7 +140,7 @@ https://youtu.be/RsZqWlDTHmY
 
 #### Output JSON: Sol5.json
 
-[Sol5.json](Solutions/Sol5.json)
+[Sol5.json](Solutions/sol5.json)
 
 ## Exercise 6
 
