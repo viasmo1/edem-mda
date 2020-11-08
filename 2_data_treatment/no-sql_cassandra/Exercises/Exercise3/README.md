@@ -54,3 +54,23 @@ Once the exericise is done, you should have the following:
 * Zeppelin dashboard
 
 We will discuss in the class what we have built and why.
+
+### Solution
+
+* Cassandra table:
+```
+CREATE TABLE IF NOT EXISTS iot.sensor_data (
+    machine_id text,
+    sensor_id text,
+    event timeuuid,
+    obs_type text,
+    obs_value float,
+    PRIMARY KEY ((machine_id, sensor_id), event),
+)
+```
+
+* NiFi workflow
+
+![Solution](Nifi_workflow.png)
+
+* [Zeppelin dashboard](nosql-cassandra-Exercise3.pdf)
