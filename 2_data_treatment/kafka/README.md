@@ -10,7 +10,7 @@ Modified and solved by [me](https://github.com/viasmo1)
 
 ## Exercises
 
-* [Exercise 0](Lab0_Inicio)
-* [Exercise 1](Lab1_HolaMundo)
-* [Exercise 2](Lab2_Streaming)
-* [Exercise 3](Lab2_KSql)
+* [Lab0_Inicio](Lab0_Inicio)
+* [Lab1_HolaMundo](Lab1_HolaMundo)
+* [Lab2_Streaming](Lab2_Streaming)
+* [Lab2_KSql](Lab2_KSql)
