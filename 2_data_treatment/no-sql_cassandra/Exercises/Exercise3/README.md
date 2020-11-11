@@ -64,7 +64,7 @@ Modeling fridge and freezer sensors.
 CREATE TABLE IF NOT EXISTS iot.sensor_data (
     machine_id text,
     sensor_id text,
-    event timestamp,
+    event text,
     obs_type text,
     obs_value float,
     PRIMARY KEY ((machine_id, sensor_id), event),
@@ -74,5 +74,11 @@ CREATE TABLE IF NOT EXISTS iot.sensor_data (
 * NiFi workflow
 
 ![Solution](NiFi_workflow.png)
+
+* Fridge - temp Sensor configuration
+
+![](NiFi_Fridge_temp1.png)
+![](NiFi_Fridge_temp2.png)
+![](NiFi_Fridge_temp3.png)
 
 * [Zeppelin dashboard](nosql-cassandra-Exercise3.pdf)
