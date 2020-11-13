@@ -1,4 +1,4 @@
-# Kafka Streams Lab,
+# Kafka Streams Lab
 
 ## Objetivos
 
@@ -77,7 +77,7 @@ $ mvn exec:java -Dexec.mainClass="com.gft.dlp.kafka.Consumer"
  
  ###  WordCount
  
- Ejecute el procesador: 
+ Abra otra terminal y ejecute el procesador: 
  
  ```sh
  $ mvn exec:java -Dexec.mainClass="com.gft.dlp.kafka.WordCountConsumer"
@@ -87,7 +87,7 @@ $ mvn exec:java -Dexec.mainClass="com.gft.dlp.kafka.Consumer"
 
 ###  Productor
 
-Ejecute el productor:
+En la misma terminal que el WordCount, ejecute el productor:
 
 ```sh
 $ mvn exec:java -Dexec.mainClass="com.gft.dlp.kafka.Producer"
