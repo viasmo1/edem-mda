@@ -75,19 +75,19 @@ $ mvn exec:java -Dexec.mainClass="com.gft.dlp.kafka.Consumer"
 ```
 (En Windowds use doble comillado de esta forma => -D"exec.mainClass")
  
- ###  WordCount
+###  WordCount
  
- Abra otra terminal y ejecute el procesador: 
+Ejecute el procesador en un nuevo terminal: 
  
- ```sh
- $ mvn exec:java -Dexec.mainClass="com.gft.dlp.kafka.WordCountConsumer"
- ``` 
- (En Windowds use doble comillado de esta forma => -D"exec.mainClass")
+```sh
+$ mvn exec:java -Dexec.mainClass="com.gft.dlp.kafka.WordCountConsumer"
+``` 
+(En Windowds use doble comillado de esta forma => -D"exec.mainClass")
 
 
 ###  Productor
 
-En la misma terminal que el WordCount, ejecute el productor:
+Ejecute el productor en un nuevo terminal:
 
 ```sh
 $ mvn exec:java -Dexec.mainClass="com.gft.dlp.kafka.Producer"
