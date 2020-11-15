@@ -250,3 +250,36 @@ Follow steps of *Authenticating with Google BigQuery* in the following [link](ht
 #### Output JSON: Sol8.json
 
 [Sol8.json](Solutions/Sol8.json)
+
+
+## Exercise 8-bis
+
+<img src="Exercises/Ex8.png" width="500px">
+
+### Solution
+
+**Download, install and configure the CData driver for BigQuery JDBC**
+
+Follow steps in the following [link](https://www.cdata.com/kb/tech/bigquery-jdbc-talend.rst)
+
+<img src="Solutions/Sol8bis_JDBC_conection.png" width="500"/>
+
+**Retrieve table schemas**
+
+<img src="Solutions/Sol8bis_bigQ_schemas.png" width="500"/>
+
+**Select and configure ALUMNOS schema**
+
+<img src="Solutions/Sol8bis_alumnos.png" width="700"/>
+
+**Select and configure tFileOutputJson component**
+
+<img src="Solutions/Sol8bis_outputJSON.png" width="600"/>
+
+**Final job**
+
+<img src="Solutions/Sol8bis.png" width="400"/>
+
+#### Output JSON: Sol8.json
+
+[Sol8.json](Solutions/Sol8bis.json)
