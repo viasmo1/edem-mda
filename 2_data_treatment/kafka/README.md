@@ -14,3 +14,7 @@ Modified and solved by [me](https://github.com/viasmo1)
 * [Lab1_HolaMundo](Lab1_HolaMundo)
 * [Lab2_Streaming](Lab2_Streaming)
 * [Lab3_KSql](Lab3_KSql)
+
+## Other interesting tutorials
+
+* [Confluent tutorials](https://kafka-tutorials.confluent.io)
