@@ -10,6 +10,9 @@
 
 3) Navigate to [localhost:5050](http://localhost:5050) (pgadmin4@pgadmin.org / admin)
 
+## Talend project file
+[talend_project.zip](talend_project.zip)
+
 ## Exercise 1
 
 <img src="Exercises/Ex1.png" width="400px">
