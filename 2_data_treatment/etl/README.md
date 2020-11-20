@@ -283,6 +283,6 @@ Follow steps in the following [link](https://www.cdata.com/kb/tech/bigquery-jdbc
 
 <img src="Solutions/Sol8bis.png" width="400"/>
 
-#### Output JSON: Sol8.json
+#### Output JSON: Sol8bis.json
 
-[Sol8.json](Solutions/Sol8bis.json)
+[Sol8bis.json](Solutions/Sol8bis.json)
