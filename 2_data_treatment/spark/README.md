@@ -8,4 +8,5 @@ Modified and solved by [me](https://github.com/viasmo1)
 
 ## Colab notebook
 
-[Exercise](Intro_Apache_Spark.ipynb)
+* [Intro](Intro_Apache_Spark.ipynb)
+* [Ex1](Ejercicio_1_Sesión_14_Spark_SQL.ipynb)
