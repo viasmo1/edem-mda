@@ -28,7 +28,7 @@
                 "msg": [
                     {
                         "type": "HTML",
-                        "data": "<div class=\"markdown-body\">\n<h1>Exercise 0 : Get Familiar with Zeppelin</h1>\n</div>"
+                        "data": "<div class=\"markdown-body\">\n<h1>Exercise 1 : Get Familiar with Zeppelin</h1>\n</div>"
                     }
                 ]
             },
@@ -443,7 +443,7 @@
             "$$hashKey": "object:8824"
         }
     ],
-    "name": "Exercise 0",
+    "name": "Exercise 1",
     "id": "2EYYTTHSN",
     "noteParams": {},
     "noteForms": {},
