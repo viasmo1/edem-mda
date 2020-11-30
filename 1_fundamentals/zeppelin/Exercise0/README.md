@@ -4,7 +4,7 @@
 
 [Pedro Nieto](https://github.com/a10pepo)
 
-[Original Repo](https://github.com/a10pepo/edem2021/Sesiones/zeppelin)
+[Original Repo](https://github.com/a10pepo/edem2021/tree/master/Sesiones/zeppelin)
 
 Modified and solved by [me](https://github.com/viasmo1)
 
