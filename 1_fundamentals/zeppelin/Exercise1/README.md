@@ -4,7 +4,7 @@
 
 [Pedro Nieto](https://github.com/a10pepo)
 
-[Original Repo](https://github.com/a10pepo/edem2021/Sesiones/zeppelin)
+[Original Repo](https://github.com/a10pepo/edem2021/tree/master/Sesiones/zeppelin)
 
 Modified and solved by [me](https://github.com/viasmo1)
 
@@ -27,9 +27,9 @@ http://localhost:19999
 ```
 * Once opened, import the notebook present in your folder:
 
-[![Zeppelin](https://github.com/viasmo1/edem-mda/1_fundamentals/zeppelin/images/zeppelin_1.png)]
+![Zeppelin](https://github.com/viasmo1/edem-mda/tree/master/1_fundamentals/zeppelin/images/zeppelin_1.png)
 
-[![Zeppelin](https://github.com/viasmo1/edem-mda/1_fundamentals/zeppelin/images/zeppelin_2.png)]
+![Zeppelin](https://github.com/viasmo1/edem-mda/tree/master/1_fundamentals/zeppelin/images/zeppelin_2.png)
 
 Now we will see different things we can configure inside a notebook what can we configure to adapt to our needs.
 
@@ -37,4 +37,4 @@ Now we will see different things we can configure inside a notebook what can we 
 
 Create a notebook with the following structure:
 
-[![Zeppelin](https://github.com/viasmo1/edem-mda/1_fundamentals/zeppelin/images/zeppelin_3.png)]
+![Zeppelin](https://github.com/viasmo1/edem-mda/tree/master/1_fundamentals/zeppelin/images/zeppelin_3.png)
