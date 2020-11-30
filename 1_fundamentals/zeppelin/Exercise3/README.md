@@ -30,7 +30,7 @@ During this session we will perform a real analysis using a dataset.
 Before we start please perform the following actions in order to work them propertly.
 
 ```bash
-docker exec -it zeppelin /bin/bash
+docker exec -it zeppelin_3 /bin/bash
 ```
 
 Once inside the container perform the following commands:
