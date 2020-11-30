@@ -1,8 +1,31 @@
 # Session ING-005 
 
-During this session we will perform a real analysis using a dataset.
+## Author
 
-For this session, we will not need the rest of components so feel free to start a new container or re-use the one from the compose.
+[Pedro Nieto](https://github.com/a10pepo)
+
+[Original Repo](https://github.com/a10pepo/edem2021/tree/master/Sesiones/zeppelin)
+
+Modified and solved by [me](https://github.com/viasmo1)
+
+### Create Zeppelin container
+
+* Open Terminal
+
+* Go to the Exercise1 folder
+
+* Run below command 
+```bash
+docker run -d -p 19999:8080 -v $PWD/data:/zeppelin/data --rm --name zeppelin_3 apache/zeppelin:0.8.1
+```
+
+### Open your Zeppelin
+
+* Go to: http://localhost:19999
+
+## Exercise 3
+
+During this session we will perform a real analysis using a dataset.
 
 Before we start please perform the following actions in order to work them propertly.
 
