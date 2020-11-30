@@ -1,9 +1,36 @@
-# Session ING-005 Get familiar with Notebooks: Zeppelin
-# 3: Parameters
+# Get familiar with Notebooks: Zeppelin
+
+## Author
+
+[Pedro Nieto](https://github.com/a10pepo)
+
+[Original Repo](https://github.com/a10pepo/edem2021/tree/master/Sesiones/zeppelin)
+
+Modified and solved by [me](https://github.com/viasmo1)
+
+### Create Zeppelin container
+
+* Open Terminal
+
+* Go to the Exercise1 folder
+
+* Run below command 
+```bash
+docker run -d -p 19999:8080 -v $PWD/data:/zeppelin/data --rm --name zeppelin_2 apache/zeppelin:0.8.1
+```
+
+### Open your Zeppelin
+
+* Run below command 
+```bash
+http://localhost:19999
+```
+
+## Exercise2: Parameters
 
 [![N|Apache](https://www.nobleprog.es/sites/hitrahr/files/category_images/height100_scale/apache_zeppelin_training.png?t=0b7d8a8e)](https://zeppelin.apache.org/)
 
-#### Problem statement
+### Problem statement
 
 During this part of the session we will learn how to make notebooks reusable using global variables, this will allow us to create a notebook that can be re-run based on input parameters.
 
@@ -34,7 +61,7 @@ select * from amazon where product_name like  '%hobby%'
 ```
 5) In order to avoid repeating, Zeppelin provides **Dynamic Forms**
 
-#### Creating Parameters
+### Creating Parameters
 
 1) Let's create a cell to retrieve a parameter, use the following code
 
@@ -61,11 +88,11 @@ SELECT * FROM amazon WHERE number_of_reviews = """ + z.angular("numberReviews") 
 %sql
 select * from amazon where number_of_reviews >= '${numberReviews}'
 ```
-#### Creating Parameters
+### Creating Parameters
 
 Different types of parameters:
 
-##### Input Form
+#### Input Form
 ```bash
 %spark
 println("Hello "+z.textbox("name"))
@@ -73,7 +100,7 @@ println("Hello "+z.textbox("name"))
 
 ![N|Apache](https://zeppelin.apache.org/docs/0.8.2/assets/themes/zeppelin/img/screenshots/form_input_prog.png)
 
-##### Select Form
+#### Select Form
 ```bash
 %spark
 println("Hello "+z.select("day", Seq(("1","mon"),("2","tue"),("3","wed"),("4","thurs"),("5","fri"),("6","sat"),("7","sun"))))
@@ -81,7 +108,7 @@ println("Hello "+z.select("day", Seq(("1","mon"),("2","tue"),("3","wed"),("4","t
 
 ![N|Apache](https://zeppelin.apache.org/docs/0.8.2/assets/themes/zeppelin/img/screenshots/form_select_prog.png)
 
-##### CheckBox 
+#### CheckBox 
 ```bash
 %spark
 val options = Seq(("apple","Apple"), ("banana","Banana"), ("orange","Orange"))
