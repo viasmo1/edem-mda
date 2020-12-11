@@ -26,6 +26,9 @@ from statsmodels.formula.api import ols
 # Import stargazer to evaluate different ols models
 from stargazer.stargazer import Stargazer
 
+# Import the logistic regression model
+from statsmodels.formula.api import logit
+
 # Get working directory
 os.getcwd()
 
@@ -373,3 +376,27 @@ model12 = ols(
 ).fit()
 model12.summary2()
 
+
+###################
+# LOGISTIC REGRESSION: REGRESSION WITH QUALITATIVE VARIABLES
+
+# We transform our cnt variable into a qualitative variable
+res = wbr_dummies["cnt"].describe()
+avg_cnt = res[1]
+wbr_dummies["goal"] = wbr_dummies.cnt
+wbr_dummies.loc[(wbr_dummies.cnt < avg_cnt), "goal"] = 0
+wbr_dummies.loc[(wbr_dummies.cnt >= avg_cnt), "goal"] = 1
+# Quality control
+plt.scatter(wbr_dummies.cnt, wbr_dummies.goal)
+# QC OK
+
+# We build the logistic regression model
+model_l1 = logit("goal ~ temp_celsius", data=wbr_dummies).fit()
+model_l1.summary()
+
+# We build the logistic regression model with more variables
+model_l6 = logit(
+    "goal ~ temp_celsius + temp_square + windspeed_kh + hum + workingday + yr",
+    data=wbr_dummies,
+).fit()
+model_l6.summary()
