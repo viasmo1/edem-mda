@@ -1,0 +1,179 @@
+{
+    "took": 29,
+    "timed_out": false,
+    "_shards": {
+        "total": 1,
+        "successful": 1,
+        "skipped": 0,
+        "failed": 0
+    },
+    "hits": {
+        "total": {
+            "value": 2011,
+            "relation": "eq"
+        },
+        "max_score": 11.242394,
+        "hits": [
+            {
+                "_index": "products",
+                "_type": "product",
+                "_id": "108162",
+                "_score": 11.242394,
+                "_source": {
+                    "upc12": "074333470441",
+                    "grp_id": "108162",
+                    "customerRating": 3,
+                    "quantitySold": 655728,
+                    "price": 19.36,
+                    "productName": "Peanut Butter Creamy",
+                    "type": "csv",
+                    "brandName": "Arrowhead Mills"
+                }
+            },
+            {
+                "_index": "products",
+                "_type": "product",
+                "_id": "95241",
+                "_score": 11.242394,
+                "_source": {
+                    "upc12": "858135003034",
+                    "grp_id": "95241",
+                    "customerRating": 3,
+                    "quantitySold": 879399,
+                    "price": 5.88,
+                    "productName": "Peanut Butter Cups",
+                    "type": "csv",
+                    "brandName": "Unreal"
+                }
+            },
+            {
+                "_index": "products",
+                "_type": "product",
+                "_id": "1372",
+                "_score": 10.377548,
+                "_source": {
+                    "upc12": "688267077128",
+                    "grp_id": "1372",
+                    "customerRating": 4,
+                    "quantitySold": 299497,
+                    "price": 1.75,
+                    "productName": "Ahold Peanut Butter Chunky",
+                    "type": "csv",
+                    "brandName": "Ahold"
+                }
+            },
+            {
+                "_index": "products",
+                "_type": "product",
+                "_id": "2610",
+                "_score": 10.377548,
+                "_source": {
+                    "upc12": "034000000876",
+                    "grp_id": "2610",
+                    "customerRating": 5,
+                    "quantitySold": 418307,
+                    "price": 4.8,
+                    "productName": "Reese's Peanut Butter Topping",
+                    "type": "csv",
+                    "brandName": "Reese's"
+                }
+            },
+            {
+                "_index": "products",
+                "_type": "product",
+                "_id": "7747",
+                "_score": 10.377548,
+                "_source": {
+                    "upc12": "688267072727",
+                    "grp_id": "7747",
+                    "customerRating": 3,
+                    "quantitySold": 541895,
+                    "price": 6.3,
+                    "productName": "Ahold Creamy Peanut Butter",
+                    "type": "csv",
+                    "brandName": "Ahold"
+                }
+            },
+            {
+                "_index": "products",
+                "_type": "product",
+                "_id": "7858",
+                "_score": 10.377548,
+                "_source": {
+                    "upc12": "077766551008",
+                    "grp_id": "7858",
+                    "customerRating": 5,
+                    "quantitySold": 518563,
+                    "price": 5.29,
+                    "productName": "Parkers Peanut Butter Creamy",
+                    "type": "csv",
+                    "brandName": "Parkers"
+                }
+            },
+            {
+                "_index": "products",
+                "_type": "product",
+                "_id": "8514",
+                "_score": 10.377548,
+                "_source": {
+                    "upc12": "688267077081",
+                    "grp_id": "8514",
+                    "customerRating": 4,
+                    "quantitySold": 109463,
+                    "price": 5.25,
+                    "productName": "Ahold Peanut Butter Creamy",
+                    "type": "csv",
+                    "brandName": "Ahold"
+                }
+            },
+            {
+                "_index": "products",
+                "_type": "product",
+                "_id": "8541",
+                "_score": 10.377548,
+                "_source": {
+                    "upc12": "688267072680",
+                    "grp_id": "8541",
+                    "customerRating": 2,
+                    "quantitySold": 693324,
+                    "price": 13.78,
+                    "productName": "Ahold Chunky Peanut Butter",
+                    "type": "csv",
+                    "brandName": "Ahold"
+                }
+            },
+            {
+                "_index": "products",
+                "_type": "product",
+                "_id": "8689",
+                "_score": 10.377548,
+                "_source": {
+                    "upc12": "850791002000",
+                    "grp_id": "8689",
+                    "customerRating": 3,
+                    "quantitySold": 773970,
+                    "price": 18.47,
+                    "productName": "Pb2 Powdered Peanut Butter",
+                    "type": "csv",
+                    "brandName": "Pb2"
+                }
+            },
+            {
+                "_index": "products",
+                "_type": "product",
+                "_id": "11320",
+                "_score": 10.377548,
+                "_source": {
+                    "upc12": "688267072710",
+                    "grp_id": "11320",
+                    "customerRating": 4,
+                    "quantitySold": 936233,
+                    "price": 10.74,
+                    "productName": "Ahold Creamy Peanut Butter",
+                    "type": "csv",
+                    "brandName": "Ahold"
+                }
+            }
+        ]
+    }
+}

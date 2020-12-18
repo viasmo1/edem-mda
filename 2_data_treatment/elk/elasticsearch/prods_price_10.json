@@ -1,0 +1,179 @@
+{
+    "took": 37,
+    "timed_out": false,
+    "_shards": {
+        "total": 1,
+        "successful": 1,
+        "skipped": 0,
+        "failed": 0
+    },
+    "hits": {
+        "total": {
+            "value": 44,
+            "relation": "eq"
+        },
+        "max_score": 1.0,
+        "hits": [
+            {
+                "_index": "products",
+                "_type": "product",
+                "_id": "8201",
+                "_score": 1.0,
+                "_source": {
+                    "upc12": "071160032859",
+                    "grp_id": "8201",
+                    "customerRating": 3,
+                    "quantitySold": 128974,
+                    "price": 10.0,
+                    "productName": "Pyrex Storage 2 Cup",
+                    "type": "csv",
+                    "brandName": "Pyrex"
+                }
+            },
+            {
+                "_index": "products",
+                "_type": "product",
+                "_id": "8574",
+                "_score": 1.0,
+                "_source": {
+                    "upc12": "087684000946",
+                    "grp_id": "8574",
+                    "customerRating": 1,
+                    "quantitySold": 483602,
+                    "price": 10.0,
+                    "productName": "Capri Sun 25% Less Sugar Mountain Cooler Juice Pouches- 10 Pk",
+                    "type": "csv",
+                    "brandName": "Capri Sun"
+                }
+            },
+            {
+                "_index": "products",
+                "_type": "product",
+                "_id": "11675",
+                "_score": 1.0,
+                "_source": {
+                    "upc12": "031604012120",
+                    "grp_id": "11675",
+                    "customerRating": 5,
+                    "quantitySold": 84564,
+                    "price": 10.0,
+                    "productName": "Nature Made Calcium 600mg Tablets - 220 Ct",
+                    "type": "csv",
+                    "brandName": "Nature Made"
+                }
+            },
+            {
+                "_index": "products",
+                "_type": "product",
+                "_id": "14745",
+                "_score": 1.0,
+                "_source": {
+                    "upc12": "214787100000",
+                    "grp_id": "14745",
+                    "customerRating": 3,
+                    "quantitySold": 671209,
+                    "price": 10.0,
+                    "productName": "Boar's Head Imported Porketta",
+                    "type": "csv",
+                    "brandName": "Boar's Head"
+                }
+            },
+            {
+                "_index": "products",
+                "_type": "product",
+                "_id": "25384",
+                "_score": 1.0,
+                "_source": {
+                    "upc12": "893751000210",
+                    "grp_id": "25384",
+                    "customerRating": 1,
+                    "quantitySold": 399858,
+                    "price": 10.0,
+                    "productName": "Nueva Cocina Latin Cuisine 100% Natural Cuban Style Black Bean Soup",
+                    "type": "csv",
+                    "brandName": "Nueva Cocina"
+                }
+            },
+            {
+                "_index": "products",
+                "_type": "product",
+                "_id": "34061",
+                "_score": 1.0,
+                "_source": {
+                    "upc12": "022600940500",
+                    "grp_id": "34061",
+                    "customerRating": 2,
+                    "quantitySold": 316136,
+                    "price": 10.0,
+                    "productName": "Trojan Premium Latex Condoms Stimulations Ultra Ribbed - 3 Ct",
+                    "type": "csv",
+                    "brandName": "Trojan"
+                }
+            },
+            {
+                "_index": "products",
+                "_type": "product",
+                "_id": "34782",
+                "_score": 1.0,
+                "_source": {
+                    "upc12": "688267137303",
+                    "grp_id": "34782",
+                    "customerRating": 5,
+                    "quantitySold": 63510,
+                    "price": 10.0,
+                    "productName": "Ahold Flavored Sparkling Water Beverage Kiwi Strawberry",
+                    "type": "csv",
+                    "brandName": "Ahold"
+                }
+            },
+            {
+                "_index": "products",
+                "_type": "product",
+                "_id": "34999",
+                "_score": 1.0,
+                "_source": {
+                    "upc12": "027000490129",
+                    "grp_id": "34999",
+                    "customerRating": 2,
+                    "quantitySold": 103855,
+                    "price": 10.0,
+                    "productName": "Orville Redenbacker's Pop Up Bowl Kettle Korn Gourmet Popping Corn- 6 Ct",
+                    "type": "csv",
+                    "brandName": "Orville Redenbacher's"
+                }
+            },
+            {
+                "_index": "products",
+                "_type": "product",
+                "_id": "36706",
+                "_score": 1.0,
+                "_source": {
+                    "upc12": "854615002023",
+                    "grp_id": "36706",
+                    "customerRating": 3,
+                    "quantitySold": 84673,
+                    "price": 10.0,
+                    "productName": "Brad's Gluten Free Sweet Potato Raw Chips",
+                    "type": "csv",
+                    "brandName": "Brad's Raw Chips"
+                }
+            },
+            {
+                "_index": "products",
+                "_type": "product",
+                "_id": "44640",
+                "_score": 1.0,
+                "_source": {
+                    "upc12": "076314303007",
+                    "grp_id": "44640",
+                    "customerRating": 5,
+                    "quantitySold": 402969,
+                    "price": 10.0,
+                    "productName": "Emergen-c 1,000 Mg Vitamin C Tropical Flavored Fizzy Drink Mix - 10 Pk",
+                    "type": "csv",
+                    "brandName": "Emergen-c"
+                }
+            }
+        ]
+    }
+}
