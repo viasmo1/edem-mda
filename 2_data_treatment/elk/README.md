@@ -4,7 +4,7 @@
 
 [Roberto López](https://github.com/rlopezherrero/)
 
-[Original Repo](https://github.com/rlopezherrero/GFT-EDEM-MasterData/tree/master/CapturaRecogida)
+[Original Repo](https://github.com/rlopezherrero/GFT-EDEM-MasterData/tree/master/AlmacenamientoProcesamiento)
 
 Modified and solved by [me](https://github.com/viasmo1)
 
@@ -12,5 +12,5 @@ Modified and solved by [me](https://github.com/viasmo1)
 
 On this repository we cover following training blocks:
 
-* [Elasticsearch](elasticsearch)
-* [Stream Processing](Stream procesing)
+* [Elasticsearch, Logstash and Kibana](elasticsearch)
+* [Stream Processing](streaming)
