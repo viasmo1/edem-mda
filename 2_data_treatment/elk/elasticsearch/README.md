@@ -23,6 +23,14 @@ Here you can see a screenshoot
 ![Screenshot](../img/demoScreenshot.png)
 
 
+## EXERCISES
+
+[Elasticsearch](#1.-ELASTICSEARCH)
+
+[Logstash](#2.-LOGSTASH)
+
+[Kibana](#3.-KIBANA)
+
 ## 1. ELASTICSEARCH
 
 **Objective**: you will see how quickly and easily the Elastic Stack can be used to search a dataset. You will startup Elasticsearch and Kibana, then run queries from Kibana to search an indexed dataset.
@@ -441,3 +449,191 @@ Next, you are going to use Kibana. To verify Kibana is running, open your Web br
 
 ## KIBANA
 
+In this exercise we will play with Kibana. For that we have following datasets:
+
+- The complete works of William Shakespeare, suitably parsed into fields GFT-EDEM-MasterData/tree/master/AlmacenamientoProcesamiento/docker/data/shakespeare). It has following schema:
+
+  ```sh
+  {
+	"line_id": INT,
+	"play_name": "String",
+	"speech_number": INT,
+	"line_number": "String",
+	"speaker": "String",
+	"text_entry": "String",
+  }
+  ```
+
+- A set of fictitious accounts with randomly generated data (GFT-EDEM-MasterData/tree/master/AlmacenamientoProcesamiento/docker/data/accounts):
+
+  ```sh
+  {
+	"account_number": INT,
+	"balance": INT,
+	"firstname": "String",
+	"lastname": "String",
+	"age": INT,
+	"gender": "M or F",
+	"address": "String",
+	"employer": "String",
+	"email": "String",
+	"city": "String",
+	"state": "String"
+  }
+  ```
+
+- A set of randomly generated log files. fields dlp/Sessions/STO-Storage/STO-003 /docker/data/random_logs). It has a big schema, but among all the fields following ones are the important ones on the Laboratory:
+
+  ```sh
+  {
+	"memory": INT,
+	"geo.coordinates": "geo_point"
+	"@timestamp": "date"
+  }
+  ```
+
+* Before we load those data sets, we need to specify some data type mappings. To do that, go to the Dev tools on your local kibana instance (http://localhost:5601/app/kibana#/) and launch the following for Shakespeare data:
+
+  ```sh
+  PUT /shakespeare
+  {
+  "mappings": {
+    "properties": {
+    "speaker": {"type": "keyword"},
+    "play_name": {"type": "keyword"},
+    "line_id": {"type": "integer"},
+    "speech_number": {"type": "integer"}
+    }
+    }
+  }
+  ```
+
+  * Response:
+
+    ```sh
+    {
+      "acknowledged" : true,
+      "shards_acknowledged" : true,
+      "index" : "shakespeare"
+    }
+    ```
+
+* For logstash data, we need also to specify geopoint type mapping. Replicate this for the 3 indexes ( logstash-2015.05.18, logstash-2015.05.19, logstash-2015.05.20 ). Also check that the result is successful.
+
+  ```sh
+  PUT /logstash-2015.05.18
+  {
+    "mappings": {
+        "properties": {
+            "geo": {
+                "properties": {
+                    "coordinates": {
+                        "type": "geo_point"
+                    }
+                }
+            }
+      }
+    }
+  }
+  ```
+
+* Now, let’s do a bulk load of the 3 datasets (go to the folder where data is located). Use following command as an example:
+
+  ```sh
+  curl -H "Content-Type: application/x-ndjson" -XPOST "http://localhost:9200/bank/_bulk?pretty" --data-binary @accounts.json
+  ```
+
+  * Shakespeare dataset:
+
+    ```sh
+    cd data/shakespeare
+    curl -H "Content-Type: application/x-ndjson" -XPOST "http://localhost:9200/bank/_bulk?pretty" --data-binary @shakespeare_6.0.json
+    ```
+
+  * Accounts dataset:
+
+    ```sh
+    cd data/accounts
+    curl -H "Content-Type: application/x-ndjson" -XPOST "http://localhost:9200/bank/_bulk?pretty" --data-binary @accounts.json
+    ```
+
+  * Random logs dataset:
+
+    ```sh
+    cd data/random_logs
+    curl -H "Content-Type: application/x-ndjson" -XPOST "http://localhost:9200/bank/_bulk?pretty" --data-binary @logs.json
+    ```
+
+* Check that your created indexes exists and contains loaded data, use curl command for this.
+
+  ```sh
+  curl 'localhost:9200/_cat/indices?v'
+  ```
+
+  * Response:
+
+    <img src="../img/elasticsearch_indexes.png" size=500px>
+  
+* Create index patterns for 3 datasets. You can use following patterns: bank*, shakespeare* and logstash-2015.05*. Take into consideration that logstash dataset contains a time series.
+
+  <img src="../img/index_patterns.png" size=500px>
+
+
+* Now, go to the discover tab and get from bank index, the accounts that have a balance higher than 47500 and the account number is lower than 100. (You should bet 5 results).
+
+  <img src="../img/bank_filter.png" size=500px>
+
+* Using Shakespeare index, get the entries that are from play “Henry IV” and on the text contains “London”. (You should get 9 hits).
+
+  <img src="../img/shakespeare_filter.png" size=500px>
+
+* Using account data, create a Pie chart defining following Ranges:
+
+  | lower balance | upper balance |
+  | --- | --- |
+  | 0 | 999 |
+  | 1000 | 2999 |
+  | 3000 | 6999 |
+  | 7000 | 14999 |
+  | 15000 | 30999 |
+  | 31000 | 50000 |
+
+  * Solution:
+
+    <img src="../img/bank_pie.png" size=500px>
+
+* On same Pie chart add another bucket aggregation to get the age of each account holder inside each balance range.
+
+  * Solution:
+
+    <img src="../img/bank_pie_2.png" size=500px>
+
+* Now let’s create a Vertical Bar Chart using Shakespeare dataset. We want to see number of speakers cast per play.
+
+  * Solution:
+
+    <img src="../img/shakespeare_bar.png" size=500px>
+
+* Using same bar char, we want to get the maximum number of speeches for an individual actor on every play.
+
+  * Solution:
+
+    <img src="../img/shakespeare_bar_2.png" size=500px>
+
+
+* Now, using Logstash dataset, create a Coordinate Map with following parameters:
+  * Use geo.coordinates as the geo_point.
+  * Configure the Time window to absolute between 18th May 2015 and 20th May 2015.
+
+  * Solution:
+
+    <img src="../img/logs_map.png" size=500px>
+
+
+### Dashboard
+
+Now let’s create a dashboard and integrate all visualization panes done
+
+  * Solution:
+
+    <img src="../img/dashboard.png" size=500px>
