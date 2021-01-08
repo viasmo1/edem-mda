@@ -1,4 +1,4 @@
-# Elasticsearch Stack
+# ELK Stack
 
 ## Infrastructure Setup
 
@@ -23,17 +23,18 @@ Here you can see a screenshoot
 ![Screenshot](../img/demoScreenshot.png)
 
 
-## Exercises
+## 1. ELASTICSEARCH
 
 **Objective**: you will see how quickly and easily the Elastic Stack can be used to search a dataset. You will startup Elasticsearch and Kibana, then run queries from Kibana to search an indexed dataset.
 
 *Note*: The datasets we are going to use are on the following folder: ../docker/data
 
 * Launch docker compose with full ELK stack
-```
-cd ../docker
-docker-compose up -d
-```
+
+  ```
+  cd ../docker
+  docker-compose up -d
+  ```
 
 * Open your Web browser and go to http://localhost:9200.
 
@@ -110,17 +111,17 @@ Next, you are going to use Kibana. To verify Kibana is running, open your Web br
 
 * Now let's search for products. Enter the following query into the Console, just below your first command. It answers the question "Which products have peanut or butter in the product name?"
 
-```json
-GET products/_search
-{
-  "size": 25,
-  "query": {
-	"match": {
-  	"productName": "peanut butter"
-	}
+  ```json
+  GET products/_search
+  {
+    "size": 25,
+    "query": {
+    "match": {
+      "productName": "peanut butter"
+    }
+    }
   }
-}
-```
+  ```
 
 **Response**
 
@@ -196,17 +197,247 @@ GET products/_search
 
 * Write a query that finds all products whose price field is exactly 10.00. You should get 44 hits.
 
-```json
-GET products/_search
-{
-  "query": {
-	"match" : {
-  	"price" : 10.00
-	}
+  ```json
+  GET products/_search
+  {
+    "query": {
+    "match" : {
+      "price" : 10.00
+    }
+    }
   }
-}
-```
+  ```
 
 * Response
 
-[full json](prods_price_10.json)
+  [full json](prods_price_10.json)
+
+
+## 2. LOGSTASH
+
+**Objective**: Learn Logstash basics implementing several pipelines and working with several plugins.
+
+* First test that your logstash installation is working properly, writing on the standard input:
+
+  ```sh
+  docker exec -it logstash bash
+  bin/logstash -e "input { stdin { } } output { stdout {} }" --path.data /tmp/
+  ```
+  * Response
+
+    ```sh
+    [2021-01-08T15:32:33,866][INFO ][logstash.agent] Successfully started Logstash API endpoint {:port=>9601}
+    ```
+
+* Create a Logstash pipeline called *my-first-pipeline.conf* to consume from the filebeat on port 5044 and write to the std output. Add following line to the output section for this: stdout { codec => rubydebug }:
+
+  ```sh
+  vi my-first-pipeline.conf
+  ```
+
+  ```sh
+  # Pipeline my-first-pipeline.conf
+  # Input
+  input {
+    beats {
+        port => "5044"
+    }
+  }
+  # Filter
+  # The filter part of this file is commented out to indicate that it is
+  # optional.
+  # filter {
+  #
+  # }
+  # Output
+  output {
+    stdout { codec => rubydebug }
+  }
+  ```
+
+* Before launching it, verify that your pipeline configuration is fine.
+
+  ```sh
+  bin/logstash -f my-first-pipeline.conf --config.test_and_exit --path.data /tmp
+  ```
+  * Response:
+
+    ```sh
+    [2021-01-08T15:44:29,195][INFO][org.reflections.Reflections] Reflections took 136 ms to scan 1 urls, producing 19 keys and 39 values 
+    Configuration OK
+    [2021-01-08T15:44:30,264][INFO ][logstash.runner] Using config.test_and_exit mode. Config Validation Result: OK. Exiting Logstash
+    ```
+
+* If the configuration is fine, launch this pipeline.
+
+  ```sh
+  bin/logstash -f my-first-pipeline.conf --config.reload.automatic --path.data /tmp
+  ```
+
+* Configure a filebeat logging, first logon filebeat container in a new terminal window:
+
+  ```sh
+  docker exec --user root -it filebeat bash
+  ```
+
+* Create a filebeat config to capture and publish logs:
+
+  ```sh
+  cp filebeat.yml filebeat-training.yml
+  ```
+
+* Edit filebeat-training.yml:
+
+  ```sh
+  filebeat.inputs:
+  - type: log
+    enabled: true
+    paths:
+    - /tmp/datasets/apache_logs/logstash-tutorial-dataset.log
+  
+  output.logstash:
+    # Array of hosts to connect to.
+    hosts: ["logstash:5044"]
+  ```
+
+* Launch filebeat process:
+
+  ```sh
+  filebeat -e -c filebeat-training.yml -d "publish"
+  ```
+
+* Take a look to the logstash, you should see following events on the console:
+
+  ```sh
+  {
+    	"offset" => 24464,
+      "message" => "86.1.76.62 - - [04/Jan/2015:05:30:37 +0000] \"GET /style2.css HTTP/1.1\" 200 4877 \"http://www.semicomplete.com/projects/xdotool/
+  \" \"Mozilla/5.0 (X11; Linux x86_64; rv:24.0) Gecko/20140205 Firefox/24.0 Iceweasel/24.3.0\"",
+        "source" => "C:\\Users\\role\\Documents\\Formacion\\Introduction ELK\\course-ELK-introduction\\datasets\\apache_logs\\logstash-tutorial-datase
+  t.log",
+      "@version" => "1",
+  "prospector" => {
+        "type" => "log"
+  },
+          "beat" => {
+          "name" => "NBVAL730",
+        "hostname" => "NBVAL730",
+        "version" => "6.2.3"
+  },
+          "host" => "NBVAL730",
+          "tags" => [
+        [0] "beats_input_codec_plain_applied"
+  ],
+  "@timestamp" => 2018-04-16T11:36:42.598Z
+  }
+  …
+  ```
+
+* Remove data registry (after killing filebeat) in order to repopulate log messages (/usr/share/filebeat/data/registry)
+
+  ```sh
+  rm -r /usr/share/filebeat/data/registry
+  ```
+
+* Now, that we see pipeline is working, let’s tune logstash config (in logstash terminal). We are going to update logstash pipeline using a specific filter that parses unstructured data and generates a structured json. For doing this we will use grok plugin with the following property : "message" => "%{COMBINEDAPACHELOG}" .
+
+  ```sh
+  vi my-first-pipeline.conf
+  ```
+
+  ```sh
+  # Pipeline my-first-pipeline.conf
+  # Input
+  input {
+	beats {
+    port => "5044"
+	}
+  }
+  # Filter
+  filter {
+    grok {
+      match => { "message" => "%{COMBINEDAPACHELOG}"}
+    }
+  }
+  # Output
+  output {
+    stdout { codec => rubydebug }
+  }
+  ```
+
+
+* Modify the pipeline to index all logs on local elastic instance. Check on your local kibana instance if an index for logstash data has been created (Management --> create index pattern). You should see 101 log events loaded with proper json format.
+
+  ```sh
+  # Pipeline my-first-pipeline.conf
+  # Input
+  input {
+    beats {
+      port => "5044"
+    }
+  }
+  # Filter
+  filter {
+    grok {
+      match => { "message" => "%{COMBINEDAPACHELOG}"}
+    }
+  
+  }
+  # Output
+  output {
+    elasticsearch {
+      hosts => [ "elasticsearch:9200" ]
+    }
+  }
+  ```
+
+  * Kibana index manager for elasticsearch
+
+    <img src="../img/elastic_index_manger.png" size=500px>
+
+* Check the status of the logstash to see your pipeline running. You should get just one pipeline running an output similar to this. Go to this link  http://localhost:9600/_node/pipelines?pretty
+
+ ```sh
+ {
+  "host" : "logstash",
+  "version" : "7.3.0",
+  "http_address" : "0.0.0.0:9600",
+  "id" : "d6a7d999-ca44-4d0d-ac83-7f9e431b4963",
+  "name" : "logstash",
+  "ephemeral_id" : "097782a6-6c7a-41fb-9771-ad0720bf6784",
+  "status" : "green",
+  "snapshot" : false,
+  "pipeline" : {
+    "workers" : 2,
+    "batch_size" : 125,
+    "batch_delay" : 50
+  },
+  "pipelines" : {
+    "products" : {
+      "ephemeral_id" : "7e22c904-a56c-4e8d-8d61-fa8cba25428a",
+      "hash" : "86b55a2860bdce9f6b36250b236ed97835fe23179253ce6601fbdf8edd6b4061",
+      "workers" : 2,
+      "batch_size" : 125,
+      "batch_delay" : 50,
+      "config_reload_automatic" : false,
+      "config_reload_interval" : 3000000000,
+      "dead_letter_queue_enabled" : false
+    },
+    "nutrition" : {
+      "ephemeral_id" : "4ee01497-9ac8-4ce6-9042-d46788ec731e",
+      "hash" : "06918cc754f5f71bf6e35365f55152a4d38c0bf6c70ddbb9233ed6d20d1b64e8",
+      "workers" : 2,
+      "batch_size" : 125,
+      "batch_delay" : 50,
+      "config_reload_automatic" : false,
+      "config_reload_interval" : 3000000000,
+      "dead_letter_queue_enabled" : false
+    },
+    ".monitoring-logstash" : { }
+  }
+ }
+ ```
+
+
+## KIBANA
+
