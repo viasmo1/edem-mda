@@ -25,7 +25,7 @@ Here you can see a screenshoot
 
 ## EXERCISES
 
-[1. Elasticsearch](#1.-elasticsearch)
+[Elasticsearch](#1.-elasticsearch)
 
 [2. Logstash](#2.-logstash)
 
