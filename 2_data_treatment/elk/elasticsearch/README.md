@@ -25,11 +25,11 @@ Here you can see a screenshoot
 
 ## EXERCISES
 
-[Elasticsearch](#1.-ELASTICSEARCH)
+[1. Elasticsearch](#1.-elasticsearch)
 
-[Logstash](#2.-LOGSTASH)
+[2. Logstash](#2.-logstash)
 
-[Kibana](#3.-KIBANA)
+[3. Kibana](#3.-kibana)
 
 ## 1. ELASTICSEARCH
 
@@ -447,7 +447,7 @@ Next, you are going to use Kibana. To verify Kibana is running, open your Web br
  ```
 
 
-## KIBANA
+## 3. KIBANA
 
 In this exercise we will play with Kibana. For that we have following datasets:
 
