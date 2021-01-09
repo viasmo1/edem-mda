@@ -25,13 +25,13 @@ Here you can see a screenshoot
 
 ## EXERCISES
 
-[Elasticsearch](#1.-elasticsearch)
+[Elasticsearch](#elasticsearch)
 
-[2. Logstash](#2.-logstash)
+[Logstash](#logstash)
 
-[3. Kibana](#3.-kibana)
+[Kibana](#kibana)
 
-## 1. ELASTICSEARCH
+## ELASTICSEARCH
 
 **Objective**: you will see how quickly and easily the Elastic Stack can be used to search a dataset. You will startup Elasticsearch and Kibana, then run queries from Kibana to search an indexed dataset.
 
@@ -109,7 +109,7 @@ Small sample of what the data looks like:
     * What is the _type of each document? ***"product"***
 
 
-### Kibana
+### Kibana intro
 
 Next, you are going to use Kibana. To verify Kibana is running, open your Web browser and go to http://localhost:5601. The Kibana application should appear.
 
@@ -221,7 +221,7 @@ Next, you are going to use Kibana. To verify Kibana is running, open your Web br
   [full json](prods_price_10.json)
 
 
-## 2. LOGSTASH
+## LOGSTASH
 
 **Objective**: Learn Logstash basics implementing several pipelines and working with several plugins.
 
@@ -447,7 +447,7 @@ Next, you are going to use Kibana. To verify Kibana is running, open your Web br
  ```
 
 
-## 3. KIBANA
+## KIBANA
 
 In this exercise we will play with Kibana. For that we have following datasets:
 
