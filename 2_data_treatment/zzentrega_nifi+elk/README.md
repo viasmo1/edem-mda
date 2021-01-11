@@ -104,3 +104,23 @@ https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2010-to-
 
         <img src="img/putelasticsearchhttp_settings1.png" size=400px>
         <img src="img/putelasticsearchhttp_settings2.png" size=400px> 
+
+### Visualizing NYC crimes data with Kibana
+
+* Check that the docs have been uploaded into the index *crimes*. For that, we go into **Index Management** in Kibana.
+
+    <img src="img/index_management.png" size=400px>
+
+* Create an Index Pattern for the *crimes* index.
+
+    <img src="img/crimes_indexpattern.png" size=400px>
+
+* Create a new *Coordinate Map* visualization with the *crimes* index pattern and configure it as follows:
+
+    * Metrics: *Unique count* of *unique_key*
+    * Buckets: *Geo hash* of *location*
+
+    <img src="img/crimes_map.png" size=400px>
+
+
+**THAT'S IT! WE CAN NOW START ANALYZING OUR VISUALIZATION!**
