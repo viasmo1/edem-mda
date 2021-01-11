@@ -67,6 +67,8 @@ https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2010-to-
 
 ### Nifi fileflow
 
+[Template](nifi+elk_NYC_crimes.xml)
+
 <img src="img/nifi_flow.png" size=500px>
 
 | Processor | Usage |
