@@ -126,3 +126,7 @@ https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2010-to-
 
 
 **THAT'S IT! WE CAN NOW START ANALYZING OUR VISUALIZATION!**
+
+For example, here's a visualization of the *last 3 days* crimes at the *BRONX* with *Open* status
+
+<img src="img/visualization1.png" size=400px>
