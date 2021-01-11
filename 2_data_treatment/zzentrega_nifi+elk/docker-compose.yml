@@ -5,7 +5,7 @@ services:
   # Nifi: data ingestion tool
   nifi:
     image: apache/nifi:latest
-    container_name: nifi
+    container_name: entrega_nifi
     restart: always
     ports:
       - 8080:8080
@@ -13,7 +13,7 @@ services:
   # Elasticsearch: Data Storage and Search Engine
   elasticsearch:
     image: elasticsearch:7.3.0
-    container_name: elasticsearch
+    container_name: entrega_elasticsearch
     hostname: elasticsearch
     ports:
       - 9200:9200
@@ -24,7 +24,7 @@ services:
   # Kibana: Elasticsearch Dashboarding
   kibana:
     image: kibana:7.3.0
-    container_name: kibana
+    container_name: entrega_kibana
     hostname: kibana
     ports:
       - 5601:5601
