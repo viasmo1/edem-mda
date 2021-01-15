@@ -1,4 +1,4 @@
-# EDEM Almacenamiento y procesamiento
+# ELK + Stream processing
 
 ## Author
 
@@ -10,7 +10,8 @@ Modified and solved by [me](https://github.com/viasmo1)
 
 ## ELK Stack
 
-On this repository we cover following training blocks:
-
 * [Elasticsearch, Logstash and Kibana](elasticsearch)
+
+## Stream processing
+
 * [Stream Processing](streaming)
