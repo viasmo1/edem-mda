@@ -78,7 +78,5 @@ Main purpose of this exercise is to execute an Streaming word count application 
 
 ## Stream Processing 3
 
-* Upload the *Stream Processing Exercise 5 - Consuming from Kafka 2.ipynb* notebook
-
 * Solution: [link](stream_processing_3.pdf)
 
