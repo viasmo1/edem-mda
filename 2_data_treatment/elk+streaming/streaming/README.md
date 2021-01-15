@@ -8,6 +8,8 @@
 
 * [Stream Processing 2](#stream-processing-2)
 
+* [Stream Processing 3](#stream-processing-3)
+
 
 ## Spark Streaming Demo
 
@@ -72,4 +74,11 @@ Main purpose of this exercise is to execute an Streaming word count application 
 * Upload the *Stream Processing Exercise 4 - Consuming from Kafka.ipynb* notebook
 
 * Solution: [link](stream_processing_2.pdf)
+
+
+## Stream Processing 3
+
+* Upload the *Stream Processing Exercise 5 - Consuming from Kafka 2.ipynb* notebook
+
+* Solution: [link](stream_processing_3.pdf)
 
