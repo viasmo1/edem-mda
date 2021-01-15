@@ -1,5 +1,14 @@
 # Stream Processing
 
+## Exercises
+
+* [Spark Streaming Demo](#spark_streaming_demo)
+
+* [Stream Processing 1](#stream_processing_1)
+
+* [Stream Processing 2](#stream_processing_2)
+
+
 ## Spark Streaming Demo
 
 Main purpose of this exercise is to execute an Streaming word count application over a tumbling window and see the result. For doing that, we will execute this [class](https://github.com/apache/spark/blob/master/examples/src/main/scala/org/apache/spark/examples/streaming/NetworkWordCount.scala). Those are the steps that you need to follow:
@@ -43,3 +52,24 @@ Main purpose of this exercise is to execute an Streaming word count application 
 * Now start writing lines on the netcat console
 
 * See the output on Spark Submit console. What do you think is the window used and the functionality implemented? *Fixed window*
+
+
+## Stream Processing 1
+
+* Go to the *docker/streaming* folder and run the following command:
+
+    ```sh
+    docker-compose up -d
+    ```
+
+* Then start [jupyter](http://localhost:8888) with the password *edem* and upload the *Stream Processing Exericse 3 - Creating an Streaming Job.ipynb* notebook
+
+* Solution: [link](stream_processing_1.ipynb)
+
+
+## Stream Processing 2
+
+* Upload the *Stream Processing Exercise 4 - Consuming from Kafka.ipynb* notebook
+
+* Solution: [link](stream_processing_2.ipynb)
+
