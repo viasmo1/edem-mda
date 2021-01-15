@@ -2,11 +2,11 @@
 
 ## Exercises
 
-* [Spark Streaming Demo](#spark_streaming_demo)
+* [Spark Streaming Demo](#spark-streaming-demo)
 
-* [Stream Processing 1](#stream_processing_1)
+* [Stream Processing 1](#stream-processing-1)
 
-* [Stream Processing 2](#stream_processing_2)
+* [Stream Processing 2](#stream-processing-2)
 
 
 ## Spark Streaming Demo
@@ -64,12 +64,12 @@ Main purpose of this exercise is to execute an Streaming word count application 
 
 * Then start [jupyter](http://localhost:8888) with the password *edem* and upload the *Stream Processing Exericse 3 - Creating an Streaming Job.ipynb* notebook
 
-* Solution: [link](stream_processing_1.ipynb)
+* Solution: [link](stream_processing_1.pdf)
 
 
 ## Stream Processing 2
 
 * Upload the *Stream Processing Exercise 4 - Consuming from Kafka.ipynb* notebook
 
-* Solution: [link](stream_processing_2.ipynb)
+* Solution: [link](stream_processing_2.pdf)
 
