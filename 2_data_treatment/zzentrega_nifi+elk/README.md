@@ -83,7 +83,7 @@ https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2010-to-
 
 * Configuration:
 
-    * InvokeHTTP (scheduling time = 120seconds):
+    * InvokeHTTP (scheduling time = 120seconds) (TIP: you can use ?$limit=400000 in the url to get more crimes):
 
         <img src="img/invokehttp_settings.png" size=400px>        
 
