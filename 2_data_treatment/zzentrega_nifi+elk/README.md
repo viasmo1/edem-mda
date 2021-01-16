@@ -8,6 +8,8 @@ https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2010-to-
 
  * Content of the json response: [json](content.json)
 
+ * More info on how to query result: [api docs](https://dev.socrata.com/foundry/data.cityofnewyork.us/erm2-nwe9)
+
 ## Solution
 
 ### Running the docker-compose
