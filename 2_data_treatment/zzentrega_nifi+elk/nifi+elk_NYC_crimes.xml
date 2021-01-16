@@ -2,7 +2,7 @@
 <template encoding-version="1.3">
     <description></description>
     <groupId>ec30ddb2-0176-1000-d636-e164aef3f254</groupId>
-    <name>nifi+elk_NYC_crimes</name>
+    <name>Nifi+ELK_NYC_crimes</name>
     <snippet>
         <connections>
             <id>2e6f910d-9d66-3cf3-0000-000000000000</id>
@@ -30,13 +30,13 @@
             <zIndex>0</zIndex>
         </connections>
         <connections>
-            <id>6c614daf-2025-370f-0000-000000000000</id>
+            <id>a8e4f67d-2d89-3339-0000-000000000000</id>
             <parentGroupId>5f01050e-ca30-3ee8-0000-000000000000</parentGroupId>
             <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
             <backPressureObjectThreshold>10000</backPressureObjectThreshold>
             <destination>
                 <groupId>5f01050e-ca30-3ee8-0000-000000000000</groupId>
-                <id>d7369994-6787-3e7c-0000-000000000000</id>
+                <id>2bd25b60-69e6-3c9b-0000-000000000000</id>
                 <type>PROCESSOR</type>
             </destination>
             <flowFileExpiration>0 sec</flowFileExpiration>
@@ -46,10 +46,10 @@
             <loadBalanceStatus>LOAD_BALANCE_NOT_CONFIGURED</loadBalanceStatus>
             <loadBalanceStrategy>DO_NOT_LOAD_BALANCE</loadBalanceStrategy>
             <name></name>
-            <selectedRelationships>success</selectedRelationships>
+            <selectedRelationships>matched</selectedRelationships>
             <source>
                 <groupId>5f01050e-ca30-3ee8-0000-000000000000</groupId>
-                <id>6dfc3964-ed97-3b0d-0000-000000000000</id>
+                <id>0ce3718e-bfe6-3e97-0000-000000000000</id>
                 <type>PROCESSOR</type>
             </source>
             <zIndex>0</zIndex>
@@ -75,6 +75,31 @@
             <source>
                 <groupId>5f01050e-ca30-3ee8-0000-000000000000</groupId>
                 <id>342d9c56-9719-3dec-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </source>
+            <zIndex>0</zIndex>
+        </connections>
+        <connections>
+            <id>e11fa036-246a-340d-0000-000000000000</id>
+            <parentGroupId>5f01050e-ca30-3ee8-0000-000000000000</parentGroupId>
+            <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+            <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+            <destination>
+                <groupId>5f01050e-ca30-3ee8-0000-000000000000</groupId>
+                <id>0ce3718e-bfe6-3e97-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </destination>
+            <flowFileExpiration>0 sec</flowFileExpiration>
+            <labelIndex>1</labelIndex>
+            <loadBalanceCompression>DO_NOT_COMPRESS</loadBalanceCompression>
+            <loadBalancePartitionAttribute></loadBalancePartitionAttribute>
+            <loadBalanceStatus>LOAD_BALANCE_NOT_CONFIGURED</loadBalanceStatus>
+            <loadBalanceStrategy>DO_NOT_LOAD_BALANCE</loadBalanceStrategy>
+            <name></name>
+            <selectedRelationships>success</selectedRelationships>
+            <source>
+                <groupId>5f01050e-ca30-3ee8-0000-000000000000</groupId>
+                <id>6dfc3964-ed97-3b0d-0000-000000000000</id>
                 <type>PROCESSOR</type>
             </source>
             <zIndex>0</zIndex>
@@ -129,6 +154,312 @@
             </source>
             <zIndex>0</zIndex>
         </connections>
+        <processors>
+            <id>0ce3718e-bfe6-3e97-0000-000000000000</id>
+            <parentGroupId>5f01050e-ca30-3ee8-0000-000000000000</parentGroupId>
+            <position>
+                <x>776.0</x>
+                <y>472.0</y>
+            </position>
+            <bundle>
+                <artifact>nifi-standard-nar</artifact>
+                <group>org.apache.nifi</group>
+                <version>1.12.1</version>
+            </bundle>
+            <config>
+                <bulletinLevel>WARN</bulletinLevel>
+                <comments></comments>
+                <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                <descriptors>
+                    <entry>
+                        <key>Destination</key>
+                        <value>
+                            <name>Destination</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Return Type</key>
+                        <value>
+                            <name>Return Type</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Path Not Found Behavior</key>
+                        <value>
+                            <name>Path Not Found Behavior</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Null Value Representation</key>
+                        <value>
+                            <name>Null Value Representation</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>unique_key</key>
+                        <value>
+                            <name>unique_key</name>
+                        </value>
+                    </entry>
+                </descriptors>
+                <executionNode>ALL</executionNode>
+                <lossTolerant>false</lossTolerant>
+                <penaltyDuration>30 sec</penaltyDuration>
+                <properties>
+                    <entry>
+                        <key>Destination</key>
+                        <value>flowfile-attribute</value>
+                    </entry>
+                    <entry>
+                        <key>Return Type</key>
+                        <value>auto-detect</value>
+                    </entry>
+                    <entry>
+                        <key>Path Not Found Behavior</key>
+                        <value>warn</value>
+                    </entry>
+                    <entry>
+                        <key>Null Value Representation</key>
+                        <value>empty string</value>
+                    </entry>
+                    <entry>
+                        <key>unique_key</key>
+                        <value>$.unique_key</value>
+                    </entry>
+                </properties>
+                <runDurationMillis>0</runDurationMillis>
+                <schedulingPeriod>0 sec</schedulingPeriod>
+                <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                <yieldDuration>1 sec</yieldDuration>
+            </config>
+            <executionNodeRestricted>false</executionNodeRestricted>
+            <name>EvaluateJsonPath</name>
+            <relationships>
+                <autoTerminate>true</autoTerminate>
+                <name>failure</name>
+            </relationships>
+            <relationships>
+                <autoTerminate>false</autoTerminate>
+                <name>matched</name>
+            </relationships>
+            <relationships>
+                <autoTerminate>true</autoTerminate>
+                <name>unmatched</name>
+            </relationships>
+            <state>STOPPED</state>
+            <style/>
+            <type>org.apache.nifi.processors.standard.EvaluateJsonPath</type>
+        </processors>
+        <processors>
+            <id>2bd25b60-69e6-3c9b-0000-000000000000</id>
+            <parentGroupId>5f01050e-ca30-3ee8-0000-000000000000</parentGroupId>
+            <position>
+                <x>776.0</x>
+                <y>224.0</y>
+            </position>
+            <bundle>
+                <artifact>nifi-elasticsearch-nar</artifact>
+                <group>org.apache.nifi</group>
+                <version>1.12.1</version>
+            </bundle>
+            <config>
+                <bulletinLevel>WARN</bulletinLevel>
+                <comments></comments>
+                <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                <descriptors>
+                    <entry>
+                        <key>elasticsearch-http-url</key>
+                        <value>
+                            <name>elasticsearch-http-url</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>SSL Context Service</key>
+                        <value>
+                            <identifiesControllerService>org.apache.nifi.ssl.SSLContextService</identifiesControllerService>
+                            <name>SSL Context Service</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Character Set</key>
+                        <value>
+                            <name>Character Set</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Username</key>
+                        <value>
+                            <name>Username</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Password</key>
+                        <value>
+                            <name>Password</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>elasticsearch-http-connect-timeout</key>
+                        <value>
+                            <name>elasticsearch-http-connect-timeout</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>elasticsearch-http-response-timeout</key>
+                        <value>
+                            <name>elasticsearch-http-response-timeout</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>proxy-configuration-service</key>
+                        <value>
+                            <identifiesControllerService>org.apache.nifi.proxy.ProxyConfigurationService</identifiesControllerService>
+                            <name>proxy-configuration-service</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>elasticsearch-http-proxy-host</key>
+                        <value>
+                            <name>elasticsearch-http-proxy-host</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>elasticsearch-http-proxy-port</key>
+                        <value>
+                            <name>elasticsearch-http-proxy-port</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>proxy-username</key>
+                        <value>
+                            <name>proxy-username</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>proxy-password</key>
+                        <value>
+                            <name>proxy-password</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>put-es-id-attr</key>
+                        <value>
+                            <name>put-es-id-attr</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>put-es-index</key>
+                        <value>
+                            <name>put-es-index</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>put-es-type</key>
+                        <value>
+                            <name>put-es-type</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>put-es-batch-size</key>
+                        <value>
+                            <name>put-es-batch-size</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>put-es-index-op</key>
+                        <value>
+                            <name>put-es-index-op</name>
+                        </value>
+                    </entry>
+                </descriptors>
+                <executionNode>ALL</executionNode>
+                <lossTolerant>false</lossTolerant>
+                <penaltyDuration>30 sec</penaltyDuration>
+                <properties>
+                    <entry>
+                        <key>elasticsearch-http-url</key>
+                        <value>http://entrega_elasticsearch:9200</value>
+                    </entry>
+                    <entry>
+                        <key>SSL Context Service</key>
+                    </entry>
+                    <entry>
+                        <key>Character Set</key>
+                        <value>UTF-8</value>
+                    </entry>
+                    <entry>
+                        <key>Username</key>
+                    </entry>
+                    <entry>
+                        <key>Password</key>
+                    </entry>
+                    <entry>
+                        <key>elasticsearch-http-connect-timeout</key>
+                        <value>5 secs</value>
+                    </entry>
+                    <entry>
+                        <key>elasticsearch-http-response-timeout</key>
+                        <value>15 secs</value>
+                    </entry>
+                    <entry>
+                        <key>proxy-configuration-service</key>
+                    </entry>
+                    <entry>
+                        <key>elasticsearch-http-proxy-host</key>
+                    </entry>
+                    <entry>
+                        <key>elasticsearch-http-proxy-port</key>
+                    </entry>
+                    <entry>
+                        <key>proxy-username</key>
+                    </entry>
+                    <entry>
+                        <key>proxy-password</key>
+                    </entry>
+                    <entry>
+                        <key>put-es-id-attr</key>
+                        <value>unique_key</value>
+                    </entry>
+                    <entry>
+                        <key>put-es-index</key>
+                        <value>crimes</value>
+                    </entry>
+                    <entry>
+                        <key>put-es-type</key>
+                        <value>_doc</value>
+                    </entry>
+                    <entry>
+                        <key>put-es-batch-size</key>
+                        <value>100</value>
+                    </entry>
+                    <entry>
+                        <key>put-es-index-op</key>
+                        <value>index</value>
+                    </entry>
+                </properties>
+                <runDurationMillis>0</runDurationMillis>
+                <schedulingPeriod>0 sec</schedulingPeriod>
+                <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                <yieldDuration>1 sec</yieldDuration>
+            </config>
+            <executionNodeRestricted>false</executionNodeRestricted>
+            <name>PutElasticsearchHttp</name>
+            <relationships>
+                <autoTerminate>true</autoTerminate>
+                <name>failure</name>
+            </relationships>
+            <relationships>
+                <autoTerminate>true</autoTerminate>
+                <name>retry</name>
+            </relationships>
+            <relationships>
+                <autoTerminate>true</autoTerminate>
+                <name>success</name>
+            </relationships>
+            <state>STOPPED</state>
+            <style/>
+            <type>org.apache.nifi.processors.elasticsearch.PutElasticsearchHttp</type>
+        </processors>
         <processors>
             <id>2ed51cde-1485-3e04-0000-000000000000</id>
             <parentGroupId>5f01050e-ca30-3ee8-0000-000000000000</parentGroupId>
@@ -423,14 +754,14 @@
                     </entry>
                     <entry>
                         <key>Remote URL</key>
-                        <value>https://data.cityofnewyork.us/resource/erm2-nwe9.json</value>
+                        <value>https://data.cityofnewyork.us/resource/erm2-nwe9.json?$limit=40000</value>
                     </entry>
                     <entry>
                         <key>SSL Context Service</key>
                     </entry>
                     <entry>
                         <key>Connection Timeout</key>
-                        <value>5 secs</value>
+                        <value>10 secs</value>
                     </entry>
                     <entry>
                         <key>Read Timeout</key>
@@ -539,7 +870,7 @@
                     </entry>
                 </properties>
                 <runDurationMillis>0</runDurationMillis>
-                <schedulingPeriod>60 sec</schedulingPeriod>
+                <schedulingPeriod>120 sec</schedulingPeriod>
                 <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
                 <yieldDuration>1 sec</yieldDuration>
             </config>
@@ -573,8 +904,8 @@
             <id>6dfc3964-ed97-3b0d-0000-000000000000</id>
             <parentGroupId>5f01050e-ca30-3ee8-0000-000000000000</parentGroupId>
             <position>
-                <x>752.0</x>
-                <y>224.0</y>
+                <x>776.0</x>
+                <y>712.0</y>
             </position>
             <bundle>
                 <artifact>nifi-standard-nar</artifact>
@@ -673,8 +1004,8 @@
             <id>70517ad8-ee1a-3fe3-0000-000000000000</id>
             <parentGroupId>5f01050e-ca30-3ee8-0000-000000000000</parentGroupId>
             <position>
-                <x>752.0</x>
-                <y>464.0</y>
+                <x>0.0</x>
+                <y>712.0</y>
             </position>
             <bundle>
                 <artifact>nifi-standard-nar</artifact>
@@ -893,215 +1224,6 @@
             <style/>
             <type>org.apache.nifi.processors.standard.ReplaceText</type>
         </processors>
-        <processors>
-            <id>d7369994-6787-3e7c-0000-000000000000</id>
-            <parentGroupId>5f01050e-ca30-3ee8-0000-000000000000</parentGroupId>
-            <position>
-                <x>752.0</x>
-                <y>0.0</y>
-            </position>
-            <bundle>
-                <artifact>nifi-elasticsearch-nar</artifact>
-                <group>org.apache.nifi</group>
-                <version>1.12.1</version>
-            </bundle>
-            <config>
-                <bulletinLevel>WARN</bulletinLevel>
-                <comments></comments>
-                <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
-                <descriptors>
-                    <entry>
-                        <key>elasticsearch-http-url</key>
-                        <value>
-                            <name>elasticsearch-http-url</name>
-                        </value>
-                    </entry>
-                    <entry>
-                        <key>SSL Context Service</key>
-                        <value>
-                            <identifiesControllerService>org.apache.nifi.ssl.SSLContextService</identifiesControllerService>
-                            <name>SSL Context Service</name>
-                        </value>
-                    </entry>
-                    <entry>
-                        <key>Character Set</key>
-                        <value>
-                            <name>Character Set</name>
-                        </value>
-                    </entry>
-                    <entry>
-                        <key>Username</key>
-                        <value>
-                            <name>Username</name>
-                        </value>
-                    </entry>
-                    <entry>
-                        <key>Password</key>
-                        <value>
-                            <name>Password</name>
-                        </value>
-                    </entry>
-                    <entry>
-                        <key>elasticsearch-http-connect-timeout</key>
-                        <value>
-                            <name>elasticsearch-http-connect-timeout</name>
-                        </value>
-                    </entry>
-                    <entry>
-                        <key>elasticsearch-http-response-timeout</key>
-                        <value>
-                            <name>elasticsearch-http-response-timeout</name>
-                        </value>
-                    </entry>
-                    <entry>
-                        <key>proxy-configuration-service</key>
-                        <value>
-                            <identifiesControllerService>org.apache.nifi.proxy.ProxyConfigurationService</identifiesControllerService>
-                            <name>proxy-configuration-service</name>
-                        </value>
-                    </entry>
-                    <entry>
-                        <key>elasticsearch-http-proxy-host</key>
-                        <value>
-                            <name>elasticsearch-http-proxy-host</name>
-                        </value>
-                    </entry>
-                    <entry>
-                        <key>elasticsearch-http-proxy-port</key>
-                        <value>
-                            <name>elasticsearch-http-proxy-port</name>
-                        </value>
-                    </entry>
-                    <entry>
-                        <key>proxy-username</key>
-                        <value>
-                            <name>proxy-username</name>
-                        </value>
-                    </entry>
-                    <entry>
-                        <key>proxy-password</key>
-                        <value>
-                            <name>proxy-password</name>
-                        </value>
-                    </entry>
-                    <entry>
-                        <key>put-es-id-attr</key>
-                        <value>
-                            <name>put-es-id-attr</name>
-                        </value>
-                    </entry>
-                    <entry>
-                        <key>put-es-index</key>
-                        <value>
-                            <name>put-es-index</name>
-                        </value>
-                    </entry>
-                    <entry>
-                        <key>put-es-type</key>
-                        <value>
-                            <name>put-es-type</name>
-                        </value>
-                    </entry>
-                    <entry>
-                        <key>put-es-batch-size</key>
-                        <value>
-                            <name>put-es-batch-size</name>
-                        </value>
-                    </entry>
-                    <entry>
-                        <key>put-es-index-op</key>
-                        <value>
-                            <name>put-es-index-op</name>
-                        </value>
-                    </entry>
-                </descriptors>
-                <executionNode>ALL</executionNode>
-                <lossTolerant>false</lossTolerant>
-                <penaltyDuration>30 sec</penaltyDuration>
-                <properties>
-                    <entry>
-                        <key>elasticsearch-http-url</key>
-                        <value>http://entrega_elasticsearch:9200</value>
-                    </entry>
-                    <entry>
-                        <key>SSL Context Service</key>
-                    </entry>
-                    <entry>
-                        <key>Character Set</key>
-                        <value>UTF-8</value>
-                    </entry>
-                    <entry>
-                        <key>Username</key>
-                    </entry>
-                    <entry>
-                        <key>Password</key>
-                    </entry>
-                    <entry>
-                        <key>elasticsearch-http-connect-timeout</key>
-                        <value>5 secs</value>
-                    </entry>
-                    <entry>
-                        <key>elasticsearch-http-response-timeout</key>
-                        <value>15 secs</value>
-                    </entry>
-                    <entry>
-                        <key>proxy-configuration-service</key>
-                    </entry>
-                    <entry>
-                        <key>elasticsearch-http-proxy-host</key>
-                    </entry>
-                    <entry>
-                        <key>elasticsearch-http-proxy-port</key>
-                    </entry>
-                    <entry>
-                        <key>proxy-username</key>
-                    </entry>
-                    <entry>
-                        <key>proxy-password</key>
-                    </entry>
-                    <entry>
-                        <key>put-es-id-attr</key>
-                    </entry>
-                    <entry>
-                        <key>put-es-index</key>
-                        <value>crimes</value>
-                    </entry>
-                    <entry>
-                        <key>put-es-type</key>
-                        <value>_doc</value>
-                    </entry>
-                    <entry>
-                        <key>put-es-batch-size</key>
-                        <value>100</value>
-                    </entry>
-                    <entry>
-                        <key>put-es-index-op</key>
-                        <value>index</value>
-                    </entry>
-                </properties>
-                <runDurationMillis>0</runDurationMillis>
-                <schedulingPeriod>0 sec</schedulingPeriod>
-                <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
-                <yieldDuration>1 sec</yieldDuration>
-            </config>
-            <executionNodeRestricted>false</executionNodeRestricted>
-            <name>PutElasticsearchHttp</name>
-            <relationships>
-                <autoTerminate>true</autoTerminate>
-                <name>failure</name>
-            </relationships>
-            <relationships>
-                <autoTerminate>true</autoTerminate>
-                <name>retry</name>
-            </relationships>
-            <relationships>
-                <autoTerminate>true</autoTerminate>
-                <name>success</name>
-            </relationships>
-            <state>STOPPED</state>
-            <style/>
-            <type>org.apache.nifi.processors.elasticsearch.PutElasticsearchHttp</type>
-        </processors>
     </snippet>
-    <timestamp>01/11/2021 10:28:57 UTC</timestamp>
+    <timestamp>01/16/2021 11:47:28 UTC</timestamp>
 </template>

@@ -78,11 +78,12 @@ https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2010-to-
 | ReplaceText | Replaces "latitude" for "lat" |
 | ReplaceText | Replaces "longitude" for "lon" |
 | JoltTransformJSON | Removes the "human_address" property inside "location" |
+| EvaluateJsonPath | Gets the attribute "unique_key" from json and saves it into a FlowFile attribute named "unique_key" |
 | PutElasticsearchHTTP | Uploads the resultings docs into Elasticsearch |
 
 * Configuration:
 
-    * InvokeHTTP (scheduling time = 60seconds):
+    * InvokeHTTP (scheduling time = 120seconds):
 
         <img src="img/invokehttp_settings.png" size=400px>        
 
@@ -101,6 +102,10 @@ https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2010-to-
     * JoltTransformJSON ([web with interesting examples](https://community.cloudera.com/t5/Community-Articles/Jolt-quick-reference-for-Nifi-Jolt-Processors/ta-p/244350)):
 
         <img src="img/jolttransformjson_settings.png" size=400px> 
+
+    * EvaluateJsonPath ([web with interesting examples](https://help.syncfusion.com/data-integration/processors/evaluatejsonpath)) ([another interesting example](https://stackoverflow.com/questions/51820430/apache-nifi-evaluatejsonpath-processor-jsonpath-expression-to-concatenate-2-att/51833973#51833973)):
+
+        <img src="img/evaluatejsonpath_settings.png" size=400px> 
 
     * PutElasticsearchHTTP:
 
