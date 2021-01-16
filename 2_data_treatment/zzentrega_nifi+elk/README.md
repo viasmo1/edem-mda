@@ -144,3 +144,7 @@ https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2010-to-
 For example, here's a visualization of the *last 3 days* crimes at the *BRONX* with *Open* status
 
 <img src="img/visualization1.png" size=400px>
+
+Or create a dashboard with other visualizations:
+
+<img src="img/crimes_dashboard.png" size=600px>
