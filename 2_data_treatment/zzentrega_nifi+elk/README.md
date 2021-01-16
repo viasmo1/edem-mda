@@ -85,7 +85,14 @@ https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2010-to-
 
 * Configuration:
 
-    * InvokeHTTP (scheduling time = 120seconds) (TIP: you can use url filters to get specific results):
+    * InvokeHTTP (scheduling time = 120seconds)
+    
+        * TIP: you can use url filters to get specific results:
+
+            * ?$limit=40000
+            * ?$where=created_date between '2020-01-01T00:00:00.000' and '2021-01-15T00:00:00.000'
+            * ?$where=created_date>'2020-01-01T00:00:00.000'
+            * ?$limit=40000&$where=created_date>'2020-01-01T00:00:00.000'
 
         <img src="img/invokehttp_settings.png" size=400px>        
 
