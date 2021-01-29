@@ -47,7 +47,7 @@ PUT quotes
 * Load template available on Nifi folder. 
 * On Nifi workflow configure the following
 	* On GetTwitter box, configure your twitter development Consumer Key, Consumer Secret, Access Token and Access Token Secret.
-	* On three invokeHTTP boxes, configure API url adding your production token of IexCloud and changing *sandbox* to *cloud*
+	* On three invokeHTTP boxes, configure API url adding your production token of IexCloud. Also, chande the url -> *sandbox* to *cloud*
 * Launch all the boxes, and monitor that there are not errors raised. 
 
 ### Spark Streaming
@@ -68,5 +68,4 @@ PUT quotes
 	* Add a Data Table over twitter index with the 10 most active users (Selecting aggregation over user.name.keyword)
 
 * Finally integrate four panes on a Dashboard (Go to Dashboard Section and select your previous panes)
-	![Integrated Dashboard](../../img/Dashboard.png)
 	
