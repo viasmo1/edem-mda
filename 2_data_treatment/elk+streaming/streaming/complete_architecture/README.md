@@ -47,7 +47,7 @@ PUT quotes
 * Load template available on Nifi folder. 
 * On Nifi workflow configure the following
 	* On GetTwitter box, configure your twitter development Consumer Key, Consumer Secret, Access Token and Access Token Secret.
-	* On three invokeHTTP boxes, configure API url adding your production token of IexCloud. 
+	* On three invokeHTTP boxes, configure API url adding your production token of IexCloud and changing *sandbox* to *cloud*
 * Launch all the boxes, and monitor that there are not errors raised. 
 
 ### Spark Streaming
