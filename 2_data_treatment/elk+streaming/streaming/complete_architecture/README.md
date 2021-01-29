@@ -24,6 +24,8 @@ docker-compose -f docker-compose-complete-architecture.yml up -d
 
 ## Configure and connect different pieces:
 
+### Elasticsearch mapping
+
 * Access to Kibana (http://localhost:5601)
 * Go to Dev Tools and execute the following query and Create mapping for latestUpdate field on quotes index
 ```
@@ -39,6 +41,7 @@ PUT quotes
 }
 ```
 
+### Nifi workflow
 
 * Access to Nifi (http://localhost:8090/nifi/)
 * Load template available on Nifi folder. 
@@ -46,9 +49,15 @@ PUT quotes
 	* On GetTwitter box, configure your twitter development Consumer Key, Consumer Secret, Access Token and Access Token Secret.
 	* On three invokeHTTP boxes, configure API url adding your production token of IexCloud. 
 * Launch all the boxes, and monitor that there are not errors raised. 
+
+### Spark Streaming
+
 * Open Jupyter Notebook (http://localhost:8888)
 * Upload Notebook Stream processing Complete Architecture
 * Follow the steps to launch two streaming pipelines for data transformation and storage on Elasticsearch
+
+### Kibana visualization
+
 * Go to Kibana, and create two index patterns, one for twitter and other for quotes data, remember to select latestUpdate as the timestamp field. 
 * Create two visualization Panes over quotes index (remember to Save the visualization for every pane)
 	* Create a Line Visualization to show price evolution of Google Company (remember to Save the visualization).
