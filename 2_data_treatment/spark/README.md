@@ -10,3 +10,4 @@ Modified and solved by [me](https://github.com/viasmo1)
 
 * [Intro](Intro_Apache_Spark.ipynb)
 * [Ex1](Ejercicio_1_Sesión_14_Spark_SQL.ipynb)
+* [Ex2](02_Spark_SQL_Advanced_Solution.ipynb)
