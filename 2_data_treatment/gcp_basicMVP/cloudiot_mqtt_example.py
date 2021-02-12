@@ -33,6 +33,8 @@ import time
 import jwt
 import paho.mqtt.client as mqtt
 
+import numpy as np
+
 # [END iot_mqtt_includes]
 
 logging.getLogger("googleapiclient.discovery_cache").setLevel(logging.CRITICAL)
@@ -533,8 +535,20 @@ def mqtt_device_demo(args):
             minimum_backoff_time *= 2
             client.connect(args.mqtt_bridge_hostname, args.mqtt_bridge_port)
 
-        payload = "{}/{}-payload-{}".format(args.registry_id, args.device_id, i)
+        message = {
+            "temp": np.round(np.random.uniform(36, 37.5), 2),
+            "heart_rate": np.random.randint(60, 100),
+            "blood_O2": np.round(np.random.uniform(95, 100), 2),
+            "blood_pressure": np.round(np.random.uniform(95, 100), 2),
+            "lon": np.round(np.random.uniform(-180, 180), 2),
+            "lat": np.round(np.random.uniform(-90, 90), 2),
+            "alt": np.round(np.random.uniform(0, 3000), 2)
+        }
+        payload = "{}/{}-payload:{}-{}".format(
+            args.registry_id, args.device_id, message, i
+        )
         print("Publishing message {}/{}: '{}'".format(i, args.num_messages, payload))
+
         # [START iot_mqtt_jwt_refresh]
         seconds_since_issue = (datetime.datetime.utcnow() - jwt_iat).seconds
         if seconds_since_issue > 60 * jwt_exp_mins:
@@ -561,7 +575,7 @@ def mqtt_device_demo(args):
 
         # Send events every second. State should not be updated as often
         for i in range(0, 60):
-            time.sleep(30)
+            time.sleep(1)
             client.loop()
     # [END iot_mqtt_run]
 
