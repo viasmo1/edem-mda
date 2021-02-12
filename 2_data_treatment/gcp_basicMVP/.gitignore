@@ -1,3 +1,4 @@
 /venv
 rsa_cert.pem
 rsa_private.pem
+settings.json
