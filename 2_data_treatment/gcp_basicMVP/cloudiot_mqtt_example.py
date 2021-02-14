@@ -536,17 +536,16 @@ def mqtt_device_demo(args):
             client.connect(args.mqtt_bridge_hostname, args.mqtt_bridge_port)
 
         message = {
+            "device_id": args.device_id,
             "temp": np.round(np.random.uniform(36, 37.5), 2),
             "heart_rate": np.random.randint(60, 100),
             "blood_O2": np.round(np.random.uniform(95, 100), 2),
             "blood_pressure": np.round(np.random.uniform(95, 100), 2),
             "lon": np.round(np.random.uniform(-180, 180), 2),
             "lat": np.round(np.random.uniform(-90, 90), 2),
-            "alt": np.round(np.random.uniform(0, 3000), 2)
+            "alt": np.round(np.random.uniform(0, 3000), 2),
         }
-        payload = "{}/{}-payload:{}-{}".format(
-            args.registry_id, args.device_id, message, i
-        )
+        payload = "{}".format(message)
         print("Publishing message {}/{}: '{}'".format(i, args.num_messages, payload))
 
         # [START iot_mqtt_jwt_refresh]
