@@ -1,0 +1,3 @@
+[submodule "3_analytics_and_ML/deployment/GCPDeploymentCourse"]
+	path = 3_analytics_and_ML/deployment/GCPDeploymentCourse
+	url = https://github.com/SergioPN/GCPDeploymentCourse
